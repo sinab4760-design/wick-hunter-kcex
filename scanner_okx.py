@@ -1,0 +1,374 @@
+#!/usr/bin/env python3
+"""WICK HUNTER experimental read-only OKX USDT perpetual monitor.
+
+Uses official *public* OKX REST data and sends no orders. Prices and
+candles belong ONLY to OKX; KCEX listing and prices are NOT verified.
+
+Manual test: python scanner_okx.py
+Offline test: python scanner_okx.py --demo
+"""
+import argparse
+import json
+import math
+import os
+import sys
+import time
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+API_BASE = "https://www.okx.com"
+STATE_PATH = Path(os.getenv("OKX_STATE_FILE", "state_okx.json"))
+REPORT_PATH = Path(os.getenv("OKX_REPORT_FILE", "report_okx.json"))
+MAX_SYMBOLS = min(60, max(1, int(os.getenv("MAX_SYMBOLS", "30"))))
+MIN_TURNOVER = float(os.getenv("MIN_24H_USDT", "150000"))
+MIN_GROWTH_1H = float(os.getenv("MIN_1H_PCT", "5"))
+MIN_RVOL = float(os.getenv("MIN_RVOL", "1.5"))
+NEAR_PCT = float(os.getenv("NEAR_PCT", "7"))
+ZONE_HOURS = max(1, float(os.getenv("ZONE_HOURS", "6")))
+
+
+class MarketDataError(Exception):
+    pass
+
+
+@dataclass(frozen=True)
+class Candle:
+    t: int  # UTC unix seconds, candle OPEN time
+    o: float
+    h: float
+    l: float
+    c: float
+    v: float  # quote turnover in USDT for SWAP, not contract count
+
+
+def num(value, default=float("nan")):
+    try:
+        result = float(value)
+        return result if math.isfinite(result) else default
+    except (ValueError, TypeError):
+        return default
+
+
+def get_json(path, query=None):
+    url = API_BASE + path
+    if query:
+        url += "?" + urlencode(query)
+    req = Request(url, headers={"User-Agent": "WickHunter-OKX-Research/1.0", "Accept": "application/json"})
+    try:
+        with urlopen(req, timeout=15) as resp:
+            return json.load(resp)
+    except (URLError, HTTPError, TimeoutError, ValueError, OSError) as exc:
+        raise MarketDataError(f"OKX network error at {path}: {type(exc).__name__}: {exc}") from exc
+
+
+def unwrap(data):
+    if not isinstance(data, dict) or str(data.get("code")) != "0" or not isinstance(data.get("data"), list):
+        raise MarketDataError(f"OKX API rejected or changed schema: {str(data)[:180]}")
+    return data["data"]
+
+
+def parse_instruments(data):
+    rows = unwrap(data)
+    return {str(row.get("instId", "")) for row in rows
+            if isinstance(row, dict) and row.get("state") == "live"
+            and row.get("instType") == "SWAP" and str(row.get("instId", "")).endswith("-USDT-SWAP")}
+
+
+def parse_tickers(data, active, now):
+    if not active:
+        raise MarketDataError("OKX instrument list empty; aborting")
+    out = []
+    for row in unwrap(data):
+        if not isinstance(row, dict):
+            continue
+        symbol = str(row.get("instId", ""))
+        if symbol not in active:
+            continue
+        price = num(row.get("last"))
+        open24 = num(row.get("open24h"))
+        basevol = num(row.get("volCcy24h"), 0.0)
+        bid = num(row.get("bidPx"))
+        ask = num(row.get("askPx"))
+        ts = int(num(row.get("ts"), 0)) // 1000
+        if not (price > 0 and open24 > 0 and basevol > 0 and ts >= now - 300 and ts <= now + 60):
+            continue
+        spread = (ask / bid - 1) * 100 if bid > 0 and ask >= bid else float("inf")
+        if spread > 1.5:
+            continue
+        # OKX *derivative* volCcy24h is base-coin units: convert approx to USDT.
+        turnover = basevol * price
+        if turnover < MIN_TURNOVER:
+            continue
+        out.append({"symbol": symbol, "price": price, "turnover_est_usdt": round(turnover),
+                    "growth24h": round(100 * (price / open24 - 1), 2),
+                    "spread_pct": round(spread, 3)})
+    if not out:
+        raise MarketDataError("No fresh, liquid USDT perpetual tickers from OKX. Aborting; check timestamp/source.")
+    return out
+
+
+def parse_candles(data, now, seconds, min_count):
+    candles = []
+    for item in unwrap(data):
+        if not isinstance(item, list) or len(item) < 9 or str(item[8]) != "1":
+            continue
+        t = int(num(item[0], 0)) // 1000
+        o, h, l, c, quotevol = (num(item[i]) for i in (1, 2, 3, 4, 7))
+        if (t <= 0 or not all(math.isfinite(x) for x in (o, h, l, c, quotevol))
+                or min(o, h, l, c) <= 0 or quotevol < 0 or h < max(o, c, l)
+                or l > min(o, c, h) or t + seconds > now + 2):
+            continue
+        candles.append(Candle(t, o, h, l, c, quotevol))
+    candles = sorted({b.t: b for b in candles}.values(), key=lambda b: b.t)
+    if len(candles) < min_count:
+        raise MarketDataError(f"Not enough confirmed closed candles: {len(candles)} < {min_count}")
+    if now - (candles[-1].t + seconds) > seconds * 3 + 60:
+        raise MarketDataError("Stale candles; refusing to infer current conditions")
+    return candles
+
+
+class OKX:
+    def symbols(self, now):
+        live = parse_instruments(get_json("/api/v5/public/instruments", {"instType": "SWAP"}))
+        return parse_tickers(get_json("/api/v5/market/tickers", {"instType": "SWAP"}), live, now)
+
+    def candles(self, symbol, interval, now):
+        if interval not in ("15m", "1m") or not symbol.endswith("-USDT-SWAP"):
+            raise MarketDataError("Invalid symbol/timeframe")
+        dur = 900 if interval == "15m" else 60
+        count = 80 if interval == "15m" else 20
+        rows = get_json("/api/v5/market/candles", {"instId": symbol, "bar": interval,
+                                                       "limit": "200" if interval == "15m" else "120"})
+        return parse_candles(rows, now, dur, count)
+
+
+def mean(seq):
+    return sum(seq) / len(seq) if seq else 0.0
+
+
+def volatility(bars):
+    tr = [max(b.h - b.l, abs(b.h - bars[i - 1].c), abs(b.l - bars[i - 1].c))
+          for i, b in enumerate(bars) if i > 0]
+    return mean(tr[-14:])
+
+
+def pump_metrics(bars):
+    if len(bars) < 25:
+        return None
+    growth = (bars[-1].c / bars[-5].c - 1) * 100
+    avgvol = mean([b.v for b in bars[-21:-1]])
+    rvol = bars[-1].v / avgvol if avgvol > 0 else 0
+    return {"growth_1h_pct": round(growth, 3), "relative_volume": round(rvol, 3)}
+
+
+def candidate_zone(bars, price):
+    if len(bars) < 80:
+        return None
+    atr = volatility(bars)
+    if atr <= 0:
+        return None
+    historical = bars[-165:-4]  # excludes last four bars from resistance search
+    peaks = []
+    for i in range(3, len(historical) - 3):
+        high = historical[i].h
+        if (high > max(b.h for b in historical[i - 3:i])
+                and high >= max(b.h for b in historical[i + 1:i + 4])
+                and price * 1.003 < high < price * 1.35):
+            peaks.append(high)
+    if peaks:
+        center, kind = min(peaks), "HISTORICAL_PIVOT"
+    else:
+        center, kind = price + 2.7 * atr, "ATR_GUESS_LOW_CONFIDENCE"
+    half_width = max(0.55 * atr, 0.004 * center)
+    return {"low": center - half_width, "high": center + half_width,
+            "source": kind}
+
+
+def mini_break(bars, zone, observed_at):
+    if len(bars) < 20 or bars[-1].t <= observed_at:
+        return None
+    near = any(b.t >= observed_at and b.h >= zone["low"] * .989 and b.l <= zone["high"]
+               for b in bars[-25:])
+    if not near:
+        return None
+    pivots = []
+    for i in range(2, len(bars) - 2):
+        if (bars[i].l < min(b.l for b in bars[i - 2:i])
+                and bars[i].l <= min(b.l for b in bars[i + 1:i + 3])):
+            pivots.append(i)
+    if len(pivots) < 2:
+        return None
+    a, b = pivots[-2:]
+    if bars[b].l <= bars[a].l:
+        return None
+    slope = (bars[b].l - bars[a].l) / (b - a)
+    line_prev = bars[a].l + slope * (len(bars) - 2 - a)
+    line_curr = bars[a].l + slope * (len(bars) - 1 - a)
+    prev, cur = bars[-2:]
+    if cur.t <= bars[b].t + 120:
+        return None
+    if prev.c >= line_prev and cur.c < line_curr and cur.c < prev.l:
+        return {"price": cur.c, "at": cur.t}
+    return None
+
+
+def load_state():
+    if STATE_PATH.exists():
+        try:
+            data = json.loads(STATE_PATH.read_text(encoding="utf8"))
+            if isinstance(data, dict) and isinstance(data.get("zones"), dict):
+                return data
+        except (OSError, ValueError):
+            pass
+    return {"zones": {}, "seen": {}}
+
+
+def save_json(path, data):
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf8")
+
+
+def send_telegram(text):
+    token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+    chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    if not token or not chat_id:
+        return False
+    endpoint = "https://api.telegram.org/bot" + token + "/sendMessage"
+    payload = json.dumps({"chat_id": chat_id, "text": text}).encode("utf8")
+    req = Request(endpoint, data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urlopen(req, timeout=15) as resp:
+            data = json.load(resp)
+            return bool(data.get("ok"))
+    except (OSError, ValueError):
+        print("Telegram delivery error (token omitted)")
+        return False
+
+
+def fmt(n):
+    return f"{n:.8f}".rstrip("0").rstrip(".") if n < 1 else f"{n:.5f}".rstrip("0").rstrip(".")
+
+
+def run(source, now, offline=False):
+    state = {"zones": {}, "seen": {}} if offline else load_state()
+    zones, seen = state["zones"], state.setdefault("seen", {})
+    tickers = source.symbols(now)
+    ticker_map = {t["symbol"]: t for t in tickers}
+    ranked = sorted((x for x in tickers if x["growth24h"] >= 5),
+                    key=lambda x: (x["growth24h"], x["turnover_est_usdt"]), reverse=True)
+    wanted = [t["symbol"] for t in ranked[:MAX_SYMBOLS]]
+    for sym in list(zones):
+        if sym in ticker_map and zones[sym].get("expires", 0) > now and sym not in wanted:
+            wanted.append(sym)
+    if not wanted:
+        # Valid quiet market: a successful zero-candidate report, not an API failure.
+        print("OKX data connected; currently no high-growth candidates.")
+    results, errors, messages = [], {}, []
+    good_candles = 0
+    for sym in wanted:
+        ticker = ticker_map[sym]
+        try:
+            bars = source.candles(sym, "15m", now)
+            good_candles += 1
+            metric = pump_metrics(bars)
+            if not metric:
+                continue
+            z = zones.get(sym)
+            if z and (z["expires"] <= now or bars[-1].c > z["high"] + volatility(bars)):
+                zones.pop(sym, None)
+                z = None
+            if z is None and metric["growth_1h_pct"] >= MIN_GROWTH_1H and metric["relative_volume"] >= MIN_RVOL:
+                z = candidate_zone(bars, bars[-1].c)
+                if z:
+                    z.update({"created": now, "expires": now + int(ZONE_HOURS * 3600)})
+                    zones[sym] = z
+            if not z:
+                continue
+            price = ticker["price"]
+            dist = 100 * (z["low"] - price) / z["low"]
+            near = -1.25 <= dist <= NEAR_PCT and price <= z["high"] * 1.015
+            entry = {"symbol_okx": sym, "price_okx": price,
+                     "growth24h_pct_okx": ticker["growth24h"], **metric,
+                     "zone_low_okx": z["low"], "zone_high_okx": z["high"],
+                     "zone_source": z["source"], "distance_pct": round(dist, 2),
+                     "watch": near, "mini_break": False,
+                     "kcex_listing_and_price_checked": False}
+            if near:
+                watch_key = f"{sym}:WATCH:{z['created']}"
+                if watch_key not in seen:
+                    messages.append((watch_key, f"🟡 OKX research watch — NOT a trade signal\n{sym}\nOKX price {fmt(price)} | experimental zone {fmt(z['low'])}–{fmt(z['high'])}\nKCEX listing/price NOT checked."))
+                try:
+                    bars1 = source.candles(sym, "1m", now)
+                    brk = mini_break(bars1, z, z["created"])
+                    if brk:
+                        entry["mini_break"] = True
+                        brk_key = f"{sym}:BRK:{brk['at']}"
+                        if brk_key not in seen:
+                            messages.append((brk_key, f"🔴 OKX mini-trend break (unverified)\n{sym} — {fmt(brk['price'])}\nKCEX prices can differ; NOT a short recommendation."))
+                except MarketDataError as exc:
+                    errors[sym + ":1m"] = str(exc)[:150]
+            results.append(entry)
+        except MarketDataError as exc:
+            errors[sym] = str(exc)[:150]
+        if not offline:
+            time.sleep(0.12)
+    results.sort(key=lambda row: (not row["watch"], abs(row["distance_pct"])))
+    report = {"source": "OKX official public market data — USDT perpetual SWAP",
+              "NOT_KCEX_PRICES": True,
+              "created_utc": datetime.fromtimestamp(now, timezone.utc).isoformat(),
+              "tickers_eligible": len(tickers), "pairs_scanned": len(wanted),
+              "valid_15m_series": good_candles,
+              "watch_count": sum(bool(r["watch"]) for r in results),
+              "errors": errors, "results": results[:80]}
+    save_json(REPORT_PATH, report)
+    if wanted and good_candles == 0:
+        raise MarketDataError("Every OKX 15m candle request failed; see report_okx.json")
+    print(f"{'OFFLINE DEMO (not live)' if offline else 'OKX PUBLIC DATA READ OK'}: {len(tickers)} liquid USDT swaps; scanned {len(wanted)}; valid candles {good_candles}; near zones {report['watch_count']}; errors {len(errors)}")
+    for row in results[:15]:
+        print(f"{row['symbol_okx']:22} {fmt(row['price_okx']):>13} zone {fmt(row['zone_low_okx'])}–{fmt(row['zone_high_okx'])} watch={row['watch']}")
+    for key, msg in messages:
+        print(msg)
+        if offline or send_telegram(msg):
+            seen[key] = now
+    state["seen"] = {k: v for k, v in seen.items() if now - v < 172800}
+    state["zones"] = {k: v for k, v in zones.items() if v.get("expires", 0) > now}
+    if not offline:
+        save_json(STATE_PATH, state)
+    return report
+
+
+class OfflineDemo:
+    def symbols(self, now):
+        return [{"symbol": "DEMO-USDT-SWAP", "price": .066, "turnover_est_usdt": 500000,
+                 "growth24h": 35, "spread_pct": .3}]
+
+    def candles(self, symbol, interval, now):
+        seconds = 900 if interval == "15m" else 60
+        n = 180 if interval == "15m" else 100
+        t0 = (now // seconds - n) * seconds
+        candles = []
+        for i in range(n):
+            price = .050 + i * .0001
+            if i == 80:
+                price = .071
+            candles.append(Candle(t0 + i * seconds, price - .0002, price + .0004,
+                                  price - .0006, price, 15000 if i >= n - 2 else 4000))
+        return candles
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--demo", action="store_true", help="synthetic OFFLINE example; NOT live prices")
+    args = parser.parse_args()
+    try:
+        run(OfflineDemo() if args.demo else OKX(), int(time.time()), offline=args.demo)
+    except MarketDataError as exc:
+        print("DATA ERROR:", exc, file=sys.stderr)
+        sys.exit(2)
+
+
+if __name__ == "__main__":
+    main()
