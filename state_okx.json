@@ -1,0 +1,26 @@
+{
+  "seen": {},
+  "zones": {
+    "INTW-USDT-SWAP": {
+      "created": 1792363967,
+      "expires": 1792385567,
+      "high": 17.747142857142858,
+      "low": 17.55857142857143,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "RAM-USDT-SWAP": {
+      "created": 1792363967,
+      "expires": 1792385567,
+      "high": 8.048892857142857,
+      "low": 7.971107142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "SOXL-USDT-SWAP": {
+      "created": 1792363967,
+      "expires": 1792385567,
+      "high": 98.41999999999999,
+      "low": 97.232,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    }
+  }
+}
