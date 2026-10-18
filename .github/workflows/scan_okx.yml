@@ -1,7 +1,9 @@
-name: Wick Hunter OKX test
+name: Wick Hunter OKX Auto Scanner
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '2-57/5 * * * *'
 
 permissions:
   contents: write
