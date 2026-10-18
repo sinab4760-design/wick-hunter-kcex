@@ -1,0 +1,46 @@
+name: Wick Hunter Telegram Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test_message:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Send one test message to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          token = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip()
+          chat_id = os.environ.get('TELEGRAM_CHAT_ID', '').strip()
+          if not token or not chat_id:
+              raise SystemExit('Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in repository Actions secrets')
+
+          url = 'https://api.telegram.org/bot' + token + '/sendMessage'
+          body = json.dumps({
+              'chat_id': chat_id,
+              'text': 'WICK HUNTER: Telegram connection test OK. Research alerts only, not trading signals.'
+          }).encode('utf-8')
+          req = Request(url, data=body, headers={'Content-Type': 'application/json'}, method='POST')
+          try:
+              with urlopen(req, timeout=15) as response:
+                  data = json.load(response)
+          except HTTPError as exc:
+              raise SystemExit(f'Telegram rejected the request (HTTP {exc.code}). Check bot token, chat ID, and /start.') from None
+          except URLError:
+              raise SystemExit('Network error connecting to Telegram. Retry later.') from None
+          if data.get('ok') is not True:
+              raise SystemExit('Telegram returned ok=false. Check bot token, chat ID, and /start.')
+          print('SUCCESS: Telegram test message sent.')
+          PY
