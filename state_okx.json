@@ -1,5 +1,9 @@
 {
-  "seen": {},
+  "seen": {
+    "INTW-USDT-SWAP:WATCH:1792363967": 1792366139,
+    "RAM-USDT-SWAP:WATCH:1792363967": 1792366139,
+    "SOXL-USDT-SWAP:WATCH:1792363967": 1792366139
+  },
   "zones": {
     "INTW-USDT-SWAP": {
       "created": 1792363967,
