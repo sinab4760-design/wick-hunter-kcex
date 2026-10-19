@@ -29,13 +29,13 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scanner_dual_alert.py
+        run: python scanner_market_radar.py
       - name: Attach the analysis report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: wick-hunter-okx-report
-          path: report_okx.json
+          path: report_radar.json
           if-no-files-found: ignore
           retention-days: 3
       - name: Remember open zones across runs
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add state_okx.json
+          git add state_radar.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: cache OKX watch zones [skip ci]'
             git push
