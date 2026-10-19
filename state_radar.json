@@ -1,0 +1,50 @@
+{
+  "seen": {
+    "CC-USDT-SWAP:WATCH:1792370946": 1792370946,
+    "LIT-USDT-SWAP:WATCH:1792370946": 1792370946,
+    "OFC-USDT-SWAP:WATCH:1792370946": 1792370946,
+    "ZEC-USDT-SWAP:WATCH:1792370946": 1792370946
+  },
+  "zones": {
+    "CC-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792370940,
+      "created": 1792370946,
+      "expires": 1792392546,
+      "high": 0.10365939285714286,
+      "low": 0.10280060714285714,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792370946
+    },
+    "LIT-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792370940,
+      "created": 1792370946,
+      "expires": 1792392546,
+      "high": 3.1968871428571433,
+      "low": 3.158512857142857,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792370946
+    },
+    "OFC-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792370940,
+      "created": 1792370946,
+      "expires": 1792392546,
+      "high": 0.0061502785714285715,
+      "low": 0.006079721428571428,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792370946
+    },
+    "ZEC-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792370940,
+      "created": 1792370946,
+      "expires": 1792392546,
+      "high": 1163.7643214285713,
+      "low": 1149.4556785714285,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792370946
+    }
+  }
+}
