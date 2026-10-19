@@ -1,0 +1,156 @@
+name: Wick Hunter V8 Hourly Status
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Once per hour, UTC. GitHub Actions timing is best-effort.
+    - cron: '17 * * * *'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wick-hunter-hourly-status
+  cancel-in-progress: false
+
+jobs:
+  hourly_status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send latest REAL V8 scan status to Telegram
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import io
+          import json
+          import os
+          import sys
+          import zipfile
+          from datetime import datetime, timezone
+          from urllib.error import HTTPError
+          from urllib.request import Request, urlopen, build_opener, HTTPRedirectHandler
+
+          repo = os.environ['GH_REPO']
+          token = os.environ.get('GH_TOKEN', '')
+          bot = os.environ.get('TELEGRAM_BOT_TOKEN', '')
+          chat_id = os.environ.get('TELEGRAM_CHAT_ID', '')
+          if not token or not bot or not chat_id:
+              sys.exit('Missing required GitHub or Telegram secret; no message sent.')
+
+          api_base = f'https://api.github.com/repos/{repo}'
+          github_headers = {
+              'Authorization': f'Bearer {token}',
+              'Accept': 'application/vnd.github+json',
+              'User-Agent': 'WickHunter-Hourly-Status/1.0',
+          }
+
+          def github_json(path):
+              req = Request(api_base + path, headers=github_headers)
+              with urlopen(req, timeout=20) as response:
+                  return json.load(response)
+
+          class RefuseRedirect(HTTPRedirectHandler):
+              def redirect_request(self, request, fp, code, msg, headers, newurl):
+                  return None
+
+          def artifact_zip(url):
+              # Do not forward the GitHub token to the signed download host.
+              req = Request(url, headers=github_headers)
+              try:
+                  with build_opener(RefuseRedirect).open(req, timeout=20) as response:
+                      content = response.read(5_000_001)
+              except HTTPError as exc:
+                  if exc.code != 302:
+                      raise
+                  signed_url = exc.headers.get('Location', '')
+                  if not signed_url.startswith('https://'):
+                      raise ValueError('Invalid artifact redirect')
+                  with urlopen(Request(signed_url, headers={'User-Agent': 'WickHunter-Hourly/1.0'}), timeout=20) as response:
+                      content = response.read(5_000_001)
+              if len(content) > 5_000_000:
+                  raise ValueError('Artifact too large')
+              return zipfile.ZipFile(io.BytesIO(content))
+
+          def send_telegram(message):
+              # Telegram credentials are never printed to CI logs.
+              payload = json.dumps({'chat_id': chat_id, 'text': message}, ensure_ascii=False).encode('utf-8')
+              req = Request(f'https://api.telegram.org/bot{bot}/sendMessage', data=payload,
+                            headers={'Content-Type': 'application/json'}, method='POST')
+              try:
+                  with urlopen(req, timeout=20) as response:
+                      result = json.load(response)
+                  if not result.get('ok'):
+                      raise ValueError('Telegram rejected message')
+              except Exception:
+                  sys.exit('Telegram delivery failed; verify token/chat ID via GitHub Secrets.')
+
+          def prepare_message():
+              runs_data = github_json('/actions/workflows/scan_okx.yml/runs?per_page=12&branch=main')
+              runs = runs_data.get('workflow_runs', [])
+              latest = next((r for r in runs if r.get('status') == 'completed'), None)
+              if not latest:
+                  return '⚠️ WICK HUNTER V8 | گزارش ساعتی\nهیچ اجرای تکمیل‌شده‌ای از اسکنر اصلی پیدا نشد.', False
+              if latest.get('conclusion') != 'success':
+                  return (f'⚠️ WICK HUNTER V8 | گزارش ساعتی\n'
+                          f'آخرین اجرای تکمیل‌شده #{latest.get("run_number", "?")} موفق نبوده.\n'
+                          'برای جزئیات بخش Actions → scan_okx.yml را بررسی کن.'), False
+
+              run_id = latest['id']
+              artifacts = github_json(f'/actions/runs/{run_id}/artifacts?name=wick-hunter-okx-report')
+              matches = [a for a in artifacts.get('artifacts', []) if a.get('name') == 'wick-hunter-okx-report'
+                         and not a.get('expired')]
+              if not matches:
+                  return ('⚠️ WICK HUNTER V8 | گزارش ساعتی\n'
+                          f'اجرای #{latest.get("run_number", "?")} سبز شده، اما فایل report_radar.json در Artifact آن پیدا نشد.'), False
+              with artifact_zip(matches[0]['archive_download_url']) as archive:
+                  filenames = [name for name in archive.namelist() if name.rsplit('/', 1)[-1] == 'report_radar.json']
+                  if not filenames:
+                      raise ValueError('report_radar.json missing inside artifact')
+                  report = json.loads(archive.read(filenames[0]))
+
+              stamp = datetime.fromisoformat(report['created_utc'].replace('Z', '+00:00'))
+              if stamp.tzinfo is None:
+                  raise ValueError('Scan time lacks timezone')
+              age_min = max(0, round((datetime.now(timezone.utc) - stamp).total_seconds() / 60))
+              if age_min > 35:
+                  health = '⚠️ گزارش قدیمی؛ اسکن خودکار را بررسی کن'
+                  good = False
+              else:
+                  health = '✅ آخرین اسکن موفق و نسبتاً تازه'
+                  good = True
+
+              selection = report.get('selection', {})
+              errors = report.get('errors', {})
+              text = (
+                  '📊 WICK HUNTER V8 | گزارش ساعتی\n'
+                  f'{health}\n'
+                  f'🕒 اسکن: {stamp.astimezone(timezone.utc):%Y-%m-%d %H:%M} UTC ({age_min} دقیقه قبل)\n'
+                  f'🪙 غربال اولیه: {report.get("tickers_eligible", "؟")} نماد\n'
+                  f'🚀 پامپی: {selection.get("pump_candidates", "؟")} | 📈 رشد اولیه: {selection.get("early_candidates", "؟")}\n'
+                  f'🔎 بررسی کندل: {report.get("pairs_scanned", "؟")} (معتبر: {report.get("valid_15m_series", "؟")})\n'
+                  f'🟡 WATCH تازه شناسایی‌شده: {report.get("new_early_watches_this_scan", "؟")}\n'
+                  f'🔴 MINI BREAK شناسایی‌شده: {report.get("mini_breaks_detected_this_scan", "؟")}\n'
+                  f'❗ خطاهای داده: {len(errors)}\n'
+                  'ℹ️ این آمارِ آخرین اجراست، نه مجموع یک ساعت و نه تعداد پیام‌های ارسال‌شده.\n'
+                  'فقط برای تحقیق؛ سیگنال ورود نیست. قیمت‌ها از OKX هستند.'
+              )
+              return text, good
+
+          try:
+              message, healthy = prepare_message()
+          except Exception as exc:
+              # No credentials or URLs printed; still warn the user on Telegram.
+              print('Hourly report read failed:', type(exc).__name__)
+              message, healthy = ('⚠️ WICK HUNTER V8 | گزارش ساعتی\n'
+                                  'گزارش آخرین اسکن از GitHub قابل خواندن نبود؛ Actions را بررسی کن.'), False
+          send_telegram(message)
+          print('Hourly Telegram status message delivered; healthy:', healthy)
+          if not healthy:
+              sys.exit(1)
+          PY
