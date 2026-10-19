@@ -34,6 +34,14 @@
     "ZRO-USDT-SWAP:WATCH:1792424030": 1792426212
   },
   "zones": {
+    "APR-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792434118,
+      "expires": 1792455718,
+      "high": 0.02972382142857143,
+      "low": 0.02873617857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BAT-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792424030,
@@ -72,7 +80,7 @@
       "break_late_skipped": true,
       "break_price": 0.22922,
       "category": "PUMP",
-      "checked_through": 1792432260,
+      "checked_through": 1792434060,
       "created": 1792416397,
       "expires": 1792437997,
       "high": 0.23487357142857143,
@@ -86,7 +94,7 @@
     },
     "MEME-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792432260,
+      "checked_through": 1792434060,
       "created": 1792428558,
       "expires": 1792450158,
       "high": 0.0004951507142857143,
@@ -96,6 +104,17 @@
       "watch_observed_at": 1792428573,
       "watch_sent_at": 1792428579,
       "watch_version": 8
+    },
+    "METIS-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792434118,
+      "expires": 1792455718,
+      "high": 3.8761964285714288,
+      "low": 3.8318035714285714,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792434131,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PENDLE-USDT-SWAP": {
       "category": "EARLY",
@@ -143,7 +162,7 @@
       "break_late_skipped": true,
       "break_price": 0.018758,
       "category": "PUMP",
-      "checked_through": 1792432260,
+      "checked_through": 1792434120,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 0.0191231,
@@ -157,7 +176,7 @@
     },
     "XDP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792432260,
+      "checked_through": 1792434120,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 0.019127,
@@ -171,7 +190,7 @@
     },
     "ZRO-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792432260,
+      "checked_through": 1792434120,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 2.031216071428571,
