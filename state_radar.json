@@ -29,7 +29,8 @@
     "ZEC-USDT-SWAP:WATCH:1792370946": 1792370946,
     "ZIL-USDT-SWAP:WATCH:1792373610": 1792373610,
     "ZRO-USDT-SWAP:BREAK:1792373610:1792373940": 1792375736,
-    "ZRO-USDT-SWAP:WATCH:1792373610": 1792373610
+    "ZRO-USDT-SWAP:WATCH:1792373610": 1792373610,
+    "ZRO-USDT-SWAP:WATCH:1792424030": 1792426212
   },
   "zones": {
     "BAT-USDT-SWAP": {
@@ -67,7 +68,7 @@
       "break_late_skipped": true,
       "break_price": 0.22922,
       "category": "PUMP",
-      "checked_through": 1792423980,
+      "checked_through": 1792426140,
       "created": 1792416397,
       "expires": 1792437997,
       "high": 0.23487357142857143,
@@ -121,13 +122,17 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "TRUTH-USDT-SWAP": {
+      "break_at": 1792425840,
+      "break_late_skipped": true,
+      "break_price": 0.018758,
       "category": "PUMP",
-      "checked_through": 1792423980,
+      "checked_through": 1792426140,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 0.0191231,
       "low": 0.0189009,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792425300,
       "watch_at": 1792423980,
       "watch_observed_at": 1792424035,
       "watch_sent_at": 1792424049,
@@ -135,12 +140,13 @@
     },
     "XDP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792423980,
+      "checked_through": 1792426140,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 0.019127,
       "low": 0.018973,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792424040,
       "watch_at": 1792423980,
       "watch_observed_at": 1792424042,
       "watch_sent_at": 1792424050,
@@ -148,11 +154,16 @@
     },
     "ZRO-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1792426140,
       "created": 1792424030,
       "expires": 1792445630,
       "high": 2.031216071428571,
       "low": 1.9986167857142856,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1792426140,
+      "watch_observed_at": 1792426203,
+      "watch_sent_at": 1792426212,
+      "watch_version": 8
     }
   }
 }
