@@ -1,0 +1,36 @@
+name: Wick Hunter Radar V8 DRY RUN
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  radar_v8_test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Download code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline anti-late alert regression tests
+        run: python test_radar_v8.py
+      - name: Live OKX data dry run (never message Telegram)
+        run: python scanner_market_radar_v8.py --dry-run
+        env:
+          MAX_DEEP_SCAN: '60'
+          WATCH_RETRACE_MINUTES: '45'
+          MAX_WATCH_DATA_AGE_SEC: '150'
+          MAX_BREAK_ALERT_LAG_SEC: '180'
+      - name: Attach V8 report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wick-hunter-v8-report
+          path: report_radar.json
+          if-no-files-found: ignore
+          retention-days: 3
