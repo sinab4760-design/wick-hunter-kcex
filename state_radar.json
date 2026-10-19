@@ -11,6 +11,7 @@
     "LIT-USDT-SWAP:BREAK:1792370946:1792371240": 1792371377,
     "LIT-USDT-SWAP:WATCH:1792370946": 1792370946,
     "OFC-USDT-SWAP:WATCH:1792370946": 1792370946,
+    "PUMP-USDT-SWAP:BREAK:1792379693:1792381140": 1792382257,
     "PUMP-USDT-SWAP:WATCH:1792379693": 1792379693,
     "STX-USDT-SWAP:BREAK:1792375736:1792375920": 1792377808,
     "STX-USDT-SWAP:WATCH:1792375736": 1792375736,
@@ -38,7 +39,7 @@
     },
     "CAP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792375736,
       "expires": 1792397336,
       "high": 0.07419342857142856,
@@ -48,7 +49,7 @@
     },
     "CC-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792370946,
       "expires": 1792392546,
       "high": 0.10365939285714286,
@@ -70,7 +71,7 @@
     },
     "HUMA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792379693,
       "expires": 1792401293,
       "high": 0.02875675,
@@ -80,7 +81,7 @@
     },
     "LDO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792373610,
       "expires": 1792395210,
       "high": 0.4029782142857143,
@@ -102,7 +103,7 @@
     },
     "OFC-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792370946,
       "expires": 1792392546,
       "high": 0.0061502785714285715,
@@ -111,8 +112,10 @@
       "watch_at": 1792370946
     },
     "PUMP-USDT-SWAP": {
+      "break_at": 1792381140,
+      "break_price": 0.004474,
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792379693,
       "expires": 1792401293,
       "high": 0.0045174821428571425,
@@ -146,7 +149,7 @@
     },
     "XPL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792375736,
       "expires": 1792397336,
       "high": 0.0791654,
@@ -156,7 +159,7 @@
     },
     "ZIL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792379640,
+      "checked_through": 1792382220,
       "created": 1792373610,
       "expires": 1792395210,
       "high": 0.0023182535714285717,
