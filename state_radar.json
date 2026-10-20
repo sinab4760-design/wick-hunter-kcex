@@ -89,7 +89,7 @@
   "zones": {
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792533840,
+      "checked_through": 1792535760,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 0.1283375,
@@ -102,7 +102,7 @@
     },
     "COMP-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792533840,
+      "checked_through": 1792535760,
       "created": 1792515182,
       "expires": 1792536782,
       "high": 27.488392857142856,
@@ -116,7 +116,7 @@
     },
     "CVX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792533840,
+      "checked_through": 1792535760,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 2.4896607142857143,
@@ -148,7 +148,7 @@
     },
     "LIT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792533840,
+      "checked_through": 1792535760,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 3.560589285714286,
