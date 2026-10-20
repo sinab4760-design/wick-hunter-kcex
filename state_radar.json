@@ -71,6 +71,17 @@
       "spent_at": 1792483765,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "DOOD-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792490177,
+      "expires": 1792511777,
+      "high": 0.0015063571428571428,
+      "low": 0.0014903285714285713,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1792490181,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792469775,
@@ -84,7 +95,7 @@
     },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792487880,
+      "checked_through": 1792490160,
       "created": 1792476101,
       "expires": 1792497701,
       "high": 0.03656568,
