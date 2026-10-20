@@ -33,6 +33,7 @@
     "STX-USDT-SWAP:BREAK:1792375736:1792375920": 1792377808,
     "STX-USDT-SWAP:WATCH:1792375736": 1792375736,
     "TRUTH-USDT-SWAP:WATCH:1792424030": 1792424049,
+    "USELESS-USDT-SWAP:WATCH:1792465668": 1792465686,
     "VVV-USDT-SWAP:BREAK:1792377808:1792378620": 1792379693,
     "VVV-USDT-SWAP:WATCH:1792377808": 1792377808,
     "W-USDT-SWAP:WATCH:1792436914": 1792436934,
@@ -48,7 +49,7 @@
   "zones": {
     "AERO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.8400346428571428,
@@ -72,12 +73,13 @@
     },
     "AVNT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.10733764000000001,
       "low": 0.10648236,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792463580,
       "watch_at": 1792463520,
       "watch_observed_at": 1792463576,
       "watch_sent_at": 1792463579,
@@ -96,7 +98,7 @@
     },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792448941,
       "expires": 1792470541,
       "high": 0.1945752,
@@ -110,7 +112,7 @@
     },
     "DOT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792450803,
       "expires": 1792472403,
       "high": 1.1731740000000002,
@@ -121,14 +123,26 @@
       "watch_sent_at": 1792450818,
       "watch_version": 8
     },
+    "EIGEN-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792465668,
+      "expires": 1792487268,
+      "high": 0.24535107142857143,
+      "low": 0.24304892857142857,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792465682,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "FOGO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792448941,
       "expires": 1792470541,
       "high": 0.003984876,
       "low": 0.003953124000000001,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792464480,
       "watch_at": 1792448940,
       "watch_observed_at": 1792448957,
       "watch_sent_at": 1792448959,
@@ -136,7 +150,7 @@
     },
     "GRASS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.6318789285714286,
@@ -149,7 +163,7 @@
     },
     "GRVT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792461647,
       "expires": 1792483247,
       "high": 0.2587682142857143,
@@ -162,12 +176,13 @@
     },
     "KMNO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792463520,
+      "checked_through": 1792465620,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.04071578571428572,
       "low": 0.04038421428571429,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792465560,
       "watch_at": 1792463520,
       "watch_observed_at": 1792463573,
       "watch_sent_at": 1792463578,
@@ -194,6 +209,30 @@
       "spent": true,
       "spent_at": 1792452764,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "TIA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792465668,
+      "expires": 1792487268,
+      "high": 0.6357642857142858,
+      "low": 0.6274357142857143,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792465682,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "USELESS-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792465620,
+      "created": 1792465668,
+      "expires": 1792487268,
+      "high": 0.14623164285714285,
+      "low": 0.14460835714285714,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792465620,
+      "watch_observed_at": 1792465681,
+      "watch_sent_at": 1792465686,
+      "watch_version": 8
     }
   }
 }
