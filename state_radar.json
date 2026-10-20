@@ -49,20 +49,6 @@
     "ZRO-USDT-SWAP:WATCH:1792424030": 1792426212
   },
   "zones": {
-    "AKE-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1792486020,
-      "created": 1792478507,
-      "expires": 1792500107,
-      "high": 0.034018035714285716,
-      "low": 0.03355839285714286,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1792482480,
-      "watch_at": 1792478460,
-      "watch_observed_at": 1792478515,
-      "watch_sent_at": 1792478525,
-      "watch_version": 8
-    },
     "APR-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792472073,
@@ -85,17 +71,6 @@
       "spent_at": 1792483765,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "EIGEN-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792465668,
-      "expires": 1792487268,
-      "high": 0.24535107142857143,
-      "low": 0.24304892857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792465682,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792469775,
@@ -109,7 +84,7 @@
     },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792486020,
+      "checked_through": 1792487880,
       "created": 1792476101,
       "expires": 1792497701,
       "high": 0.03656568,
@@ -119,17 +94,6 @@
       "watch_observed_at": 1792476117,
       "watch_sent_at": 1792476118,
       "watch_version": 8
-    },
-    "TIA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792465668,
-      "expires": 1792487268,
-      "high": 0.6357642857142858,
-      "low": 0.6274357142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792465682,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "UB-USDT-SWAP": {
       "category": "EARLY",
@@ -141,23 +105,6 @@
       "spent": true,
       "spent_at": 1792469792,
       "spent_reason": "ZONE_ALREADY_TOUCHED_THIS_CANDLE"
-    },
-    "USELESS-USDT-SWAP": {
-      "break_at": 1792466100,
-      "break_late_skipped": true,
-      "break_price": 0.14362,
-      "category": "EARLY",
-      "checked_through": 1792486020,
-      "created": 1792465668,
-      "expires": 1792487268,
-      "high": 0.14623164285714285,
-      "low": 0.14460835714285714,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792465800,
-      "watch_at": 1792465620,
-      "watch_observed_at": 1792465681,
-      "watch_sent_at": 1792465686,
-      "watch_version": 8
     }
   }
 }
