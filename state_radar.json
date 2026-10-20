@@ -51,7 +51,7 @@
   "zones": {
     "AERO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.8400346428571428,
@@ -64,7 +64,7 @@
     },
     "AKE-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792478507,
       "expires": 1792500107,
       "high": 0.034018035714285716,
@@ -86,6 +86,14 @@
       "spent_at": 1792472081,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "CAP-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792481206,
+      "expires": 1792502806,
+      "high": 0.07033314285714286,
+      "low": 0.06922685714285713,
+      "source": "HISTORICAL_PIVOT"
+    },
     "EIGEN-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792465668,
@@ -99,7 +107,7 @@
     },
     "GRASS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.6318789285714286,
@@ -112,7 +120,7 @@
     },
     "GRVT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792461647,
       "expires": 1792483247,
       "high": 0.2587682142857143,
@@ -129,7 +137,7 @@
       "break_late_skipped": true,
       "break_price": 0.0401,
       "category": "EARLY",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.04071578571428572,
@@ -154,7 +162,7 @@
     },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792476101,
       "expires": 1792497701,
       "high": 0.03656568,
@@ -192,7 +200,7 @@
       "break_late_skipped": true,
       "break_price": 0.14362,
       "category": "EARLY",
-      "checked_through": 1792478460,
+      "checked_through": 1792481160,
       "created": 1792465668,
       "expires": 1792487268,
       "high": 0.14623164285714285,
