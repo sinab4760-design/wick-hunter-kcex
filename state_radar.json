@@ -3,6 +3,7 @@
     "ACU-USDT-SWAP:BREAK:1792373610:1792373940": 1792375736,
     "ACU-USDT-SWAP:WATCH:1792373610": 1792373610,
     "AERO-USDT-SWAP:WATCH:1792463560": 1792463577,
+    "AKE-USDT-SWAP:WATCH:1792478507": 1792478525,
     "AVNT-USDT-SWAP:WATCH:1792463560": 1792463579,
     "BAT-USDT-SWAP:WATCH:1792440962": 1792440978,
     "CAP-USDT-SWAP:WATCH:1792375736": 1792375736,
@@ -50,7 +51,7 @@
   "zones": {
     "AERO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.8400346428571428,
@@ -59,6 +60,19 @@
       "watch_at": 1792463520,
       "watch_observed_at": 1792463569,
       "watch_sent_at": 1792463577,
+      "watch_version": 8
+    },
+    "AKE-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1792478460,
+      "created": 1792478507,
+      "expires": 1792500107,
+      "high": 0.034018035714285716,
+      "low": 0.03355839285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1792478460,
+      "watch_observed_at": 1792478515,
+      "watch_sent_at": 1792478525,
       "watch_version": 8
     },
     "APR-USDT-SWAP": {
@@ -85,7 +99,7 @@
     },
     "GRASS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.6318789285714286,
@@ -98,7 +112,7 @@
     },
     "GRVT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792461647,
       "expires": 1792483247,
       "high": 0.2587682142857143,
@@ -115,7 +129,7 @@
       "break_late_skipped": true,
       "break_price": 0.0401,
       "category": "EARLY",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792463560,
       "expires": 1792485160,
       "high": 0.04071578571428572,
@@ -140,7 +154,7 @@
     },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792476101,
       "expires": 1792497701,
       "high": 0.03656568,
@@ -178,7 +192,7 @@
       "break_late_skipped": true,
       "break_price": 0.14362,
       "category": "EARLY",
-      "checked_through": 1792476060,
+      "checked_through": 1792478460,
       "created": 1792465668,
       "expires": 1792487268,
       "high": 0.14623164285714285,
