@@ -36,6 +36,7 @@
     "S-USDT-SWAP:WATCH:1792436914": 1792450817,
     "STX-USDT-SWAP:BREAK:1792375736:1792375920": 1792377808,
     "STX-USDT-SWAP:WATCH:1792375736": 1792375736,
+    "THETA-USDT-SWAP:WATCH:1792496267": 1792496279,
     "TRUTH-USDT-SWAP:WATCH:1792424030": 1792424049,
     "USELESS-USDT-SWAP:WATCH:1792465668": 1792465686,
     "VVV-USDT-SWAP:BREAK:1792377808:1792378620": 1792379693,
@@ -52,13 +53,17 @@
   },
   "zones": {
     "APR-USDT-SWAP": {
+      "break_at": 1792495260,
+      "break_late_skipped": true,
+      "break_price": 0.03052,
       "category": "PUMP",
-      "checked_through": 1792494180,
+      "checked_through": 1792496220,
       "created": 1792494234,
       "expires": 1792515834,
       "high": 0.031644,
       "low": 0.031115999999999998,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792494600,
       "watch_at": 1792494180,
       "watch_observed_at": 1792494237,
       "watch_sent_at": 1792494244,
@@ -76,13 +81,17 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "COMP-USDT-SWAP": {
+      "break_at": 1792494960,
+      "break_late_skipped": true,
+      "break_price": 23.39,
       "category": "PUMP",
-      "checked_through": 1792494180,
+      "checked_through": 1792496220,
       "created": 1792494234,
       "expires": 1792515834,
       "high": 24.02625,
       "low": 23.712750000000003,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1792494780,
       "watch_at": 1792494180,
       "watch_observed_at": 1792494238,
       "watch_sent_at": 1792494245,
@@ -99,6 +108,17 @@
       "spent_at": 1792490181,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "KGEN-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792496267,
+      "expires": 1792517867,
+      "high": 0.0869464,
+      "low": 0.0862536,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792496279,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "LIGHT-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792492098,
@@ -112,7 +132,7 @@
     },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792494180,
+      "checked_through": 1792496220,
       "created": 1792476101,
       "expires": 1792497701,
       "high": 0.03656568,
@@ -121,6 +141,19 @@
       "watch_at": 1792476060,
       "watch_observed_at": 1792476117,
       "watch_sent_at": 1792476118,
+      "watch_version": 8
+    },
+    "THETA-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1792496220,
+      "created": 1792496267,
+      "expires": 1792517867,
+      "high": 0.21033214285714286,
+      "low": 0.20761357142857145,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1792496220,
+      "watch_observed_at": 1792496273,
+      "watch_sent_at": 1792496279,
       "watch_version": 8
     }
   }
