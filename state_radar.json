@@ -21,7 +21,6 @@
     "CVX-USDT-SWAP:WATCH:1792531869": 1792531886,
     "DOOD-USDT-SWAP:WATCH:1792505943": 1792508362,
     "DOS-USDT-SWAP:WATCH:1792448941": 1792448959,
-    "DOT-USDT-SWAP:WATCH:1792416397": 1792419296,
     "DOT-USDT-SWAP:WATCH:1792450803": 1792450818,
     "EDEN-USDT-SWAP:WATCH:1792508339": 1792508366,
     "ENA-USDT-SWAP:WATCH:1792505943": 1792505974,
@@ -71,7 +70,7 @@
   "zones": {
     "ATH-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792591800,
+      "checked_through": 1792594140,
       "created": 1792577563,
       "expires": 1792599163,
       "high": 0.006430553571428572,
@@ -112,21 +111,24 @@
       "spent_at": 1792589133,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "PARTI-USDT-SWAP": {
-      "break_at": 1792588200,
-      "break_late_skipped": true,
-      "break_price": 0.03921,
+    "IRYS-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792591800,
-      "created": 1792570641,
-      "expires": 1792592241,
-      "high": 0.040840714285714286,
-      "low": 0.03996385714285715,
+      "created": 1792594142,
+      "expires": 1792615742,
+      "high": 0.02198857142857143,
+      "low": 0.020970285714285716,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "MAGIC-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1792594140,
+      "created": 1792594142,
+      "expires": 1792615742,
+      "high": 0.10897714285714287,
+      "low": 0.10724857142857143,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1792577100,
-      "watch_at": 1792573140,
-      "watch_observed_at": 1792573180,
-      "watch_sent_at": 1792573193,
+      "watch_at": 1792594140,
+      "watch_observed_at": 1792594148,
       "watch_version": 8
     },
     "RLS-USDT-SWAP": {
@@ -136,6 +138,14 @@
       "high": 0.002406535714285714,
       "low": 0.002345092857142857,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "STRK-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792594142,
+      "expires": 1792615742,
+      "high": 0.05868678571428572,
+      "low": 0.057893214285714284,
+      "source": "HISTORICAL_PIVOT"
     },
     "W-USDT-SWAP": {
       "category": "PUMP",
