@@ -68,8 +68,11 @@
   },
   "zones": {
     "ARB-USDT-SWAP": {
+      "break_at": 1792607580,
+      "break_late_skipped": true,
+      "break_price": 0.19617,
       "category": "EARLY",
-      "checked_through": 1792606680,
+      "checked_through": 1792609560,
       "created": 1792595975,
       "expires": 1792617575,
       "high": 0.19982496428571428,
@@ -98,7 +101,7 @@
     },
     "ENA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792606680,
+      "checked_through": 1792609560,
       "created": 1792598433,
       "expires": 1792620033,
       "high": 0.23144589285714284,
@@ -128,13 +131,17 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "LIT-USDT-SWAP": {
+      "break_at": 1792608600,
+      "break_late_skipped": true,
+      "break_price": 3.9347,
       "category": "PUMP",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792606738,
       "expires": 1792628338,
       "high": 3.975076785714286,
       "low": 3.904244642857143,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1792608120,
       "watch_at": 1792606740,
       "watch_observed_at": 1792606748,
       "watch_sent_at": 1792606759,
@@ -142,7 +149,7 @@
     },
     "MAGIC-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792594142,
       "expires": 1792615742,
       "high": 0.10897714285714287,
@@ -161,8 +168,11 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "STRK-USDT-SWAP": {
+      "break_at": 1792607460,
+      "break_late_skipped": true,
+      "break_price": 0.06497,
       "category": "PUMP",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792598433,
       "expires": 1792620033,
       "high": 0.06617696428571429,
@@ -174,12 +184,20 @@
       "watch_sent_at": 1792605017,
       "watch_version": 8
     },
+    "TRIA-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792609571,
+      "expires": 1792631171,
+      "high": 0.0028875535714285717,
+      "low": 0.0028470892857142857,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "USELESS-USDT-SWAP": {
       "break_at": 1792598640,
       "break_late_skipped": true,
       "break_price": 0.16774,
       "category": "EARLY",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792595975,
       "expires": 1792617575,
       "high": 0.169298,
@@ -195,7 +213,7 @@
       "break_late_skipped": true,
       "break_price": 0.015934,
       "category": "PUMP",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792591826,
       "expires": 1792613426,
       "high": 0.016352964285714287,
@@ -208,7 +226,7 @@
     },
     "YB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792595975,
       "expires": 1792617575,
       "high": 0.06675853571428571,
@@ -221,7 +239,7 @@
     },
     "ZAMA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792606740,
+      "checked_through": 1792609560,
       "created": 1792606738,
       "expires": 1792628338,
       "high": 0.08805357142857144,
