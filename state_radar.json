@@ -71,7 +71,7 @@
       "break_late_skipped": true,
       "break_price": 0.3308,
       "category": "PUMP",
-      "checked_through": 1792558740,
+      "checked_through": 1792560720,
       "created": 1792543576,
       "expires": 1792565176,
       "high": 0.3366325,
@@ -89,7 +89,10 @@
       "expires": 1792571789,
       "high": 0.24204607142857143,
       "low": 0.23875392857142858,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792560752,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "DOOD-USDT-SWAP": {
       "category": "PUMP",
@@ -133,17 +136,6 @@
       "high": 0.03743035714285714,
       "low": 0.036617928571428565,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "UP-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792543576,
-      "expires": 1792565176,
-      "high": 0.1370525,
-      "low": 0.13534749999999998,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792545860,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
