@@ -68,9 +68,21 @@
     "ZRO-USDT-SWAP:WATCH:1792505943": 1792508363
   },
   "zones": {
+    "ARB-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792595940,
+      "created": 1792595975,
+      "expires": 1792617575,
+      "high": 0.19982496428571428,
+      "low": 0.19777503571428573,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792595940,
+      "watch_observed_at": 1792595987,
+      "watch_version": 8
+    },
     "ATH-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792594140,
+      "checked_through": 1792595940,
       "created": 1792577563,
       "expires": 1792599163,
       "high": 0.006430553571428572,
@@ -80,6 +92,17 @@
       "watch_observed_at": 1792577569,
       "watch_sent_at": 1792577578,
       "watch_version": 8
+    },
+    "CNPY-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792595975,
+      "expires": 1792617575,
+      "high": 0.23015714285714284,
+      "low": 0.22764285714285715,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792595988,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "DOOD-USDT-SWAP": {
       "category": "PUMP",
@@ -121,7 +144,7 @@
     },
     "MAGIC-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792594140,
+      "checked_through": 1792595940,
       "created": 1792594142,
       "expires": 1792615742,
       "high": 0.10897714285714287,
@@ -147,13 +170,41 @@
       "low": 0.057893214285714284,
       "source": "HISTORICAL_PIVOT"
     },
+    "USELESS-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792595940,
+      "created": 1792595975,
+      "expires": 1792617575,
+      "high": 0.169298,
+      "low": 0.16670200000000002,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792595940,
+      "watch_observed_at": 1792595986,
+      "watch_version": 8
+    },
     "W-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1792595940,
       "created": 1792591826,
       "expires": 1792613426,
       "high": 0.016352964285714287,
       "low": 0.016029407142857142,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1792595940,
+      "watch_observed_at": 1792595981,
+      "watch_version": 8
+    },
+    "YB-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792595940,
+      "created": 1792595975,
+      "expires": 1792617575,
+      "high": 0.06675853571428571,
+      "low": 0.06598146428571429,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792595940,
+      "watch_observed_at": 1792595989,
+      "watch_version": 8
     }
   }
 }
