@@ -16,7 +16,6 @@
     "BRETT-USDT-SWAP:WATCH:1792508339": 1792508367,
     "CAP-USDT-SWAP:WATCH:1792375736": 1792375736,
     "CASHCAT-USDT-SWAP:WATCH:1792531869": 1792531886,
-    "CC-USDT-SWAP:WATCH:1792370946": 1792370946,
     "CHIP-USDT-SWAP:BREAK:1792375736:1792378260": 1792379693,
     "CHIP-USDT-SWAP:WATCH:1792375736": 1792377808,
     "CHIP-USDT-SWAP:WATCH:1792505943": 1792505969,
@@ -47,12 +46,10 @@
     "LAB-USDT-SWAP:WATCH:1792503756": 1792503770,
     "LAB-USDT-SWAP:WATCH:1792508339": 1792508363,
     "LDO-USDT-SWAP:WATCH:1792373610": 1792373610,
-    "LIT-USDT-SWAP:BREAK:1792370946:1792371240": 1792371377,
-    "LIT-USDT-SWAP:WATCH:1792370946": 1792370946,
     "LIT-USDT-SWAP:WATCH:1792508339": 1792508367,
     "LIT-USDT-SWAP:WATCH:1792531869": 1792531886,
     "MEME-USDT-SWAP:WATCH:1792428558": 1792428579,
-    "OFC-USDT-SWAP:WATCH:1792370946": 1792370946,
+    "MEW-USDT-SWAP:WATCH:1792543576": 1792545869,
     "OP-USDT-SWAP:WATCH:1792508339": 1792508369,
     "PEPE-USDT-SWAP:WATCH:1792505943": 1792505971,
     "PLUME-USDT-SWAP:WATCH:1792508339": 1792508365,
@@ -78,8 +75,6 @@
     "XDP-USDT-SWAP:WATCH:1792424030": 1792424050,
     "XPL-USDT-SWAP:WATCH:1792375736": 1792375736,
     "ZAMA-USDT-SWAP:WATCH:1792508339": 1792508368,
-    "ZEC-USDT-SWAP:BREAK:1792370946:1792371300": 1792371377,
-    "ZEC-USDT-SWAP:WATCH:1792370946": 1792370946,
     "ZEC-USDT-SWAP:WATCH:1792505943": 1792505971,
     "ZIL-USDT-SWAP:WATCH:1792373610": 1792373610,
     "ZRO-USDT-SWAP:BREAK:1792373610:1792373940": 1792375736,
@@ -90,7 +85,7 @@
   "zones": {
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792543560,
+      "checked_through": 1792545840,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 0.1283375,
@@ -102,13 +97,17 @@
       "watch_version": 8
     },
     "CT-USDT-SWAP": {
+      "break_at": 1792545180,
+      "break_late_skipped": true,
+      "break_price": 0.3308,
       "category": "PUMP",
-      "checked_through": 1792543560,
+      "checked_through": 1792545840,
       "created": 1792543576,
       "expires": 1792565176,
       "high": 0.3366325,
       "low": 0.33316749999999995,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792543800,
       "watch_at": 1792543560,
       "watch_observed_at": 1792543584,
       "watch_sent_at": 1792543588,
@@ -116,7 +115,7 @@
     },
     "CVX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792543560,
+      "checked_through": 1792545840,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 2.4896607142857143,
@@ -140,7 +139,7 @@
     },
     "LIT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792543560,
+      "checked_through": 1792545840,
       "created": 1792531869,
       "expires": 1792553469,
       "high": 3.560589285714286,
@@ -153,11 +152,16 @@
     },
     "MEW-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1792545840,
       "created": 1792543576,
       "expires": 1792565176,
       "high": 0.0004905910714285714,
       "low": 0.0004814217857142857,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1792545840,
+      "watch_observed_at": 1792545859,
+      "watch_sent_at": 1792545869,
+      "watch_version": 8
     },
     "NEAR-USDT-SWAP": {
       "category": "EARLY",
@@ -170,24 +174,16 @@
       "spent_at": 1792543585,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "SOPH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792523919,
-      "expires": 1792545519,
-      "high": 0.0019968214285714285,
-      "low": 0.0019331785714285716,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792526031,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "UP-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792543576,
       "expires": 1792565176,
       "high": 0.1370525,
       "low": 0.13534749999999998,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792545860,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
