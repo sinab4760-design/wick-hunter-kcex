@@ -79,7 +79,7 @@
     },
     "ENSO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792573140,
+      "checked_through": 1792575240,
       "created": 1792565544,
       "expires": 1792587144,
       "high": 0.6757892857142858,
@@ -97,14 +97,17 @@
       "expires": 1792576279,
       "high": 0.0014630803571428572,
       "low": 0.0013858839285714286,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1792575292,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "IRYS-USDT-SWAP": {
       "break_at": 1792568880,
       "break_late_skipped": true,
       "break_price": 0.01483,
       "category": "PUMP",
-      "checked_through": 1792573140,
+      "checked_through": 1792575240,
       "created": 1792568154,
       "expires": 1792589754,
       "high": 0.015235892857142858,
@@ -121,7 +124,7 @@
       "break_late_skipped": true,
       "break_price": 0.3467,
       "category": "EARLY",
-      "checked_through": 1792573140,
+      "checked_through": 1792575240,
       "created": 1792565544,
       "expires": 1792587144,
       "high": 0.35250440000000005,
@@ -135,7 +138,7 @@
     },
     "PARTI-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792573140,
+      "checked_through": 1792575240,
       "created": 1792570641,
       "expires": 1792592241,
       "high": 0.040840714285714286,
@@ -148,7 +151,7 @@
     },
     "RLS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792573140,
+      "checked_through": 1792575240,
       "created": 1792565544,
       "expires": 1792587144,
       "high": 0.0019013892857142859,
