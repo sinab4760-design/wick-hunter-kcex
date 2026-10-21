@@ -72,7 +72,7 @@
   "zones": {
     "ATH-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792586400,
+      "checked_through": 1792589100,
       "created": 1792577563,
       "expires": 1792599163,
       "high": 0.006430553571428572,
@@ -85,28 +85,11 @@
     },
     "DOOD-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1792577563,
-      "expires": 1792599163,
-      "high": 0.0032694785714285713,
-      "low": 0.0031065214285714285,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792581728,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ENSO-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1792586400,
-      "created": 1792565544,
-      "expires": 1792587144,
-      "high": 0.6757892857142858,
-      "low": 0.6702107142857143,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792572060,
-      "watch_at": 1792565520,
-      "watch_observed_at": 1792565554,
-      "watch_sent_at": 1792565558,
-      "watch_version": 8
+      "created": 1792589130,
+      "expires": 1792610730,
+      "high": 0.005401214285714286,
+      "low": 0.005085357142857142,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "IOST-USDT-SWAP": {
       "category": "PUMP",
@@ -114,14 +97,17 @@
       "expires": 1792599163,
       "high": 0.001719469642857143,
       "low": 0.0016358460714285717,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1792589133,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "IRYS-USDT-SWAP": {
       "break_at": 1792568880,
       "break_late_skipped": true,
       "break_price": 0.01483,
       "category": "PUMP",
-      "checked_through": 1792586400,
+      "checked_through": 1792589100,
       "created": 1792568154,
       "expires": 1792589754,
       "high": 0.015235892857142858,
@@ -133,26 +119,12 @@
       "watch_sent_at": 1792568171,
       "watch_version": 8
     },
-    "MET-USDT-SWAP": {
-      "break_at": 1792567440,
-      "break_late_skipped": true,
-      "break_price": 0.3467,
-      "category": "EARLY",
-      "checked_through": 1792586400,
-      "created": 1792565544,
-      "expires": 1792587144,
-      "high": 0.35250440000000005,
-      "low": 0.3496956,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792566180,
-      "watch_at": 1792565520,
-      "watch_observed_at": 1792565556,
-      "watch_sent_at": 1792565559,
-      "watch_version": 8
-    },
     "PARTI-USDT-SWAP": {
+      "break_at": 1792588200,
+      "break_late_skipped": true,
+      "break_price": 0.03921,
       "category": "PUMP",
-      "checked_through": 1792586400,
+      "checked_through": 1792589100,
       "created": 1792570641,
       "expires": 1792592241,
       "high": 0.040840714285714286,
