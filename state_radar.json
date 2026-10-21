@@ -72,7 +72,7 @@
   "zones": {
     "ATH-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792583940,
+      "checked_through": 1792586400,
       "created": 1792577563,
       "expires": 1792599163,
       "high": 0.006430553571428572,
@@ -96,7 +96,7 @@
     },
     "ENSO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792583940,
+      "checked_through": 1792586400,
       "created": 1792565544,
       "expires": 1792587144,
       "high": 0.6757892857142858,
@@ -121,7 +121,7 @@
       "break_late_skipped": true,
       "break_price": 0.01483,
       "category": "PUMP",
-      "checked_through": 1792583940,
+      "checked_through": 1792586400,
       "created": 1792568154,
       "expires": 1792589754,
       "high": 0.015235892857142858,
@@ -138,7 +138,7 @@
       "break_late_skipped": true,
       "break_price": 0.3467,
       "category": "EARLY",
-      "checked_through": 1792583940,
+      "checked_through": 1792586400,
       "created": 1792565544,
       "expires": 1792587144,
       "high": 0.35250440000000005,
@@ -152,7 +152,7 @@
     },
     "PARTI-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792583940,
+      "checked_through": 1792586400,
       "created": 1792570641,
       "expires": 1792592241,
       "high": 0.040840714285714286,
@@ -162,20 +162,6 @@
       "watch_at": 1792573140,
       "watch_observed_at": 1792573180,
       "watch_sent_at": 1792573193,
-      "watch_version": 8
-    },
-    "RLS-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1792583940,
-      "created": 1792565544,
-      "expires": 1792587144,
-      "high": 0.0019013892857142859,
-      "low": 0.0018826107142857142,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792567920,
-      "watch_at": 1792565520,
-      "watch_observed_at": 1792565553,
-      "watch_sent_at": 1792565558,
       "watch_version": 8
     }
   }
