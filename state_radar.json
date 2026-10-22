@@ -30,7 +30,7 @@
       "break_late_skipped": true,
       "break_price": 0.03105,
       "category": "PUMP",
-      "checked_through": 1792698840,
+      "checked_through": 1792700640,
       "created": 1792681182,
       "expires": 1792702782,
       "high": 0.033424392857142854,
@@ -41,17 +41,6 @@
       "watch_observed_at": 1792681186,
       "watch_sent_at": 1792681189,
       "watch_version": 8
-    },
-    "AXIS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792678828,
-      "expires": 1792700428,
-      "high": 0.2953435714285714,
-      "low": 0.2882564285714286,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792681183,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "DNA-USDT-SWAP": {
       "category": "PUMP",
@@ -91,7 +80,7 @@
       "break_late_skipped": true,
       "break_price": 0.000491,
       "category": "EARLY",
-      "checked_through": 1792698840,
+      "checked_through": 1792700640,
       "created": 1792685628,
       "expires": 1792707228,
       "high": 0.0004912674999999999,
@@ -114,20 +103,9 @@
       "spent_at": 1792689930,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "SOPH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792678828,
-      "expires": 1792700428,
-      "high": 0.00169465,
-      "low": 0.0016693499999999998,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792683434,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "TRUTH-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792698840,
+      "checked_through": 1792700640,
       "created": 1792694111,
       "expires": 1792715711,
       "high": 0.019411210714285716,
@@ -137,17 +115,6 @@
       "watch_observed_at": 1792694118,
       "watch_sent_at": 1792694119,
       "watch_version": 8
-    },
-    "YB-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792678828,
-      "expires": 1792700428,
-      "high": 0.06645578571428572,
-      "low": 0.06568421428571429,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792681186,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
