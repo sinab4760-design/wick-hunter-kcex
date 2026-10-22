@@ -45,7 +45,6 @@
     "PLUME-USDT-SWAP:WATCH:1792508339": 1792508365,
     "PONS-USDT-SWAP:WATCH:1792505943": 1792505971,
     "RAY-USDT-SWAP:WATCH:1792508339": 1792508365,
-    "RECALL-USDT-SWAP:WATCH:1792476101": 1792476118,
     "RLS-USDT-SWAP:WATCH:1792565544": 1792565558,
     "STRK-USDT-SWAP:WATCH:1792598433": 1792605017,
     "THETA-USDT-SWAP:WATCH:1792496267": 1792496279,
@@ -65,7 +64,10 @@
       "expires": 1792666717,
       "high": 0.13982535714285713,
       "low": 0.13793492857142856,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1792649295,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ESP-USDT-SWAP": {
       "category": "EARLY",
@@ -91,7 +93,7 @@
     },
     "OL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792647120,
+      "checked_through": 1792649280,
       "created": 1792632025,
       "expires": 1792653625,
       "high": 0.007087236,
