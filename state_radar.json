@@ -72,47 +72,26 @@
       "low": 0.008019024999999999,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "LIT-USDT-SWAP": {
-      "break_at": 1792608600,
-      "break_late_skipped": true,
-      "break_price": 3.9347,
+    "IRYS-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792627140,
-      "created": 1792606738,
-      "expires": 1792628338,
-      "high": 3.975076785714286,
-      "low": 3.904244642857143,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1792608120,
-      "watch_at": 1792606740,
-      "watch_observed_at": 1792606748,
-      "watch_sent_at": 1792606759,
-      "watch_version": 8
+      "created": 1792629736,
+      "expires": 1792651336,
+      "high": 0.021432,
+      "low": 0.020288,
+      "source": "HISTORICAL_PIVOT"
     },
     "TRIA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792627140,
+      "checked_through": 1792629720,
       "created": 1792609571,
       "expires": 1792631171,
       "high": 0.0028875535714285717,
       "low": 0.0028470892857142857,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1792629360,
       "watch_at": 1792613400,
       "watch_observed_at": 1792613461,
       "watch_sent_at": 1792613474,
-      "watch_version": 8
-    },
-    "ZAMA-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1792627140,
-      "created": 1792606738,
-      "expires": 1792628338,
-      "high": 0.08805357142857144,
-      "low": 0.08652928571428571,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1792606740,
-      "watch_observed_at": 1792606749,
-      "watch_sent_at": 1792606759,
       "watch_version": 8
     }
   }
