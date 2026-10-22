@@ -44,7 +44,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792708740,
+      "checked_through": 1792710600,
       "created": 1792706858,
       "expires": 1792728458,
       "high": 0.02770036,
@@ -68,7 +68,7 @@
     },
     "TRUTH-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792708740,
+      "checked_through": 1792710600,
       "created": 1792694111,
       "expires": 1792715711,
       "high": 0.019411210714285716,
