@@ -25,23 +25,6 @@
     "ZAMA-USDT-SWAP:WATCH:1792606738": 1792606759
   },
   "zones": {
-    "AKE-USDT-SWAP": {
-      "break_at": 1792684140,
-      "break_late_skipped": true,
-      "break_price": 0.03105,
-      "category": "PUMP",
-      "checked_through": 1792700640,
-      "created": 1792681182,
-      "expires": 1792702782,
-      "high": 0.033424392857142854,
-      "low": 0.03223560714285714,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792683660,
-      "watch_at": 1792681140,
-      "watch_observed_at": 1792681186,
-      "watch_sent_at": 1792681189,
-      "watch_version": 8
-    },
     "DNA-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792688057,
@@ -64,23 +47,12 @@
       "spent_at": 1792683436,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "IRYS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792681182,
-      "expires": 1792702782,
-      "high": 0.022408821428571427,
-      "low": 0.021531178571428573,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792681187,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "MEW-USDT-SWAP": {
       "break_at": 1792692000,
       "break_late_skipped": true,
       "break_price": 0.000491,
       "category": "EARLY",
-      "checked_through": 1792700640,
+      "checked_through": 1792702800,
       "created": 1792685628,
       "expires": 1792707228,
       "high": 0.0004912674999999999,
@@ -105,7 +77,7 @@
     },
     "TRUTH-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792700640,
+      "checked_through": 1792702800,
       "created": 1792694111,
       "expires": 1792715711,
       "high": 0.019411210714285716,
