@@ -1,7 +1,6 @@
 {
   "seen": {
     "AERO-USDT-SWAP:WATCH:1792508339": 1792508364,
-    "AKE-USDT-SWAP:WATCH:1792478507": 1792478525,
     "APR-USDT-SWAP:WATCH:1792494234": 1792494244,
     "AR-USDT-SWAP:WATCH:1792505943": 1792505973,
     "ARKM-USDT-SWAP:WATCH:1792505943": 1792505970,
@@ -93,7 +92,7 @@
     },
     "OL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792649280,
+      "checked_through": 1792652040,
       "created": 1792632025,
       "expires": 1792653625,
       "high": 0.007087236,
