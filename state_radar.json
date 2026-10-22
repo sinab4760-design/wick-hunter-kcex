@@ -44,7 +44,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792706820,
+      "checked_through": 1792708740,
       "created": 1792706858,
       "expires": 1792728458,
       "high": 0.02770036,
@@ -53,23 +53,6 @@
       "watch_at": 1792706820,
       "watch_observed_at": 1792706862,
       "watch_sent_at": 1792706864,
-      "watch_version": 8
-    },
-    "MEW-USDT-SWAP": {
-      "break_at": 1792692000,
-      "break_late_skipped": true,
-      "break_price": 0.000491,
-      "category": "EARLY",
-      "checked_through": 1792706820,
-      "created": 1792685628,
-      "expires": 1792707228,
-      "high": 0.0004912674999999999,
-      "low": 0.00048593249999999996,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792690320,
-      "watch_at": 1792685580,
-      "watch_observed_at": 1792685632,
-      "watch_sent_at": 1792685633,
       "watch_version": 8
     },
     "PARTI-USDT-SWAP": {
@@ -85,7 +68,7 @@
     },
     "TRUTH-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792706820,
+      "checked_through": 1792708740,
       "created": 1792694111,
       "expires": 1792715711,
       "high": 0.019411210714285716,
