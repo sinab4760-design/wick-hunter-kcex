@@ -87,16 +87,13 @@
       "spent_at": 1792647135,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "LIGHT-USDT-SWAP": {
+    "MASK-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1792638527,
-      "expires": 1792660127,
-      "high": 0.22430964285714286,
-      "low": 0.22229035714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792638532,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1792662134,
+      "expires": 1792683734,
+      "high": 0.4483542857142857,
+      "low": 0.4446457142857143,
+      "source": "HISTORICAL_PIVOT"
     },
     "TRIA-USDT-SWAP": {
       "category": "PUMP",
