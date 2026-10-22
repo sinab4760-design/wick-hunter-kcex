@@ -68,6 +68,14 @@
       "spent_at": 1792649295,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "COAI-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792657315,
+      "expires": 1792678915,
+      "high": 0.26424357142857147,
+      "low": 0.2615564285714286,
+      "source": "HISTORICAL_PIVOT"
+    },
     "ESP-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792647129,
