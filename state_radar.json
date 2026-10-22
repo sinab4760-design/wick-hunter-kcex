@@ -88,12 +88,12 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "MASK-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792662134,
-      "expires": 1792683734,
-      "high": 0.4483542857142857,
-      "low": 0.4446457142857143,
-      "source": "HISTORICAL_PIVOT"
+      "category": "PUMP",
+      "created": 1792664373,
+      "expires": 1792685973,
+      "high": 0.5411089285714286,
+      "low": 0.5313582142857143,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "TRIA-USDT-SWAP": {
       "category": "PUMP",
