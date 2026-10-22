@@ -95,6 +95,14 @@
       "low": 0.5313582142857143,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
+    "PROS-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792666626,
+      "expires": 1792688226,
+      "high": 0.6261578571428571,
+      "low": 0.6206421428571428,
+      "source": "HISTORICAL_PIVOT"
+    },
     "TRIA-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792647129,
