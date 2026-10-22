@@ -59,6 +59,17 @@
     "ZRO-USDT-SWAP:WATCH:1792505943": 1792508363
   },
   "zones": {
+    "ARKM-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792642755,
+      "expires": 1792664355,
+      "high": 0.13085517857142856,
+      "low": 0.12944482142857142,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792642762,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "BILL-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792623626,
@@ -80,7 +91,7 @@
     },
     "OL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792640700,
+      "checked_through": 1792642740,
       "created": 1792632025,
       "expires": 1792653625,
       "high": 0.007087236,
