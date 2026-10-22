@@ -90,19 +90,6 @@
       "spent_at": 1792638532,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "OL-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1792652040,
-      "created": 1792632025,
-      "expires": 1792653625,
-      "high": 0.007087236,
-      "low": 0.007030764,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1792632000,
-      "watch_observed_at": 1792632033,
-      "watch_sent_at": 1792632036,
-      "watch_version": 8
-    },
     "TRIA-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792647129,
