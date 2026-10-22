@@ -42,6 +42,7 @@
     "LIT-USDT-SWAP:WATCH:1792606738": 1792606759,
     "MET-USDT-SWAP:WATCH:1792565544": 1792565559,
     "MEW-USDT-SWAP:WATCH:1792543576": 1792545869,
+    "OL-USDT-SWAP:WATCH:1792632025": 1792632036,
     "OP-USDT-SWAP:WATCH:1792508339": 1792508369,
     "PARTI-USDT-SWAP:WATCH:1792552324": 1792565557,
     "PARTI-USDT-SWAP:WATCH:1792570641": 1792573193,
@@ -80,18 +81,17 @@
       "low": 0.020288,
       "source": "HISTORICAL_PIVOT"
     },
-    "TRIA-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1792629720,
-      "created": 1792609571,
-      "expires": 1792631171,
-      "high": 0.0028875535714285717,
-      "low": 0.0028470892857142857,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1792629360,
-      "watch_at": 1792613400,
-      "watch_observed_at": 1792613461,
-      "watch_sent_at": 1792613474,
+    "OL-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792632000,
+      "created": 1792632025,
+      "expires": 1792653625,
+      "high": 0.007087236,
+      "low": 0.007030764,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792632000,
+      "watch_observed_at": 1792632033,
+      "watch_sent_at": 1792632036,
       "watch_version": 8
     }
   }
