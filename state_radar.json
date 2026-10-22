@@ -27,7 +27,7 @@
   "zones": {
     "AKE-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792681140,
+      "checked_through": 1792683420,
       "created": 1792681182,
       "expires": 1792702782,
       "high": 0.033424392857142854,
@@ -47,6 +47,17 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1792681183,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "INIT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792683430,
+      "expires": 1792705030,
+      "high": 0.13164257142857144,
+      "low": 0.13029742857142856,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792683436,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "IRYS-USDT-SWAP": {
@@ -85,7 +96,10 @@
       "expires": 1792700428,
       "high": 0.00169465,
       "low": 0.0016693499999999998,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792683434,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "YB-USDT-SWAP": {
       "category": "EARLY",
