@@ -80,34 +80,12 @@
       "spent_at": 1792870885,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "AZTEC-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792849938,
-      "expires": 1792871538,
-      "high": 0.017420928571428573,
-      "low": 0.01725907142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792849952,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "BTW-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792849938,
-      "expires": 1792871538,
-      "high": 1.7976528571428572,
-      "low": 1.773547142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792849951,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "DNA-USDT-SWAP": {
       "break_at": 1792864920,
       "break_late_skipped": true,
       "break_price": 0.2121,
       "category": "PUMP",
-      "checked_through": 1792870860,
+      "checked_through": 1792872120,
       "created": 1792860483,
       "expires": 1792882083,
       "high": 0.2245682142857143,
@@ -143,7 +121,7 @@
     },
     "MASK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792870860,
+      "checked_through": 1792872120,
       "created": 1792870877,
       "expires": 1792892477,
       "high": 0.42580892857142855,
@@ -154,14 +132,23 @@
       "watch_sent_at": 1792870886,
       "watch_version": 8
     },
+    "MEW-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792872172,
+      "expires": 1792893772,
+      "high": 0.0004895103571428571,
+      "low": 0.0004844896428571429,
+      "source": "HISTORICAL_PIVOT"
+    },
     "RAY-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792870860,
+      "checked_through": 1792872120,
       "created": 1792870877,
       "expires": 1792892477,
       "high": 1.8503117857142857,
       "low": 1.8348882142857144,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792872120,
       "watch_at": 1792870860,
       "watch_observed_at": 1792870884,
       "watch_sent_at": 1792870887,
