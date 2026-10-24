@@ -57,7 +57,7 @@
       "break_late_skipped": true,
       "break_price": 0.14917,
       "category": "PUMP",
-      "checked_through": 1792828740,
+      "checked_through": 1792830600,
       "created": 1792821976,
       "expires": 1792843576,
       "high": 0.15308614285714287,
@@ -80,13 +80,32 @@
       "spent_at": 1792820141,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "ORDER-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792830647,
+      "expires": 1792852247,
+      "high": 0.06165517857142857,
+      "low": 0.05902696428571428,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792821976,
       "expires": 1792843576,
       "high": 0.0026589214285714286,
       "low": 0.0026370785714285717,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792830649,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "ZORA-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792830647,
+      "expires": 1792852247,
+      "high": 0.007816142857142857,
+      "low": 0.0076451714285714276,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     }
   }
 }
