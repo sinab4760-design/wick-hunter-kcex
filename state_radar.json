@@ -65,7 +65,7 @@
   "zones": {
     "AGLD-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792875600,
+      "checked_through": 1792877340,
       "created": 1792875613,
       "expires": 1792897213,
       "high": 0.17820999999999998,
@@ -116,7 +116,7 @@
       "break_late_skipped": true,
       "break_price": 0.2121,
       "category": "PUMP",
-      "checked_through": 1792875600,
+      "checked_through": 1792877340,
       "created": 1792860483,
       "expires": 1792882083,
       "high": 0.2245682142857143,
@@ -149,7 +149,7 @@
     },
     "MASK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792875600,
+      "checked_through": 1792877340,
       "created": 1792870877,
       "expires": 1792892477,
       "high": 0.42580892857142855,
@@ -165,7 +165,7 @@
       "break_late_skipped": true,
       "break_price": 1.8301,
       "category": "EARLY",
-      "checked_through": 1792875600,
+      "checked_through": 1792877340,
       "created": 1792870877,
       "expires": 1792892477,
       "high": 1.8503117857142857,
@@ -190,7 +190,7 @@
     },
     "UB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792875600,
+      "checked_through": 1792877340,
       "created": 1792873915,
       "expires": 1792895515,
       "high": 0.12735739999999998,
