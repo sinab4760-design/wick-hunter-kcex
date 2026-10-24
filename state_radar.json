@@ -49,11 +49,11 @@
   "zones": {
     "AXIS-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1792799291,
-      "expires": 1792820891,
-      "high": 0.3067035714285714,
-      "low": 0.2982964285714286,
-      "source": "HISTORICAL_PIVOT"
+      "created": 1792800556,
+      "expires": 1792822156,
+      "high": 0.36089107142857146,
+      "low": 0.3490817857142857,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "BSB-USDT-SWAP": {
       "category": "EARLY",
@@ -62,17 +62,6 @@
       "high": 0.10058278571428572,
       "low": 0.09965721428571428,
       "source": "HISTORICAL_PIVOT"
-    },
-    "BTW-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792777856,
-      "expires": 1792799456,
-      "high": 1.8314485714285715,
-      "low": 1.7725514285714286,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792777874,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CP-USDT-SWAP": {
       "category": "EARLY",
