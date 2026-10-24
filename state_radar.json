@@ -54,13 +54,24 @@
     "ZORA-USDT-SWAP:WATCH:1792766843": 1792766864
   },
   "zones": {
+    "AGLD-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792834466,
+      "expires": 1792856066,
+      "high": 0.17479640000000002,
+      "low": 0.1734036,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BABY-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792832603,
       "expires": 1792854203,
       "high": 0.014000082142857142,
       "low": 0.013841917857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792834467,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "BLEND-USDT-SWAP": {
       "category": "PUMP",
@@ -75,7 +86,7 @@
       "break_late_skipped": true,
       "break_price": 0.14917,
       "category": "PUMP",
-      "checked_through": 1792832580,
+      "checked_through": 1792834440,
       "created": 1792821976,
       "expires": 1792843576,
       "high": 0.15308614285714287,
@@ -88,13 +99,17 @@
       "watch_version": 8
     },
     "ME-USDT-SWAP": {
+      "break_at": 1792833420,
+      "break_late_skipped": true,
+      "break_price": 0.06406,
       "category": "EARLY",
-      "checked_through": 1792832580,
+      "checked_through": 1792834440,
       "created": 1792832603,
       "expires": 1792854203,
       "high": 0.06386444,
       "low": 0.06335556,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792832700,
       "watch_at": 1792832580,
       "watch_observed_at": 1792832615,
       "watch_sent_at": 1792832616,
@@ -113,10 +128,10 @@
     },
     "ORDER-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1792830647,
-      "expires": 1792852247,
-      "high": 0.06165517857142857,
-      "low": 0.05902696428571428,
+      "created": 1792834466,
+      "expires": 1792856066,
+      "high": 0.08859839285714285,
+      "low": 0.08301432142857143,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "TRIA-USDT-SWAP": {
@@ -132,16 +147,11 @@
     },
     "WET-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792832580,
-      "created": 1792832603,
-      "expires": 1792854203,
-      "high": 0.06385446428571429,
-      "low": 0.06254310714285713,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1792832580,
-      "watch_observed_at": 1792832608,
-      "watch_sent_at": 1792832616,
-      "watch_version": 8
+      "created": 1792834466,
+      "expires": 1792856066,
+      "high": 0.07893375000000001,
+      "low": 0.07577125,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "ZORA-USDT-SWAP": {
       "category": "PUMP",
