@@ -31,6 +31,7 @@
     "LAYER-USDT-SWAP:WATCH:1792773632": 1792773655,
     "LIGHT-USDT-SWAP:WATCH:1792714036": 1792714042,
     "LIGHT-USDT-SWAP:WATCH:1792836342": 1792836360,
+    "MASK-USDT-SWAP:WATCH:1792870877": 1792870886,
     "ME-USDT-SWAP:WATCH:1792771402": 1792771421,
     "ME-USDT-SWAP:WATCH:1792832603": 1792832616,
     "MEGA-USDT-SWAP:WATCH:1792725549": 1792725573,
@@ -44,6 +45,7 @@
     "PEOPLE-USDT-SWAP:WATCH:1792746455": 1792746473,
     "PEPE-USDT-SWAP:WATCH:1792746455": 1792746472,
     "RAVE-USDT-SWAP:WATCH:1792734147": 1792734165,
+    "RAY-USDT-SWAP:WATCH:1792870877": 1792870887,
     "SAPIEN-USDT-SWAP:WATCH:1792836342": 1792836360,
     "SHELL-USDT-SWAP:WATCH:1792803691": 1792803708,
     "SOON-USDT-SWAP:WATCH:1792761753": 1792761773,
@@ -67,15 +69,15 @@
       "low": 0.003939578571428571,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "APR-USDT-SWAP": {
+    "ARX-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1792848028,
-      "expires": 1792869628,
-      "high": 0.026635964285714287,
-      "low": 0.026324035714285713,
+      "created": 1792870877,
+      "expires": 1792892477,
+      "high": 0.21288821428571428,
+      "low": 0.2107117857142857,
       "source": "HISTORICAL_PIVOT",
       "spent": true,
-      "spent_at": 1792848040,
+      "spent_at": 1792870885,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "AZTEC-USDT-SWAP": {
@@ -105,7 +107,7 @@
       "break_late_skipped": true,
       "break_price": 0.2121,
       "category": "PUMP",
-      "checked_through": 1792869060,
+      "checked_through": 1792870860,
       "created": 1792860483,
       "expires": 1792882083,
       "high": 0.2245682142857143,
@@ -138,6 +140,32 @@
       "spent": true,
       "spent_at": 1792863833,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "MASK-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792870860,
+      "created": 1792870877,
+      "expires": 1792892477,
+      "high": 0.42580892857142855,
+      "low": 0.4223910714285714,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792870860,
+      "watch_observed_at": 1792870883,
+      "watch_sent_at": 1792870886,
+      "watch_version": 8
+    },
+    "RAY-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1792870860,
+      "created": 1792870877,
+      "expires": 1792892477,
+      "high": 1.8503117857142857,
+      "low": 1.8348882142857144,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1792870860,
+      "watch_observed_at": 1792870884,
+      "watch_sent_at": 1792870887,
+      "watch_version": 8
     }
   }
 }
