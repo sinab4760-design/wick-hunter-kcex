@@ -52,13 +52,17 @@
   },
   "zones": {
     "APR-USDT-SWAP": {
+      "break_at": 1792807200,
+      "break_late_skipped": true,
+      "break_price": 0.02585,
       "category": "EARLY",
-      "checked_through": 1792806180,
+      "checked_through": 1792808040,
       "created": 1792806221,
       "expires": 1792827821,
       "high": 0.026562857142857145,
       "low": 0.025997142857142858,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1792806780,
       "watch_at": 1792806180,
       "watch_observed_at": 1792806232,
       "watch_sent_at": 1792806236,
@@ -77,7 +81,7 @@
       "break_late_skipped": true,
       "break_price": 0.10011,
       "category": "EARLY",
-      "checked_through": 1792806180,
+      "checked_through": 1792808040,
       "created": 1792799291,
       "expires": 1792820891,
       "high": 0.10058278571428572,
@@ -105,7 +109,7 @@
       "break_late_skipped": true,
       "break_price": 0.1564,
       "category": "EARLY",
-      "checked_through": 1792806180,
+      "checked_through": 1792808040,
       "created": 1792803691,
       "expires": 1792825291,
       "high": 0.1596692857142857,
@@ -171,7 +175,7 @@
     },
     "ORDER-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792806180,
+      "checked_through": 1792808040,
       "created": 1792803691,
       "expires": 1792825291,
       "high": 0.0363425,
@@ -187,7 +191,7 @@
       "break_late_skipped": true,
       "break_price": 0.02282,
       "category": "EARLY",
-      "checked_through": 1792806180,
+      "checked_through": 1792808040,
       "created": 1792803691,
       "expires": 1792825291,
       "high": 0.022971214285714286,
@@ -216,14 +220,6 @@
       "expires": 1792825291,
       "high": 0.06439496428571428,
       "low": 0.06366503571428572,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "ZORA-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792803691,
-      "expires": 1792825291,
-      "high": 0.006910271428571429,
-      "low": 0.006803728571428571,
       "source": "HISTORICAL_PIVOT"
     }
   }
