@@ -59,17 +59,6 @@
     "ZORA-USDT-SWAP:WATCH:1792830647": 1792836360
   },
   "zones": {
-    "AGLD-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792834466,
-      "expires": 1792856066,
-      "high": 0.17479640000000002,
-      "low": 0.1734036,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792851437,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "APR-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792848028,
@@ -108,7 +97,7 @@
       "break_late_skipped": true,
       "break_price": 0.08643,
       "category": "PUMP",
-      "checked_through": 1792854780,
+      "checked_through": 1792856880,
       "created": 1792836342,
       "expires": 1792857942,
       "high": 0.09284892857142857,
@@ -142,6 +131,14 @@
       "spent_at": 1792854829,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "JELLYJELLY-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792856930,
+      "expires": 1792878530,
+      "high": 0.050669785714285716,
+      "low": 0.05025021428571428,
+      "source": "HISTORICAL_PIVOT"
+    },
     "KAT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792841792,
@@ -163,7 +160,7 @@
       "break_late_skipped": true,
       "break_price": 0.2607,
       "category": "PUMP",
-      "checked_through": 1792854780,
+      "checked_through": 1792856880,
       "created": 1792836342,
       "expires": 1792857942,
       "high": 0.27027500000000004,
@@ -197,29 +194,12 @@
       "spent_at": 1792841798,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ORDER-USDT-SWAP": {
-      "break_at": 1792846200,
-      "break_late_skipped": true,
-      "break_price": 0.07823,
-      "category": "PUMP",
-      "checked_through": 1792854780,
-      "created": 1792834466,
-      "expires": 1792856066,
-      "high": 0.08859839285714285,
-      "low": 0.08301432142857143,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1792845960,
-      "watch_at": 1792845840,
-      "watch_observed_at": 1792845871,
-      "watch_sent_at": 1792845882,
-      "watch_version": 8
-    },
     "SAPIEN-USDT-SWAP": {
       "break_at": 1792847700,
       "break_late_skipped": true,
       "break_price": 0.0574,
       "category": "EARLY",
-      "checked_through": 1792854780,
+      "checked_through": 1792856880,
       "created": 1792836342,
       "expires": 1792857942,
       "high": 0.05841272,
@@ -238,17 +218,6 @@
       "high": 0.06766803571428572,
       "low": 0.06505239285714286,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "WET-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792834466,
-      "expires": 1792856066,
-      "high": 0.07893375000000001,
-      "low": 0.07577125,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1792836348,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
