@@ -105,7 +105,7 @@
     },
     "DNA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1792861920,
+      "checked_through": 1792863780,
       "created": 1792860483,
       "expires": 1792882083,
       "high": 0.2245682142857143,
@@ -133,25 +133,9 @@
       "expires": 1792878530,
       "high": 0.050669785714285716,
       "low": 0.05025021428571428,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "KAT-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792841792,
-      "expires": 1792863392,
-      "high": 0.006328785714285714,
-      "low": 0.006090242857142856,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "OFC-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792841792,
-      "expires": 1792863392,
-      "high": 0.006708321428571429,
-      "low": 0.006579935714285715,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "source": "HISTORICAL_PIVOT",
       "spent": true,
-      "spent_at": 1792841798,
+      "spent_at": 1792863833,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
