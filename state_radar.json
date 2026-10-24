@@ -52,29 +52,12 @@
     "ZORA-USDT-SWAP:WATCH:1792766843": 1792766864
   },
   "zones": {
-    "APR-USDT-SWAP": {
-      "break_at": 1792807200,
-      "break_late_skipped": true,
-      "break_price": 0.02585,
-      "category": "EARLY",
-      "checked_through": 1792826640,
-      "created": 1792806221,
-      "expires": 1792827821,
-      "high": 0.026562857142857145,
-      "low": 0.025997142857142858,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792806780,
-      "watch_at": 1792806180,
-      "watch_observed_at": 1792806232,
-      "watch_sent_at": 1792806236,
-      "watch_version": 8
-    },
     "INIT-USDT-SWAP": {
       "break_at": 1792825440,
       "break_late_skipped": true,
       "break_price": 0.14917,
       "category": "PUMP",
-      "checked_through": 1792826640,
+      "checked_through": 1792828740,
       "created": 1792821976,
       "expires": 1792843576,
       "high": 0.15308614285714287,
@@ -85,14 +68,6 @@
       "watch_observed_at": 1792821985,
       "watch_sent_at": 1792821991,
       "watch_version": 8
-    },
-    "IRYS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792806221,
-      "expires": 1792827821,
-      "high": 0.16492446428571428,
-      "low": 0.15107310714285715,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "O-USDT-SWAP": {
       "category": "EARLY",
