@@ -62,7 +62,10 @@
       "expires": 1792971099,
       "high": 0.04546321428571429,
       "low": 0.042516785714285715,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792968262,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
@@ -77,7 +80,7 @@
       "break_late_skipped": true,
       "break_price": 23.94,
       "category": "PUMP",
-      "checked_through": 1792966380,
+      "checked_through": 1792968240,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 25.208214285714288,
@@ -113,7 +116,7 @@
     },
     "MOVE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792966380,
+      "checked_through": 1792968240,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 0.0072508880000000005,
@@ -123,17 +126,6 @@
       "watch_observed_at": 1792949521,
       "watch_sent_at": 1792949526,
       "watch_version": 8
-    },
-    "OFC-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792945846,
-      "expires": 1792967446,
-      "high": 0.006746839285714286,
-      "low": 0.006597160714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792947769,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PIEVERSE-USDT-SWAP": {
       "category": "EARLY",
@@ -146,20 +138,12 @@
       "spent_at": 1792949524,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "RLS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792945846,
-      "expires": 1792967446,
-      "high": 0.0037126249999999998,
-      "low": 0.0035316749999999997,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
     "SENT-USDT-SWAP": {
       "break_at": 1792950900,
       "break_late_skipped": true,
       "break_price": 0.02107,
       "category": "EARLY",
-      "checked_through": 1792966380,
+      "checked_through": 1792968240,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 0.021278785714285715,
