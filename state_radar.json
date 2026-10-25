@@ -68,17 +68,6 @@
       "spent_at": 1792899323,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "DNA-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792895200,
-      "expires": 1792916800,
-      "high": 0.22427357142857143,
-      "low": 0.21872642857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792895211,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "RLS-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792905467,
