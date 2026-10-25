@@ -37,7 +37,6 @@
     "PENGU-USDT-SWAP:WATCH:1792746455": 1792746472,
     "PEOPLE-USDT-SWAP:WATCH:1792746455": 1792746473,
     "PEPE-USDT-SWAP:WATCH:1792746455": 1792746472,
-    "RAVE-USDT-SWAP:WATCH:1792734147": 1792734165,
     "RAY-USDT-SWAP:WATCH:1792870877": 1792870887,
     "SAPIEN-USDT-SWAP:WATCH:1792836342": 1792836360,
     "SHELL-USDT-SWAP:WATCH:1792803691": 1792803708,
@@ -55,21 +54,12 @@
   },
   "zones": {
     "APR-USDT-SWAP": {
-      "break_at": 1792905180,
-      "break_late_skipped": true,
-      "break_price": 0.04663,
       "category": "PUMP",
-      "checked_through": 1792905420,
-      "created": 1792901539,
-      "expires": 1792923139,
-      "high": 0.04487432142857143,
-      "low": 0.04310567857142857,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1792904160,
-      "watch_at": 1792903800,
-      "watch_observed_at": 1792903805,
-      "watch_sent_at": 1792903821,
-      "watch_version": 8
+      "created": 1792907519,
+      "expires": 1792929119,
+      "high": 0.060844464285714286,
+      "low": 0.056981107142857146,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "BASED-USDT-SWAP": {
       "category": "EARLY",
@@ -84,7 +74,7 @@
     },
     "BONK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792905420,
+      "checked_through": 1792907460,
       "created": 1792886579,
       "expires": 1792908179,
       "high": 3.2278600000000002e-06,
@@ -100,7 +90,7 @@
       "break_late_skipped": true,
       "break_price": 0.04582,
       "category": "EARLY",
-      "checked_through": 1792905420,
+      "checked_through": 1792907520,
       "created": 1792886579,
       "expires": 1792908179,
       "high": 0.04663810714285714,
@@ -111,17 +101,6 @@
       "watch_observed_at": 1792886591,
       "watch_sent_at": 1792886600,
       "watch_version": 8
-    },
-    "DATA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792885374,
-      "expires": 1792906974,
-      "high": 0.16062107142857143,
-      "low": 0.15897892857142856,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792885389,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "DNA-USDT-SWAP": {
       "category": "PUMP",
@@ -150,7 +129,7 @@
       "break_late_skipped": true,
       "break_price": 0.6731,
       "category": "EARLY",
-      "checked_through": 1792905420,
+      "checked_through": 1792907460,
       "created": 1792886579,
       "expires": 1792908179,
       "high": 0.6877782142857143,
@@ -184,14 +163,6 @@
       "spent_at": 1792891274,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ORDER-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1792885374,
-      "expires": 1792906974,
-      "high": 0.07921239285714286,
-      "low": 0.07476760714285714,
-      "source": "HISTORICAL_PIVOT"
-    },
     "PEOPLE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792888995,
@@ -217,7 +188,10 @@
       "expires": 1792923139,
       "high": 0.3613396,
       "low": 0.3584604,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792907526,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ZETA-USDT-SWAP": {
       "category": "EARLY",
