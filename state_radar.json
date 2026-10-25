@@ -53,17 +53,6 @@
       "low": 0.056981107142857146,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "BASED-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792899309,
-      "expires": 1792920909,
-      "high": 0.05402053571428571,
-      "low": 0.053419464285714285,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792899323,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "RLS-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792905467,
