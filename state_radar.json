@@ -97,6 +97,25 @@
       "spent": true,
       "spent_at": 1792907526,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "TRIA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792914526,
+      "expires": 1792936126,
+      "high": 0.002675164285714286,
+      "low": 0.0026448357142857142,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "YB-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792914526,
+      "expires": 1792936126,
+      "high": 0.06564152,
+      "low": 0.06511847999999999,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792914533,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
