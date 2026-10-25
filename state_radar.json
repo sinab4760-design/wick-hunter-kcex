@@ -60,7 +60,10 @@
       "expires": 1792944922,
       "high": 0.2597417857142857,
       "low": 0.2524582142857143,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792925397,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "RLS-USDT-SWAP": {
       "category": "PUMP",
@@ -72,7 +75,7 @@
     },
     "SPX-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792923300,
+      "checked_through": 1792925340,
       "created": 1792923322,
       "expires": 1792944922,
       "high": 0.3715071428571428,
