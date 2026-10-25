@@ -104,7 +104,10 @@
       "expires": 1792936126,
       "high": 0.002675164285714286,
       "low": 0.0026448357142857142,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792915923,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "YB-USDT-SWAP": {
       "category": "EARLY",
