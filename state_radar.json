@@ -79,39 +79,6 @@
       "spent_at": 1792895211,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "GAS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792888995,
-      "expires": 1792910595,
-      "high": 1.2318076,
-      "low": 1.2219924000000002,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792891272,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ONT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792888995,
-      "expires": 1792910595,
-      "high": 0.05209756,
-      "low": 0.051682439999999996,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792891274,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "PEOPLE-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792888995,
-      "expires": 1792910595,
-      "high": 0.007820156,
-      "low": 0.007757844,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792889012,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "RLS-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792905467,
@@ -129,17 +96,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1792907526,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ZETA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792888995,
-      "expires": 1792910595,
-      "high": 0.04127444,
-      "low": 0.04094556,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792891277,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
