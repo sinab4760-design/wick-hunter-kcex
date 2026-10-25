@@ -67,6 +67,14 @@
       "spent_at": 1792968262,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "AXIS-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792969645,
+      "expires": 1792991245,
+      "high": 0.3090125,
+      "low": 0.3015875,
+      "source": "HISTORICAL_PIVOT"
+    },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792949499,
@@ -80,7 +88,7 @@
       "break_late_skipped": true,
       "break_price": 23.94,
       "category": "PUMP",
-      "checked_through": 1792968240,
+      "checked_through": 1792969620,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 25.208214285714288,
@@ -103,20 +111,9 @@
       "spent_at": 1792953027,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "LIT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792947759,
-      "expires": 1792969359,
-      "high": 3.2623976,
-      "low": 3.2364024000000002,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792947777,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "MOVE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792968240,
+      "checked_through": 1792969620,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 0.0072508880000000005,
@@ -126,6 +123,17 @@
       "watch_observed_at": 1792949521,
       "watch_sent_at": 1792949526,
       "watch_version": 8
+    },
+    "ONDO-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792969645,
+      "expires": 1792991245,
+      "high": 0.4130456,
+      "low": 0.40975439999999996,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1792969655,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PIEVERSE-USDT-SWAP": {
       "category": "EARLY",
@@ -143,7 +151,7 @@
       "break_late_skipped": true,
       "break_price": 0.02107,
       "category": "EARLY",
-      "checked_through": 1792968240,
+      "checked_through": 1792969620,
       "created": 1792949499,
       "expires": 1792971099,
       "high": 0.021278785714285715,
