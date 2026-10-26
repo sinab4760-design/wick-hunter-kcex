@@ -46,7 +46,7 @@
       "break_late_skipped": true,
       "break_price": 0.09054,
       "category": "EARLY",
-      "checked_through": 1793049420,
+      "checked_through": 1793051640,
       "created": 1793037719,
       "expires": 1793059319,
       "high": 0.09177325,
@@ -57,17 +57,6 @@
       "watch_observed_at": 1793040559,
       "watch_sent_at": 1793040576,
       "watch_version": 8
-    },
-    "AEON-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.03083610714285714,
-      "low": 0.030363892857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032391,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ARX-USDT-SWAP": {
       "category": "PUMP",
@@ -80,40 +69,12 @@
       "spent_at": 1793045306,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "BEAT-USDT-SWAP": {
-      "break_at": 1793033520,
-      "break_late_skipped": true,
-      "break_price": 0.08277,
-      "category": "PUMP",
-      "checked_through": 1793049420,
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.086015,
-      "low": 0.084277,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1793032980,
-      "watch_at": 1793029200,
-      "watch_observed_at": 1793029239,
-      "watch_sent_at": 1793029255,
-      "watch_version": 8
-    },
-    "BSB-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.10234132142857143,
-      "low": 0.10129867857142856,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032393,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "DNA-USDT-SWAP": {
       "break_at": 1793038920,
       "break_late_skipped": true,
       "break_price": 0.2017,
       "category": "PUMP",
-      "checked_through": 1793049420,
+      "checked_through": 1793051640,
       "created": 1793037719,
       "expires": 1793059319,
       "high": 0.20882892857142857,
@@ -123,30 +84,6 @@
       "watch_at": 1793037720,
       "watch_observed_at": 1793037731,
       "watch_sent_at": 1793037741,
-      "watch_version": 8
-    },
-    "ETHFI-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.6454339285714286,
-      "low": 0.6381660714285715,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032394,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "FLOCK-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793049420,
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.04293503571428572,
-      "low": 0.04256496428571429,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793029200,
-      "watch_observed_at": 1793029252,
-      "watch_sent_at": 1793029256,
       "watch_version": 8
     },
     "GRVT-USDT-SWAP": {
@@ -182,60 +119,6 @@
       "spent_at": 1793037741,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "NIGHT-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1793049420,
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.042180892857142854,
-      "low": 0.04160622142857143,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1793029200,
-      "watch_observed_at": 1793029241,
-      "watch_sent_at": 1793029256,
-      "watch_version": 8
-    },
-    "PARTI-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.04096803571428572,
-      "low": 0.04011239285714286,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "PIPPIN-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.01589332,
-      "low": 0.01576668,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032397,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "PUMP-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.004421739285714286,
-      "low": 0.0043622607142857145,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032398,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "RAVE-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.14357178571428572,
-      "low": 0.14222821428571428,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032399,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "RE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793035311,
@@ -245,45 +128,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793037726,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "STRK-USDT-SWAP": {
-      "break_at": 1793046540,
-      "break_late_skipped": true,
-      "break_price": 0.04665,
-      "category": "EARLY",
-      "checked_through": 1793049420,
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 0.04741775,
-      "low": 0.04686225,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793045940,
-      "watch_at": 1793032380,
-      "watch_observed_at": 1793032401,
-      "watch_sent_at": 1793032410,
-      "watch_version": 8
-    },
-    "TRUTH-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793032390,
-      "expires": 1793053990,
-      "high": 0.020445032142857145,
-      "low": 0.020166967857142858,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032407,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "VVV-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793029234,
-      "expires": 1793050834,
-      "high": 25.899628571428572,
-      "low": 25.48037142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793032402,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
