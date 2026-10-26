@@ -103,7 +103,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792985580,
+      "checked_through": 1792988040,
       "created": 1792978396,
       "expires": 1792999996,
       "high": 0.002754932142857143,
@@ -113,6 +113,14 @@
       "watch_observed_at": 1792978403,
       "watch_sent_at": 1792978404,
       "watch_version": 8
+    },
+    "YB-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792988039,
+      "expires": 1793009639,
+      "high": 0.06553928571428572,
+      "low": 0.0648007142857143,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
