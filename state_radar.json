@@ -3,7 +3,6 @@
     "AERO-USDT-SWAP:WATCH:1792928857": 1792928871,
     "AGLD-USDT-SWAP:WATCH:1792875613": 1792875628,
     "AI-USDT-SWAP:WATCH:1792880752": 1792880768,
-    "APR-USDT-SWAP:WATCH:1792806221": 1792806236,
     "APR-USDT-SWAP:WATCH:1792901539": 1792903821,
     "BONK-USDT-SWAP:WATCH:1792886579": 1792886601,
     "BREV-USDT-SWAP:WATCH:1792836342": 1792838238,
@@ -93,7 +92,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792978380,
+      "checked_through": 1792980900,
       "created": 1792978396,
       "expires": 1792999996,
       "high": 0.002754932142857143,
@@ -103,17 +102,6 @@
       "watch_observed_at": 1792978403,
       "watch_sent_at": 1792978404,
       "watch_version": 8
-    },
-    "WCT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792956839,
-      "expires": 1792978439,
-      "high": 0.03733167857142857,
-      "low": 0.036988321428571426,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792958300,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
