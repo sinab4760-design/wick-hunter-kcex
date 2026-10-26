@@ -41,6 +41,14 @@
     "ZORA-USDT-SWAP:WATCH:1792830647": 1792836360
   },
   "zones": {
+    "APR-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1792985578,
+      "expires": 1793007178,
+      "high": 0.04277153571428571,
+      "low": 0.04060846428571428,
+      "source": "HISTORICAL_PIVOT"
+    },
     "AXIS-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792969645,
@@ -88,11 +96,14 @@
       "expires": 1792999996,
       "high": 0.0028327321428571425,
       "low": 0.0027380535714285714,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1792985582,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792983360,
+      "checked_through": 1792985580,
       "created": 1792978396,
       "expires": 1792999996,
       "high": 0.002754932142857143,
