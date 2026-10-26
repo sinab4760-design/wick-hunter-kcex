@@ -65,9 +65,17 @@
       "low": 0.04060846428571428,
       "source": "HISTORICAL_PIVOT"
     },
+    "BLEND-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793004034,
+      "expires": 1793025634,
+      "high": 0.04952553571428571,
+      "low": 0.049034464285714285,
+      "source": "HISTORICAL_PIVOT"
+    },
     "CELO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.07902484,
@@ -110,7 +118,7 @@
     },
     "LA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.060811357142857146,
@@ -122,8 +130,11 @@
       "watch_version": 8
     },
     "MET-USDT-SWAP": {
+      "break_at": 1793002020,
+      "break_late_skipped": true,
+      "break_price": 0.3059,
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.3115412,
@@ -137,7 +148,7 @@
     },
     "MEW-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792998286,
       "expires": 1793019886,
       "high": 0.0004654017857142857,
@@ -175,7 +186,7 @@
       "break_late_skipped": true,
       "break_price": 0.01667,
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.01679692,
@@ -189,7 +200,7 @@
     },
     "RIVER-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793001300,
+      "checked_through": 1793004000,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 1.05095,
@@ -200,6 +211,14 @@
       "watch_observed_at": 1792992702,
       "watch_sent_at": 1792992706,
       "watch_version": 8
+    },
+    "TIA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793004034,
+      "expires": 1793025634,
+      "high": 0.539404642857143,
+      "low": 0.5341953571428572,
+      "source": "HISTORICAL_PIVOT"
     },
     "ZBT-USDT-SWAP": {
       "category": "EARLY",
