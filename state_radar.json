@@ -68,6 +68,14 @@
       "spent_at": 1792978402,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "CHIP-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1792990565,
+      "expires": 1793012165,
+      "high": 0.04607914285714285,
+      "low": 0.04550085714285714,
+      "source": "HISTORICAL_PIVOT"
+    },
     "MMT-USDT-SWAP": {
       "category": "EARLY",
       "created": 1792978396,
@@ -103,7 +111,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1792988040,
+      "checked_through": 1792990560,
       "created": 1792978396,
       "expires": 1792999996,
       "high": 0.002754932142857143,
