@@ -45,17 +45,6 @@
     "ZORA-USDT-SWAP:WATCH:1792830647": 1792836360
   },
   "zones": {
-    "AKE-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792951121,
-      "expires": 1792972721,
-      "high": 0.03189807142857143,
-      "low": 0.031201928571428575,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792955171,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "AXIS-USDT-SWAP": {
       "category": "PUMP",
       "created": 1792969645,
@@ -63,17 +52,6 @@
       "high": 0.3090125,
       "low": 0.3015875,
       "source": "HISTORICAL_PIVOT"
-    },
-    "ETHFI-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1792951121,
-      "expires": 1792972721,
-      "high": 0.6391692857142858,
-      "low": 0.6340307142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1792953027,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ONDO-USDT-SWAP": {
       "category": "EARLY",
