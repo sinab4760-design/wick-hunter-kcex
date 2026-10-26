@@ -39,7 +39,6 @@
     "SPX-USDT-SWAP:WATCH:1792923322": 1792923330,
     "STRK-USDT-SWAP:WATCH:1793029234": 1793032410,
     "TRIA-USDT-SWAP:WATCH:1792978396": 1792978404,
-    "UB-USDT-SWAP:WATCH:1792873915": 1792873927,
     "WAL-USDT-SWAP:WATCH:1792942123": 1792942142
   },
   "zones": {
@@ -48,7 +47,7 @@
       "break_late_skipped": true,
       "break_price": 0.09054,
       "category": "EARLY",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793037719,
       "expires": 1793059319,
       "high": 0.09177325,
@@ -87,7 +86,7 @@
       "break_late_skipped": true,
       "break_price": 0.08277,
       "category": "PUMP",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793029234,
       "expires": 1793050834,
       "high": 0.086015,
@@ -115,7 +114,7 @@
       "break_late_skipped": true,
       "break_price": 0.2017,
       "category": "PUMP",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793037719,
       "expires": 1793059319,
       "high": 0.20882892857142857,
@@ -140,7 +139,7 @@
     },
     "FLOCK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793029234,
       "expires": 1793050834,
       "high": 0.04293503571428572,
@@ -150,6 +149,17 @@
       "watch_observed_at": 1793029252,
       "watch_sent_at": 1793029256,
       "watch_version": 8
+    },
+    "GRVT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793047536,
+      "expires": 1793069136,
+      "high": 0.21058057142857145,
+      "low": 0.20817942857142857,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793047551,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "KMNO-USDT-SWAP": {
       "category": "EARLY",
@@ -175,7 +185,7 @@
     },
     "NIGHT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793029234,
       "expires": 1793050834,
       "high": 0.042180892857142854,
@@ -239,13 +249,17 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "STRK-USDT-SWAP": {
+      "break_at": 1793046540,
+      "break_late_skipped": true,
+      "break_price": 0.04665,
       "category": "EARLY",
-      "checked_through": 1793045280,
+      "checked_through": 1793047500,
       "created": 1793029234,
       "expires": 1793050834,
       "high": 0.04741775,
       "low": 0.04686225,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793045940,
       "watch_at": 1793032380,
       "watch_observed_at": 1793032401,
       "watch_sent_at": 1793032410,
