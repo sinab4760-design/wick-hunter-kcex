@@ -5,7 +5,6 @@
     "AI-USDT-SWAP:WATCH:1792880752": 1792880768,
     "APR-USDT-SWAP:WATCH:1792901539": 1792903821,
     "BONK-USDT-SWAP:WATCH:1792886579": 1792886601,
-    "BREV-USDT-SWAP:WATCH:1792836342": 1792838238,
     "BSB-USDT-SWAP:WATCH:1792928857": 1792928871,
     "CAP-USDT-SWAP:WATCH:1792938494": 1792940356,
     "CELO-USDT-SWAP:WATCH:1792992695": 1792992706,
@@ -53,6 +52,14 @@
       "spent_at": 1792992703,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "AT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793012367,
+      "expires": 1793033967,
+      "high": 0.13782285714285714,
+      "low": 0.13637714285714286,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BEAT-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793006652,
@@ -63,7 +70,7 @@
     },
     "CELO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.07902484,
@@ -101,9 +108,17 @@
       "low": 0.6257089285714286,
       "source": "HISTORICAL_PIVOT"
     },
+    "KAT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793012367,
+      "expires": 1793033967,
+      "high": 0.005225803571428571,
+      "low": 0.005056639285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "LA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.060811357142857146,
@@ -116,12 +131,13 @@
     },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1793009657,
       "expires": 1793031257,
       "high": 0.038819321428571425,
       "low": 0.03848067857142857,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793009820,
       "watch_at": 1793009640,
       "watch_observed_at": 1793009674,
       "watch_sent_at": 1793009676,
@@ -144,7 +160,10 @@
       "expires": 1793028252,
       "high": 0.2824617857142857,
       "low": 0.2747382142857143,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793012373,
+      "spent_reason": "ZONE_ALREADY_TOUCHED_THIS_CANDLE"
     },
     "MERL-USDT-SWAP": {
       "category": "EARLY",
@@ -154,26 +173,9 @@
       "low": 0.026555642857142858,
       "source": "HISTORICAL_PIVOT"
     },
-    "MET-USDT-SWAP": {
-      "break_at": 1793002020,
-      "break_late_skipped": true,
-      "break_price": 0.3059,
-      "category": "EARLY",
-      "checked_through": 1793009640,
-      "created": 1792992695,
-      "expires": 1793014295,
-      "high": 0.3115412,
-      "low": 0.3090588,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793000700,
-      "watch_at": 1792992660,
-      "watch_observed_at": 1792992704,
-      "watch_sent_at": 1792992707,
-      "watch_version": 8
-    },
     "MEW-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1792998286,
       "expires": 1793019886,
       "high": 0.0004654017857142857,
@@ -220,7 +222,7 @@
       "break_late_skipped": true,
       "break_price": 0.01667,
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 0.01679692,
@@ -234,7 +236,7 @@
     },
     "RIVER-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793009640,
+      "checked_through": 1793012340,
       "created": 1792992695,
       "expires": 1793014295,
       "high": 1.05095,
@@ -245,6 +247,14 @@
       "watch_observed_at": 1792992702,
       "watch_sent_at": 1792992706,
       "watch_version": 8
+    },
+    "SOON-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793012367,
+      "expires": 1793033967,
+      "high": 0.3029403571428571,
+      "low": 0.29725964285714285,
+      "source": "HISTORICAL_PIVOT"
     },
     "SYRUP-USDT-SWAP": {
       "category": "EARLY",
