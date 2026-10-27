@@ -58,14 +58,6 @@
       "low": 0.20869028571428574,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "NIGHT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793134492,
-      "expires": 1793156092,
-      "high": 0.04106002142857143,
-      "low": 0.040705978571428575,
-      "source": "HISTORICAL_PIVOT"
-    },
     "PIEVERSE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793136539,
@@ -90,7 +82,7 @@
     },
     "UP-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793138940,
+      "checked_through": 1793141160,
       "created": 1793138953,
       "expires": 1793160553,
       "high": 0.18674285714285715,
