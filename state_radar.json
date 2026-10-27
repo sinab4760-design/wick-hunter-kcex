@@ -57,34 +57,6 @@
       "spent_at": 1793113281,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "DYDX-USDT-SWAP": {
-      "break_at": 1793114940,
-      "break_late_skipped": true,
-      "break_price": 0.10855,
-      "category": "EARLY",
-      "checked_through": 1793129400,
-      "created": 1793113276,
-      "expires": 1793134876,
-      "high": 0.1088336,
-      "low": 0.10796639999999999,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793113320,
-      "watch_at": 1793113260,
-      "watch_observed_at": 1793113297,
-      "watch_sent_at": 1793113298,
-      "watch_version": 8
-    },
-    "GRVT-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793110251,
-      "expires": 1793131851,
-      "high": 0.25143125,
-      "low": 0.24493575,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793118810,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793126947,
@@ -92,19 +64,6 @@
       "high": 0.21608857142857144,
       "low": 0.20869028571428574,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "KGEN-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793129400,
-      "created": 1793110251,
-      "expires": 1793131851,
-      "high": 0.10771167857142858,
-      "low": 0.10648832142857143,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793110200,
-      "watch_observed_at": 1793110270,
-      "watch_sent_at": 1793110274,
-      "watch_version": 8
     }
   }
 }
