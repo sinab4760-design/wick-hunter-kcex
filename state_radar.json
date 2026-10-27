@@ -67,7 +67,7 @@
       "break_late_skipped": true,
       "break_price": 0.07884,
       "category": "PUMP",
-      "checked_through": 1793082900,
+      "checked_through": 1793086080,
       "created": 1793074024,
       "expires": 1793095624,
       "high": 0.08222142857142858,
@@ -77,19 +77,6 @@
       "watch_at": 1793074020,
       "watch_observed_at": 1793074035,
       "watch_sent_at": 1793074045,
-      "watch_version": 8
-    },
-    "BILL-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793082900,
-      "created": 1793062305,
-      "expires": 1793083905,
-      "high": 0.0062547035714285715,
-      "low": 0.006191296428571429,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793062260,
-      "watch_observed_at": 1793062316,
-      "watch_sent_at": 1793062319,
       "watch_version": 8
     },
     "DNA-USDT-SWAP": {
@@ -162,12 +149,13 @@
     },
     "WAL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793082900,
+      "checked_through": 1793086080,
       "created": 1793082918,
       "expires": 1793104518,
       "high": 0.0348388,
       "low": 0.0345612,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793083020,
       "watch_at": 1793082900,
       "watch_observed_at": 1793082929,
       "watch_sent_at": 1793082933,
