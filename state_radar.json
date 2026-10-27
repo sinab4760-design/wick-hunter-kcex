@@ -61,6 +61,14 @@
       "spent_at": 1793096611,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "BTW-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793101477,
+      "expires": 1793123077,
+      "high": 1.501878214285714,
+      "low": 1.4515217857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793091778,
@@ -82,7 +90,7 @@
     },
     "WAL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793099220,
+      "checked_through": 1793101440,
       "created": 1793082918,
       "expires": 1793104518,
       "high": 0.0348388,
