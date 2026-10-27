@@ -5,6 +5,7 @@
     "APR-USDT-SWAP:WATCH:1792901539": 1792903821,
     "BASED-USDT-SWAP:WATCH:1793053679": 1793053695,
     "BEAT-USDT-SWAP:WATCH:1793029234": 1793029255,
+    "BILL-USDT-SWAP:WATCH:1793062305": 1793062319,
     "BSB-USDT-SWAP:WATCH:1792928857": 1792928871,
     "CAP-USDT-SWAP:WATCH:1792938494": 1792940356,
     "CELO-USDT-SWAP:WATCH:1792992695": 1792992706,
@@ -62,7 +63,7 @@
     },
     "BASED-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793059560,
+      "checked_through": 1793062260,
       "created": 1793053679,
       "expires": 1793075279,
       "high": 0.053362214285714284,
@@ -84,6 +85,19 @@
       "spent_at": 1793059566,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "BILL-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793062260,
+      "created": 1793062305,
+      "expires": 1793083905,
+      "high": 0.0062547035714285715,
+      "low": 0.006191296428571429,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793062260,
+      "watch_observed_at": 1793062316,
+      "watch_sent_at": 1793062319,
+      "watch_version": 8
+    },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793059560,
@@ -96,8 +110,11 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "COAI-USDT-SWAP": {
+      "break_at": 1793059860,
+      "break_late_skipped": true,
+      "break_price": 0.246,
       "category": "EARLY",
-      "checked_through": 1793059500,
+      "checked_through": 1793062260,
       "created": 1793057762,
       "expires": 1793079362,
       "high": 0.249996,
