@@ -33,7 +33,6 @@
     "SLX-USDT-SWAP:WATCH:1792934853": 1792934870,
     "SOON-USDT-SWAP:WATCH:1793014973": 1793035327,
     "SPX-USDT-SWAP:BREAK:1792923322:1792930200": 1792930287,
-    "SPX-USDT-SWAP:WATCH:1792923322": 1792923330,
     "STRK-USDT-SWAP:WATCH:1793029234": 1793032410,
     "TRIA-USDT-SWAP:WATCH:1792978396": 1792978404,
     "WAL-USDT-SWAP:WATCH:1792942123": 1792942142,
@@ -51,30 +50,16 @@
       "spent_at": 1793094185,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "BEAT-USDT-SWAP": {
-      "break_at": 1793075520,
-      "break_late_skipped": true,
-      "break_price": 0.07884,
-      "category": "PUMP",
-      "checked_through": 1793094180,
-      "created": 1793074024,
-      "expires": 1793095624,
-      "high": 0.08222142857142858,
-      "low": 0.08083857142857143,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793075040,
-      "watch_at": 1793074020,
-      "watch_observed_at": 1793074035,
-      "watch_sent_at": 1793074045,
-      "watch_version": 8
-    },
     "BREV-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793094184,
       "expires": 1793115784,
       "high": 0.08216946428571428,
       "low": 0.0814505357142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793096611,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
@@ -119,7 +104,7 @@
     },
     "WAL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793094180,
+      "checked_through": 1793096580,
       "created": 1793082918,
       "expires": 1793104518,
       "high": 0.0348388,
