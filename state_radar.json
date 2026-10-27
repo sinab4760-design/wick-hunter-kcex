@@ -64,6 +64,22 @@
       "high": 0.21608857142857144,
       "low": 0.20869028571428574,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "NIGHT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793134492,
+      "expires": 1793156092,
+      "high": 0.04106002142857143,
+      "low": 0.040705978571428575,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "SPX-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793134492,
+      "expires": 1793156092,
+      "high": 0.3871424,
+      "low": 0.3840576,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
