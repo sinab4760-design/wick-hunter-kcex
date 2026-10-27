@@ -67,7 +67,7 @@
       "break_late_skipped": true,
       "break_price": 0.07884,
       "category": "PUMP",
-      "checked_through": 1793086080,
+      "checked_through": 1793088960,
       "created": 1793074024,
       "expires": 1793095624,
       "high": 0.08222142857142858,
@@ -78,22 +78,6 @@
       "watch_observed_at": 1793074035,
       "watch_sent_at": 1793074045,
       "watch_version": 8
-    },
-    "DNA-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793064837,
-      "expires": 1793086437,
-      "high": 0.2310517857142857,
-      "low": 0.22632964285714285,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "DOOD-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793067202,
-      "expires": 1793088802,
-      "high": 0.003224392857142857,
-      "low": 0.0030567214285714284,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "EDGE-USDT-SWAP": {
       "category": "EARLY",
@@ -117,39 +101,9 @@
       "spent_at": 1793082923,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "LAB-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793067202,
-      "expires": 1793088802,
-      "high": 0.04316142857142857,
-      "low": 0.042727714285714286,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "NES-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793067202,
-      "expires": 1793088802,
-      "high": 0.11504071428571429,
-      "low": 0.1133592857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793071573,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "SOPH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793067202,
-      "expires": 1793088802,
-      "high": 0.00144915,
-      "low": 0.0014348499999999999,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793067213,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "WAL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793086080,
+      "checked_through": 1793088960,
       "created": 1793082918,
       "expires": 1793104518,
       "high": 0.0348388,
