@@ -39,6 +39,14 @@
       "spent_at": 1793156852,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "BSB-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793164709,
+      "expires": 1793186309,
+      "high": 0.10098232,
+      "low": 0.10017768,
+      "source": "HISTORICAL_PIVOT"
+    },
     "CAP-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793151091,
@@ -74,7 +82,7 @@
     },
     "PEPE-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793161980,
+      "checked_through": 1793164680,
       "created": 1793154011,
       "expires": 1793175611,
       "high": 5.1564732142857145e-06,
