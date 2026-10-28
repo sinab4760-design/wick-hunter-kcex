@@ -9,6 +9,7 @@
     "BLUR-USDT-SWAP:WATCH:1793176663": 1793176675,
     "COAI-USDT-SWAP:WATCH:1793057762": 1793057776,
     "DNA-USDT-SWAP:WATCH:1793037719": 1793037741,
+    "DOS-USDT-SWAP:WATCH:1793194580": 1793197840,
     "DYDX-USDT-SWAP:WATCH:1793113276": 1793113298,
     "FLOCK-USDT-SWAP:WATCH:1793029234": 1793029256,
     "INIT-USDT-SWAP:WATCH:1793107081": 1793107101,
@@ -25,23 +26,12 @@
     "WAL-USDT-SWAP:WATCH:1793082918": 1793082933
   },
   "zones": {
-    "BAT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793173875,
-      "expires": 1793195475,
-      "high": 0.15469189285714288,
-      "low": 0.15322810714285715,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793173884,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "BLUR-USDT-SWAP": {
       "break_at": 1793178000,
       "break_late_skipped": true,
       "break_price": 0.008535,
       "category": "PUMP",
-      "checked_through": 1793194560,
+      "checked_through": 1793197800,
       "created": 1793176663,
       "expires": 1793198263,
       "high": 0.008913303571428572,
@@ -55,22 +45,16 @@
     },
     "DOS-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1793197800,
       "created": 1793194580,
       "expires": 1793216180,
       "high": 0.34218392857142854,
       "low": 0.3334232142857143,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "ETHW-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793173875,
-      "expires": 1793195475,
-      "high": 0.3063982142857143,
-      "low": 0.2990203571428572,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793173877,
-      "spent_reason": "ZONE_ALREADY_TOUCHED_THIS_CANDLE"
+      "watch_at": 1793197800,
+      "watch_observed_at": 1793197833,
+      "watch_sent_at": 1793197840,
+      "watch_version": 8
     },
     "FOGO-USDT-SWAP": {
       "category": "EARLY",
@@ -89,11 +73,14 @@
       "expires": 1793209932,
       "high": 0.24116142857142858,
       "low": 0.23417171428571432,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1793197834,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "SHELL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793194560,
+      "checked_through": 1793197800,
       "created": 1793179686,
       "expires": 1793201286,
       "high": 0.028195535714285715,
