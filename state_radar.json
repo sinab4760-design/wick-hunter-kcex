@@ -18,7 +18,6 @@
     "PEPE-USDT-SWAP:WATCH:1793154011": 1793154023,
     "SHELL-USDT-SWAP:WATCH:1793179686": 1793179702,
     "SOON-USDT-SWAP:WATCH:1793014973": 1793035327,
-    "STRK-USDT-SWAP:WATCH:1793029234": 1793032410,
     "UP-USDT-SWAP:WATCH:1793138953": 1793138970,
     "WAL-USDT-SWAP:WATCH:1793082918": 1793082933
   },
@@ -50,7 +49,7 @@
       "break_late_skipped": true,
       "break_price": 0.3306,
       "category": "PUMP",
-      "checked_through": 1793204520,
+      "checked_through": 1793207820,
       "created": 1793194580,
       "expires": 1793216180,
       "high": 0.34218392857142854,
@@ -87,7 +86,10 @@
       "expires": 1793226129,
       "high": 0.007417178571428571,
       "low": 0.007244164285714285,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1793207878,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "WET-USDT-SWAP": {
       "category": "EARLY",
