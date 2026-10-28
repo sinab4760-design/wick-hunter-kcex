@@ -81,8 +81,11 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "UP-USDT-SWAP": {
+      "break_at": 1793146140,
+      "break_late_skipped": true,
+      "break_price": 0.1808,
       "category": "PUMP",
-      "checked_through": 1793145000,
+      "checked_through": 1793147100,
       "created": 1793138953,
       "expires": 1793160553,
       "high": 0.18674285714285715,
