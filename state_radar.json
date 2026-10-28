@@ -28,17 +28,6 @@
     "WAL-USDT-SWAP:WATCH:1793082918": 1793082933
   },
   "zones": {
-    "0G-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793129448,
-      "expires": 1793151048,
-      "high": 0.20702479999999998,
-      "low": 0.2053752,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793129462,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "BTW-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793136539,
@@ -50,13 +39,16 @@
       "spent_at": 1793138955,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "INIT-USDT-SWAP": {
+    "CAP-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793126947,
-      "expires": 1793148547,
-      "high": 0.21608857142857144,
-      "low": 0.20869028571428574,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "created": 1793151091,
+      "expires": 1793172691,
+      "high": 0.10259635714285714,
+      "low": 0.10030364285714286,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793151098,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PIEVERSE-USDT-SWAP": {
       "category": "EARLY",
@@ -85,7 +77,7 @@
       "break_late_skipped": true,
       "break_price": 0.1808,
       "category": "PUMP",
-      "checked_through": 1793147100,
+      "checked_through": 1793151060,
       "created": 1793138953,
       "expires": 1793160553,
       "high": 0.18674285714285715,
