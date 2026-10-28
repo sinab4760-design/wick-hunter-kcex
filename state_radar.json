@@ -1,6 +1,5 @@
 {
   "seen": {
-    "BASED-USDT-SWAP:WATCH:1793053679": 1793053695,
     "BEAT-USDT-SWAP:WATCH:1793074024": 1793074045,
     "BEAT-USDT-SWAP:WATCH:1793170472": 1793173888,
     "BICO-USDT-SWAP:WATCH:1793226189": 1793226213,
@@ -32,12 +31,13 @@
     },
     "BICO-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793226180,
+      "checked_through": 1793228640,
       "created": 1793226189,
       "expires": 1793247789,
       "high": 0.018450178571428572,
       "low": 0.01813196428571429,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1793228340,
       "watch_at": 1793226180,
       "watch_observed_at": 1793226205,
       "watch_sent_at": 1793226213,
@@ -86,7 +86,7 @@
       "break_late_skipped": true,
       "break_price": 0.05848,
       "category": "EARLY",
-      "checked_through": 1793226180,
+      "checked_through": 1793228640,
       "created": 1793213483,
       "expires": 1793235083,
       "high": 0.059368285714285714,
