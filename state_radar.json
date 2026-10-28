@@ -3,6 +3,7 @@
     "BASED-USDT-SWAP:WATCH:1793053679": 1793053695,
     "BEAT-USDT-SWAP:WATCH:1793074024": 1793074045,
     "BEAT-USDT-SWAP:WATCH:1793170472": 1793173888,
+    "BICO-USDT-SWAP:WATCH:1793226189": 1793226213,
     "BILL-USDT-SWAP:WATCH:1793062305": 1793062319,
     "BLUR-USDT-SWAP:WATCH:1793176663": 1793176675,
     "COAI-USDT-SWAP:WATCH:1793057762": 1793057776,
@@ -28,6 +29,19 @@
       "high": 0.10440596,
       "low": 0.10357403999999999,
       "source": "HISTORICAL_PIVOT"
+    },
+    "BICO-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1793226180,
+      "created": 1793226189,
+      "expires": 1793247789,
+      "high": 0.018450178571428572,
+      "low": 0.01813196428571429,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1793226180,
+      "watch_observed_at": 1793226205,
+      "watch_sent_at": 1793226213,
+      "watch_version": 8
     },
     "EDEN-USDT-SWAP": {
       "category": "EARLY",
@@ -72,7 +86,7 @@
       "break_late_skipped": true,
       "break_price": 0.05848,
       "category": "EARLY",
-      "checked_through": 1793223900,
+      "checked_through": 1793226180,
       "created": 1793213483,
       "expires": 1793235083,
       "high": 0.059368285714285714,
@@ -126,17 +140,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793218807,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "OL-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793204529,
-      "expires": 1793226129,
-      "high": 0.007417178571428571,
-      "low": 0.007244164285714285,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793207878,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ONE-USDT-SWAP": {
@@ -194,7 +197,10 @@
       "expires": 1793235083,
       "high": 0.3065532142857143,
       "low": 0.3040467857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793226200,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "UNI-USDT-SWAP": {
       "category": "EARLY",
