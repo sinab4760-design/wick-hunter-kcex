@@ -27,6 +27,14 @@
       "low": 0.02860782142857143,
       "source": "HISTORICAL_PIVOT"
     },
+    "APR-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793265159,
+      "expires": 1793286759,
+      "high": 0.06182592857142857,
+      "low": 0.06001407142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BLEND-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793261792,
@@ -62,7 +70,7 @@
       "break_late_skipped": true,
       "break_price": 0.02819,
       "category": "EARLY",
-      "checked_through": 1793261760,
+      "checked_through": 1793265120,
       "created": 1793245981,
       "expires": 1793267581,
       "high": 0.02860635714285714,
@@ -95,7 +103,7 @@
     },
     "XDP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793261760,
+      "checked_through": 1793265120,
       "created": 1793248672,
       "expires": 1793270272,
       "high": 0.019534857142857142,
