@@ -24,7 +24,7 @@
       "break_late_skipped": true,
       "break_price": 0.01775,
       "category": "PUMP",
-      "checked_through": 1793240220,
+      "checked_through": 1793243160,
       "created": 1793226189,
       "expires": 1793247789,
       "high": 0.018450178571428572,
@@ -35,80 +35,6 @@
       "watch_observed_at": 1793226205,
       "watch_sent_at": 1793226213,
       "watch_version": 8
-    },
-    "EDEN-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.05766225,
-      "low": 0.05689775,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793218819,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ENA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.21201425000000002,
-      "low": 0.20878575,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793218820,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "INJ-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 8.203721428571429,
-      "low": 8.120278571428573,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793218823,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "MEW-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.0004524024,
-      "low": 0.0004487976,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793223939,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ONE-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.0013354375,
-      "low": 0.0013219624999999998,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793223941,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "STRK-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.04785107142857142,
-      "low": 0.04730892857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793218825,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "USELESS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793218801,
-      "expires": 1793240401,
-      "high": 0.18348678571428573,
-      "low": 0.17988664285714284,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
     }
   }
 }
