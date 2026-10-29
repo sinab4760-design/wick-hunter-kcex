@@ -35,6 +35,14 @@
       "low": 0.06001407142857143,
       "source": "HISTORICAL_PIVOT"
     },
+    "BEAT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 0.11010682142857144,
+      "low": 0.10729317857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BLEND-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793261792,
@@ -42,6 +50,14 @@
       "high": 0.06156767857142857,
       "low": 0.06033646428571429,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "CASHCAT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 0.1041425,
+      "low": 0.10265750000000001,
+      "source": "HISTORICAL_PIVOT"
     },
     "H-USDT-SWAP": {
       "category": "EARLY",
@@ -65,6 +81,22 @@
       "spent_at": 1793251470,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "HYPE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 85.81447605714285,
+      "low": 85.13069537142857,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "INJ-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 7.999717857142857,
+      "low": 7.920282142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
     "LA-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793251464,
@@ -76,19 +108,21 @@
       "spent_at": 1793254287,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "XDP-USDT-SWAP": {
+    "LIT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793268360,
-      "created": 1793248672,
-      "expires": 1793270272,
-      "high": 0.019534857142857142,
-      "low": 0.019365142857142855,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793249820,
-      "watch_at": 1793248620,
-      "watch_observed_at": 1793248676,
-      "watch_sent_at": 1793248676,
-      "watch_version": 8
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 3.063325357142857,
+      "low": 3.0282746428571428,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "MERL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793271173,
+      "expires": 1793292773,
+      "high": 0.027230749999999998,
+      "low": 0.02682925,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
