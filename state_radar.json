@@ -8,6 +8,7 @@
     "DYDX-USDT-SWAP:WATCH:1793113276": 1793113298,
     "EDGE-USDT-SWAP:WATCH:1793210612": 1793210621,
     "H-USDT-SWAP:WATCH:1793213483": 1793213504,
+    "HUMA-USDT-SWAP:WATCH:1793245981": 1793245985,
     "INIT-USDT-SWAP:WATCH:1793107081": 1793107101,
     "INIT-USDT-SWAP:WATCH:1793185654": 1793185669,
     "KGEN-USDT-SWAP:WATCH:1793110251": 1793110274,
@@ -24,7 +25,7 @@
       "break_late_skipped": true,
       "break_price": 0.01775,
       "category": "PUMP",
-      "checked_through": 1793243160,
+      "checked_through": 1793245980,
       "created": 1793226189,
       "expires": 1793247789,
       "high": 0.018450178571428572,
@@ -35,6 +36,27 @@
       "watch_observed_at": 1793226205,
       "watch_sent_at": 1793226213,
       "watch_version": 8
+    },
+    "HUMA-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793245980,
+      "created": 1793245981,
+      "expires": 1793267581,
+      "high": 0.02860635714285714,
+      "low": 0.028293642857142857,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793245980,
+      "watch_observed_at": 1793245984,
+      "watch_sent_at": 1793245985,
+      "watch_version": 8
+    },
+    "IRYS-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793245981,
+      "expires": 1793267581,
+      "high": 0.02697682142857143,
+      "low": 0.02614317857142857,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
