@@ -26,7 +26,7 @@
   "zones": {
     "AVNT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793313720,
+      "checked_through": 1793316000,
       "created": 1793303009,
       "expires": 1793324609,
       "high": 0.10782914285714286,
@@ -37,17 +37,6 @@
       "watch_sent_at": 1793303045,
       "watch_version": 8
     },
-    "OFC-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793294143,
-      "expires": 1793315743,
-      "high": 0.006951567857142857,
-      "low": 0.006886432142857142,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793297055,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "PARTI-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793300075,
@@ -56,9 +45,17 @@
       "low": 0.07342492857142857,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
+    "SKY-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793316044,
+      "expires": 1793337644,
+      "high": 0.06845832142857143,
+      "low": 0.06704167857142858,
+      "source": "HISTORICAL_PIVOT"
+    },
     "TRX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793313720,
+      "checked_through": 1793316000,
       "created": 1793311215,
       "expires": 1793332815,
       "high": 0.37720624999999997,
