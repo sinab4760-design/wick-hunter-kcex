@@ -16,7 +16,6 @@
     "PEPE-USDT-SWAP:WATCH:1793154011": 1793154023,
     "SHELL-USDT-SWAP:WATCH:1793179686": 1793179702,
     "UP-USDT-SWAP:WATCH:1793138953": 1793138970,
-    "WAL-USDT-SWAP:WATCH:1793082918": 1793082933,
     "XDP-USDT-SWAP:WATCH:1793248672": 1793248676
   },
   "zones": {
@@ -55,7 +54,7 @@
       "break_late_skipped": true,
       "break_price": 0.02819,
       "category": "EARLY",
-      "checked_through": 1793254260,
+      "checked_through": 1793258100,
       "created": 1793245981,
       "expires": 1793267581,
       "high": 0.02860635714285714,
@@ -88,7 +87,7 @@
     },
     "XDP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793254260,
+      "checked_through": 1793258100,
       "created": 1793248672,
       "expires": 1793270272,
       "high": 0.019534857142857142,
