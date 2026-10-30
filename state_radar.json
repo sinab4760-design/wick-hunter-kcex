@@ -15,7 +15,6 @@
     "MERL-USDT-SWAP:WATCH:1793280315": 1793294167,
     "ONDO-USDT-SWAP:WATCH:1793287284": 1793287304,
     "ORDER-USDT-SWAP:WATCH:1793167330": 1793167346,
-    "PEPE-USDT-SWAP:WATCH:1793154011": 1793154023,
     "SHELL-USDT-SWAP:WATCH:1793179686": 1793179702,
     "TRX-USDT-SWAP:WATCH:1793311215": 1793311221,
     "VANA-USDT-SWAP:WATCH:1793276207": 1793276222,
@@ -24,6 +23,14 @@
     "XPL-USDT-SWAP:WATCH:1793287284": 1793287304
   },
   "zones": {
+    "ACT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793327478,
+      "expires": 1793349078,
+      "high": 0.00863737857142857,
+      "low": 0.008388621428571429,
+      "source": "HISTORICAL_PIVOT"
+    },
     "APR-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793324933,
@@ -53,7 +60,7 @@
     },
     "TRX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793324880,
+      "checked_through": 1793327460,
       "created": 1793311215,
       "expires": 1793332815,
       "high": 0.37720624999999997,
