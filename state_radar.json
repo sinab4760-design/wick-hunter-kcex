@@ -15,7 +15,6 @@
     "LIT-USDT-SWAP:WATCH:1793280315": 1793280335,
     "MERL-USDT-SWAP:WATCH:1793280315": 1793294167,
     "ONDO-USDT-SWAP:WATCH:1793287284": 1793287304,
-    "ORDER-USDT-SWAP:WATCH:1793167330": 1793167346,
     "SHELL-USDT-SWAP:WATCH:1793179686": 1793179702,
     "TRX-USDT-SWAP:WATCH:1793311215": 1793311221,
     "VANA-USDT-SWAP:WATCH:1793276207": 1793276222,
@@ -26,7 +25,7 @@
   "zones": {
     "ACT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793339220,
+      "checked_through": 1793341500,
       "created": 1793327478,
       "expires": 1793349078,
       "high": 0.00863737857142857,
@@ -45,12 +44,34 @@
       "low": 0.06162217857142857,
       "source": "HISTORICAL_PIVOT"
     },
+    "BREV-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793341525,
+      "expires": 1793363125,
+      "high": 0.08506964285714286,
+      "low": 0.08415035714285715,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793341534,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793339221,
       "expires": 1793360821,
       "high": 0.2008625,
       "low": 0.1967375,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793341527,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "DNA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793341525,
+      "expires": 1793363125,
+      "high": 0.1767082142857143,
+      "low": 0.1740917857142857,
       "source": "HISTORICAL_PIVOT"
     },
     "DOOD-USDT-SWAP": {
