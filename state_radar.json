@@ -47,6 +47,14 @@
       "low": 0.0019847392857142857,
       "source": "HISTORICAL_PIVOT"
     },
+    "H-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793333546,
+      "expires": 1793355146,
+      "high": 0.05736892857142857,
+      "low": 0.056591071428571435,
+      "source": "HISTORICAL_PIVOT"
+    },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793330446,
@@ -73,19 +81,6 @@
       "spent": true,
       "spent_at": 1793318326,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "TRX-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1793330400,
-      "created": 1793311215,
-      "expires": 1793332815,
-      "high": 0.37720624999999997,
-      "low": 0.37174474999999996,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1793311200,
-      "watch_observed_at": 1793311220,
-      "watch_sent_at": 1793311221,
-      "watch_version": 8
     }
   }
 }
