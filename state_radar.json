@@ -25,7 +25,7 @@
   "zones": {
     "AXIS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793366940,
+      "checked_through": 1793370480,
       "created": 1793362967,
       "expires": 1793384567,
       "high": 0.14589464285714285,
@@ -68,7 +68,7 @@
     },
     "EDGE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793366940,
+      "checked_through": 1793370480,
       "created": 1793358190,
       "expires": 1793379790,
       "high": 0.3450775,
@@ -137,7 +137,7 @@
       "break_late_skipped": true,
       "break_price": 0.11731,
       "category": "EARLY",
-      "checked_through": 1793366940,
+      "checked_through": 1793370480,
       "created": 1793355491,
       "expires": 1793377091,
       "high": 0.11820582142857143,
