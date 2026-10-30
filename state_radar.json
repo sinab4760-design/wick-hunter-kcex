@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ACT-USDT-SWAP:WATCH:1793327478": 1793336511,
     "AVNT-USDT-SWAP:WATCH:1793303009": 1793303045,
     "BEAT-USDT-SWAP:WATCH:1793170472": 1793173888,
     "BICO-USDT-SWAP:WATCH:1793226189": 1793226213,
@@ -25,11 +26,16 @@
   "zones": {
     "ACT-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1793336460,
       "created": 1793327478,
       "expires": 1793349078,
       "high": 0.00863737857142857,
       "low": 0.008388621428571429,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793336460,
+      "watch_observed_at": 1793336505,
+      "watch_sent_at": 1793336511,
+      "watch_version": 8
     },
     "APR-USDT-SWAP": {
       "category": "PUMP",
@@ -53,7 +59,10 @@
       "expires": 1793355146,
       "high": 0.05736892857142857,
       "low": 0.056591071428571435,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793336506,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
@@ -69,7 +78,10 @@
       "expires": 1793352046,
       "high": 0.03650782142857143,
       "low": 0.03565217857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793336507,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "SKY-USDT-SWAP": {
       "category": "EARLY",
@@ -81,6 +93,14 @@
       "spent": true,
       "spent_at": 1793318326,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SOPH-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793336504,
+      "expires": 1793358104,
+      "high": 0.001744875,
+      "low": 0.0016860249999999999,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     }
   }
 }
