@@ -26,7 +26,7 @@
   "zones": {
     "AVNT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793318280,
+      "checked_through": 1793321520,
       "created": 1793303009,
       "expires": 1793324609,
       "high": 0.10782914285714286,
@@ -58,7 +58,7 @@
     },
     "TRX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793318280,
+      "checked_through": 1793321520,
       "created": 1793311215,
       "expires": 1793332815,
       "high": 0.37720624999999997,
