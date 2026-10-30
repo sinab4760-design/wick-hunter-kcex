@@ -5,6 +5,7 @@
     "BEAT-USDT-SWAP:WATCH:1793170472": 1793173888,
     "BICO-USDT-SWAP:WATCH:1793226189": 1793226213,
     "BLUR-USDT-SWAP:WATCH:1793176663": 1793176675,
+    "DNA-USDT-SWAP:WATCH:1793341525": 1793345713,
     "DOS-USDT-SWAP:WATCH:1793194580": 1793197840,
     "EDGE-USDT-SWAP:WATCH:1793210612": 1793210621,
     "EIGEN-USDT-SWAP:WATCH:1793287284": 1793287303,
@@ -25,7 +26,7 @@
   "zones": {
     "ACT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793341500,
+      "checked_through": 1793345700,
       "created": 1793327478,
       "expires": 1793349078,
       "high": 0.00863737857142857,
@@ -68,11 +69,16 @@
     },
     "DNA-USDT-SWAP": {
       "category": "EARLY",
+      "checked_through": 1793345640,
       "created": 1793341525,
       "expires": 1793363125,
       "high": 0.1767082142857143,
       "low": 0.1740917857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793345640,
+      "watch_observed_at": 1793345707,
+      "watch_sent_at": 1793345713,
+      "watch_version": 8
     },
     "DOOD-USDT-SWAP": {
       "category": "PUMP",
@@ -114,14 +120,6 @@
       "spent": true,
       "spent_at": 1793336507,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "QUANT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793339221,
-      "expires": 1793360821,
-      "high": 194.3507142857143,
-      "low": 192.4492857142857,
-      "source": "HISTORICAL_PIVOT"
     },
     "SOPH-USDT-SWAP": {
       "category": "PUMP",
