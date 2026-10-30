@@ -24,26 +24,21 @@
     "XPL-USDT-SWAP:WATCH:1793287284": 1793287304
   },
   "zones": {
-    "AVNT-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793321520,
-      "created": 1793303009,
-      "expires": 1793324609,
-      "high": 0.10782914285714286,
-      "low": 0.10659085714285714,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793302980,
-      "watch_observed_at": 1793303036,
-      "watch_sent_at": 1793303045,
-      "watch_version": 8
-    },
-    "PARTI-USDT-SWAP": {
+    "APR-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793300075,
-      "expires": 1793321675,
-      "high": 0.07883535714285714,
-      "low": 0.07342492857142857,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "created": 1793324933,
+      "expires": 1793346533,
+      "high": 0.06357782142857143,
+      "low": 0.06162217857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "DOOD-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793324933,
+      "expires": 1793346533,
+      "high": 0.0019027285714285716,
+      "low": 0.0018552714285714285,
+      "source": "HISTORICAL_PIVOT"
     },
     "SKY-USDT-SWAP": {
       "category": "EARLY",
@@ -58,7 +53,7 @@
     },
     "TRX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793321520,
+      "checked_through": 1793324880,
       "created": 1793311215,
       "expires": 1793332815,
       "high": 0.37720624999999997,
