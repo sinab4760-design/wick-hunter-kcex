@@ -40,11 +40,27 @@
       "source": "HISTORICAL_PIVOT"
     },
     "DOOD-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793330446,
+      "expires": 1793352046,
+      "high": 0.002057260714285714,
+      "low": 0.0019847392857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "OKB-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1793324933,
-      "expires": 1793346533,
-      "high": 0.0019027285714285716,
-      "low": 0.0018552714285714285,
+      "created": 1793330446,
+      "expires": 1793352046,
+      "high": 113.56292857142857,
+      "low": 112.03707142857142,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "ORDER-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793330446,
+      "expires": 1793352046,
+      "high": 0.03650782142857143,
+      "low": 0.03565217857142857,
       "source": "HISTORICAL_PIVOT"
     },
     "SKY-USDT-SWAP": {
@@ -60,7 +76,7 @@
     },
     "TRX-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793327460,
+      "checked_through": 1793330400,
       "created": 1793311215,
       "expires": 1793332815,
       "high": 0.37720624999999997,
