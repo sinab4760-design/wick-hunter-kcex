@@ -1,6 +1,7 @@
 {
   "seen": {
     "ACT-USDT-SWAP:WATCH:1793327478": 1793336511,
+    "ACU-USDT-SWAP:WATCH:1793424335": 1793424350,
     "ANIME-USDT-SWAP:WATCH:1793373823": 1793373842,
     "APT-USDT-SWAP:WATCH:1793397522": 1793397541,
     "AVNT-USDT-SWAP:WATCH:1793303009": 1793303045,
@@ -34,6 +35,19 @@
     "ZRO-USDT-SWAP:WATCH:1793373823": 1793373841
   },
   "zones": {
+    "ACU-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793424300,
+      "created": 1793424335,
+      "expires": 1793445935,
+      "high": 0.12612248,
+      "low": 0.12511752,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793424300,
+      "watch_observed_at": 1793424347,
+      "watch_sent_at": 1793424350,
+      "watch_version": 8
+    },
     "AXIS-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793404359,
@@ -66,7 +80,7 @@
     },
     "LA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793422140,
+      "checked_through": 1793424300,
       "created": 1793404359,
       "expires": 1793425959,
       "high": 0.05735852,
