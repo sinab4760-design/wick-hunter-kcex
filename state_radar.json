@@ -38,7 +38,7 @@
   "zones": {
     "APT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793413680,
+      "checked_through": 1793416680,
       "created": 1793397522,
       "expires": 1793419122,
       "high": 0.6707121428571429,
@@ -62,7 +62,7 @@
     },
     "BIO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793413680,
+      "checked_through": 1793416680,
       "created": 1793397522,
       "expires": 1793419122,
       "high": 0.02229884,
@@ -85,17 +85,9 @@
       "spent_at": 1793397538,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ESP-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793392889,
-      "expires": 1793414489,
-      "high": 0.09324928571428572,
-      "low": 0.09214614285714286,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
     "KAITO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793413680,
+      "checked_through": 1793416680,
       "created": 1793399937,
       "expires": 1793421537,
       "high": 0.2536104,
@@ -108,7 +100,7 @@
     },
     "LA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793413680,
+      "checked_through": 1793416680,
       "created": 1793404359,
       "expires": 1793425959,
       "high": 0.05735852,
@@ -124,7 +116,7 @@
       "break_late_skipped": true,
       "break_price": 0.04165,
       "category": "EARLY",
-      "checked_through": 1793413680,
+      "checked_through": 1793416680,
       "created": 1793397522,
       "expires": 1793419122,
       "high": 0.042316071428571425,
@@ -143,6 +135,17 @@
       "high": 0.06528078571428571,
       "low": 0.06461921428571428,
       "source": "HISTORICAL_PIVOT"
+    },
+    "RECALL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793416683,
+      "expires": 1793438283,
+      "high": 0.03440560714285714,
+      "low": 0.033834392857142855,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793416694,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "TRUST-USDT-SWAP": {
       "category": "PUMP",
