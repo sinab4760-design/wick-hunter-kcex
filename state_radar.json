@@ -30,7 +30,6 @@
     "UB-USDT-SWAP:WATCH:1793355491": 1793355499,
     "VANA-USDT-SWAP:WATCH:1793276207": 1793276222,
     "WCT-USDT-SWAP:WATCH:1793287284": 1793287303,
-    "XDP-USDT-SWAP:WATCH:1793248672": 1793248676,
     "XPL-USDT-SWAP:WATCH:1793287284": 1793287304,
     "ZRO-USDT-SWAP:WATCH:1793373823": 1793373841
   },
@@ -52,7 +51,10 @@
       "expires": 1793441117,
       "high": 0.17459964285714286,
       "low": 0.17280035714285713,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793422142,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "JELLYJELLY-USDT-SWAP": {
       "category": "EARLY",
@@ -62,22 +64,9 @@
       "low": 0.04272235714285714,
       "source": "HISTORICAL_PIVOT"
     },
-    "KAITO-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793419500,
-      "created": 1793399937,
-      "expires": 1793421537,
-      "high": 0.2536104,
-      "low": 0.25158959999999997,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793399880,
-      "watch_observed_at": 1793399952,
-      "watch_sent_at": 1793399957,
-      "watch_version": 8
-    },
     "LA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793419500,
+      "checked_through": 1793422140,
       "created": 1793404359,
       "expires": 1793425959,
       "high": 0.05735852,
@@ -99,14 +88,6 @@
       "spent_at": 1793419528,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "PYTH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793399937,
-      "expires": 1793421537,
-      "high": 0.06528078571428571,
-      "low": 0.06461921428571428,
-      "source": "HISTORICAL_PIVOT"
-    },
     "RECALL-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793416683,
@@ -117,6 +98,14 @@
       "spent": true,
       "spent_at": 1793416694,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SOPH-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793422141,
+      "expires": 1793443741,
+      "high": 0.002336992857142857,
+      "low": 0.002257007142857143,
+      "source": "HISTORICAL_PIVOT"
     },
     "TRUST-USDT-SWAP": {
       "category": "PUMP",
