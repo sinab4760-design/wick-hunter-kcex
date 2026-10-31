@@ -31,7 +31,6 @@
     "QUANT-USDT-SWAP:WATCH:1793440911": 1793440927,
     "SIGN-USDT-SWAP:BREAK:1793443142:1793455800": 1793455828,
     "SIGN-USDT-SWAP:WATCH:1793443142": 1793443155,
-    "TRX-USDT-SWAP:WATCH:1793311215": 1793311221,
     "UB-USDT-SWAP:WATCH:1793355491": 1793355499,
     "UP-USDT-SWAP:WATCH:1793447588": 1793447602,
     "VVV-USDT-SWAP:WATCH:1793459906": 1793459926,
@@ -39,28 +38,6 @@
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
-    "APR-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793462148,
-      "expires": 1793483748,
-      "high": 0.0563425,
-      "low": 0.055517500000000004,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793466623,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "MERL-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793462148,
-      "expires": 1793483748,
-      "high": 0.03090032142857143,
-      "low": 0.030539678571428572,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793464240,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "NES-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793464235,
