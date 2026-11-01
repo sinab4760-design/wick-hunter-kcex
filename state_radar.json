@@ -24,6 +24,7 @@
     "QUANT-USDT-SWAP:WATCH:1793440911": 1793440927,
     "SIGN-USDT-SWAP:BREAK:1793443142:1793455800": 1793455828,
     "SIGN-USDT-SWAP:WATCH:1793443142": 1793443155,
+    "TRIA-USDT-SWAP:WATCH:1793558152": 1793558163,
     "UP-USDT-SWAP:WATCH:1793447588": 1793447602,
     "VVV-USDT-SWAP:WATCH:1793459906": 1793459926,
     "ZAMA-USDT-SWAP:WATCH:1793509928": 1793509940,
@@ -44,7 +45,10 @@
       "expires": 1793575222,
       "high": 0.05373707142857143,
       "low": 0.05328292857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793558154,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "BILL-USDT-SWAP": {
       "category": "EARLY",
@@ -116,6 +120,19 @@
       "spent": true,
       "spent_at": 1793539925,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "TRIA-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793558100,
+      "created": 1793558152,
+      "expires": 1793579752,
+      "high": 0.0027407499999999997,
+      "low": 0.00271325,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793558100,
+      "watch_observed_at": 1793558161,
+      "watch_sent_at": 1793558163,
+      "watch_version": 8
     },
     "TRUMP-USDT-SWAP": {
       "category": "PUMP",
