@@ -38,6 +38,14 @@
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
+    "APR-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793524778,
+      "expires": 1793546378,
+      "high": 0.06756875,
+      "low": 0.06596824999999999,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "BEAT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793519291,
@@ -68,6 +76,14 @@
       "low": 0.15803,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
+    "FLOCK-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793524778,
+      "expires": 1793546378,
+      "high": 0.03712792,
+      "low": 0.036832079999999996,
+      "source": "HISTORICAL_PIVOT"
+    },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793506749,
@@ -77,17 +93,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793519293,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "PONS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793503363,
-      "expires": 1793524963,
-      "high": 0.24042964285714286,
-      "low": 0.23797035714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793503369,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "USELESS-USDT-SWAP": {
@@ -103,7 +108,7 @@
     },
     "ZAMA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793521800,
+      "checked_through": 1793524740,
       "created": 1793509928,
       "expires": 1793531528,
       "high": 0.07597410714285714,
