@@ -45,7 +45,7 @@
     },
     "AT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793547060,
+      "checked_through": 1793549400,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.1318775,
@@ -69,7 +69,7 @@
     },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793547060,
+      "checked_through": 1793549400,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.21503107142857145,
@@ -102,7 +102,7 @@
     },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793547060,
+      "checked_through": 1793549400,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.048132710714285716,
