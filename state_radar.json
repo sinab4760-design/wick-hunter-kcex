@@ -49,7 +49,7 @@
     },
     "AT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793542560,
+      "checked_through": 1793544960,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.1318775,
@@ -71,34 +71,9 @@
       "spent_at": 1793542593,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "CHIP-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793542560,
-      "created": 1793529898,
-      "expires": 1793551498,
-      "high": 0.043764359999999995,
-      "low": 0.04341564,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793529960,
-      "watch_at": 1793529900,
-      "watch_observed_at": 1793529907,
-      "watch_sent_at": 1793529909,
-      "watch_version": 8
-    },
-    "DOOD-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793531913,
-      "expires": 1793553513,
-      "high": 0.0019622964285714284,
-      "low": 0.0019377035714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793534125,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793542560,
+      "checked_through": 1793544960,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.21503107142857145,
@@ -131,7 +106,7 @@
     },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793542560,
+      "checked_through": 1793544960,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.048132710714285716,
@@ -151,6 +126,17 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793539925,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "TRUMP-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793545000,
+      "expires": 1793566600,
+      "high": 1.7797321428571429,
+      "low": 1.7598535714285715,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1793545009,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "WOO-USDT-SWAP": {
