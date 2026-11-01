@@ -1,7 +1,6 @@
 {
   "seen": {
     "ACU-USDT-SWAP:WATCH:1793424335": 1793424350,
-    "ANIME-USDT-SWAP:WATCH:1793373823": 1793373842,
     "APT-USDT-SWAP:WATCH:1793397522": 1793397541,
     "AT-USDT-SWAP:WATCH:1793531913": 1793531923,
     "AVNT-USDT-SWAP:WATCH:1793459906": 1793459926,
@@ -9,12 +8,10 @@
     "BIO-USDT-SWAP:WATCH:1793397522": 1793397540,
     "CHIP-USDT-SWAP:WATCH:1793529898": 1793529909,
     "CT-USDT-SWAP:WATCH:1793447588": 1793447603,
-    "DOS-USDT-SWAP:WATCH:1793373823": 1793373841,
     "DOS-USDT-SWAP:WATCH:1793531913": 1793531924,
     "DOT-USDT-SWAP:WATCH:1793390487": 1793390508,
     "EDEN-USDT-SWAP:WATCH:1793377004": 1793377025,
     "EGLD-USDT-SWAP:WATCH:1793443142": 1793443155,
-    "F-USDT-SWAP:WATCH:1793373823": 1793373842,
     "GLM-USDT-SWAP:WATCH:1793373823": 1793377024,
     "GLM-USDT-SWAP:WATCH:1793497474": 1793497486,
     "GPS-USDT-SWAP:WATCH:1793459906": 1793459926,
@@ -35,7 +32,6 @@
     "UP-USDT-SWAP:WATCH:1793447588": 1793447602,
     "VVV-USDT-SWAP:WATCH:1793459906": 1793459926,
     "ZAMA-USDT-SWAP:WATCH:1793509928": 1793509940,
-    "ZRO-USDT-SWAP:WATCH:1793373823": 1793373841,
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
@@ -49,7 +45,7 @@
     },
     "AT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793544960,
+      "checked_through": 1793547060,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.1318775,
@@ -73,7 +69,7 @@
     },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793544960,
+      "checked_through": 1793547060,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.21503107142857145,
@@ -106,7 +102,7 @@
     },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793544960,
+      "checked_through": 1793547060,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.048132710714285716,
@@ -116,6 +112,14 @@
       "watch_observed_at": 1793531920,
       "watch_sent_at": 1793531924,
       "watch_version": 8
+    },
+    "SOON-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793547107,
+      "expires": 1793568707,
+      "high": 0.28996607142857145,
+      "low": 0.2862339285714286,
+      "source": "HISTORICAL_PIVOT"
     },
     "SPX-USDT-SWAP": {
       "category": "EARLY",
