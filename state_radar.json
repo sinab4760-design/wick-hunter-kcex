@@ -31,14 +31,6 @@
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
-    "APR-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793539909,
-      "expires": 1793561509,
-      "high": 0.08251499999999999,
-      "low": 0.07936899999999998,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
     "BASED-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793553622,
@@ -48,17 +40,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793558154,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "BILL-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793539909,
-      "expires": 1793561509,
-      "high": 0.005589268,
-      "low": 0.005544732,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793542593,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CAP-USDT-SWAP": {
@@ -78,7 +59,10 @@
       "expires": 1793582484,
       "high": 0.19027035714285714,
       "low": 0.18832964285714285,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793563127,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "SOON-USDT-SWAP": {
       "category": "EARLY",
@@ -102,23 +86,12 @@
       "spent_at": 1793560888,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "SPX-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793539909,
-      "expires": 1793561509,
-      "high": 0.36314680000000005,
-      "low": 0.3602532,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793539925,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "TRIA-USDT-SWAP": {
       "break_at": 1793559780,
       "break_late_skipped": true,
       "break_price": 0.002698,
       "category": "EARLY",
-      "checked_through": 1793560860,
+      "checked_through": 1793563080,
       "created": 1793558152,
       "expires": 1793579752,
       "high": 0.0027407499999999997,
@@ -139,17 +112,6 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE",
       "spent": true,
       "spent_at": 1793545009,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "WOO-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793539909,
-      "expires": 1793561509,
-      "high": 0.01178696,
-      "low": 0.01169304,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793542599,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
