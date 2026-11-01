@@ -49,7 +49,7 @@
     },
     "AT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793539860,
+      "checked_through": 1793542560,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.1318775,
@@ -66,11 +66,14 @@
       "expires": 1793561509,
       "high": 0.005589268,
       "low": 0.005544732,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793542593,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CHIP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793539860,
+      "checked_through": 1793542560,
       "created": 1793529898,
       "expires": 1793551498,
       "high": 0.043764359999999995,
@@ -95,7 +98,7 @@
     },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793539860,
+      "checked_through": 1793542560,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.21503107142857145,
@@ -121,11 +124,14 @@
       "expires": 1793558452,
       "high": 0.0027124571428571425,
       "low": 0.0026835428571428573,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793542597,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793539860,
+      "checked_through": 1793542560,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.048132710714285716,
@@ -153,7 +159,10 @@
       "expires": 1793561509,
       "high": 0.01178696,
       "low": 0.01169304,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793542599,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
