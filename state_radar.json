@@ -17,6 +17,7 @@
     "EGLD-USDT-SWAP:WATCH:1793443142": 1793443155,
     "F-USDT-SWAP:WATCH:1793373823": 1793373842,
     "GLM-USDT-SWAP:WATCH:1793373823": 1793377024,
+    "GLM-USDT-SWAP:WATCH:1793497474": 1793497486,
     "GPS-USDT-SWAP:WATCH:1793459906": 1793459926,
     "HOME-USDT-SWAP:WATCH:1793373823": 1793377025,
     "IRYS-USDT-SWAP:WATCH:1793447588": 1793453233,
@@ -38,13 +39,48 @@
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
+    "AEON-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793497474,
+      "expires": 1793519074,
+      "high": 0.025844357142857145,
+      "low": 0.025575642857142856,
+      "source": "HISTORICAL_PIVOT"
+    },
     "APR-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793493312,
       "expires": 1793514912,
       "high": 0.056866178571428574,
       "low": 0.05609382142857143,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793497475,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "AUCTION-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793497474,
+      "expires": 1793519074,
+      "high": 3.380468,
+      "low": 3.353532,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793497483,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "GLM-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793497440,
+      "created": 1793497474,
+      "expires": 1793519074,
+      "high": 0.11834148,
+      "low": 0.11739852,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793497440,
+      "watch_observed_at": 1793497485,
+      "watch_sent_at": 1793497486,
+      "watch_version": 8
     }
   }
 }
