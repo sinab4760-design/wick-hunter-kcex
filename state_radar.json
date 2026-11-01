@@ -50,7 +50,7 @@
     },
     "AT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793534100,
+      "checked_through": 1793536800,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.1318775,
@@ -85,7 +85,7 @@
     },
     "CHIP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793534100,
+      "checked_through": 1793536800,
       "created": 1793529898,
       "expires": 1793551498,
       "high": 0.043764359999999995,
@@ -110,7 +110,7 @@
     },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793534100,
+      "checked_through": 1793536800,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.21503107142857145,
@@ -124,18 +124,23 @@
     },
     "FLOCK-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793527554,
-      "expires": 1793549154,
-      "high": 0.04122375,
-      "low": 0.040217249999999996,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793529901,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1793536852,
+      "expires": 1793558452,
+      "high": 0.051201250000000004,
+      "low": 0.04901775,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "FOGO-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793536852,
+      "expires": 1793558452,
+      "high": 0.0027124571428571425,
+      "low": 0.0026835428571428573,
+      "source": "HISTORICAL_PIVOT"
     },
     "MUBARAK-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793534100,
+      "checked_through": 1793536800,
       "created": 1793531913,
       "expires": 1793553513,
       "high": 0.048132710714285716,
