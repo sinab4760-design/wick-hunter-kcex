@@ -8,7 +8,6 @@
     "BAT-USDT-SWAP:WATCH:1793382362": 1793382377,
     "BIO-USDT-SWAP:WATCH:1793397522": 1793397540,
     "CT-USDT-SWAP:WATCH:1793447588": 1793447603,
-    "DNA-USDT-SWAP:WATCH:1793341525": 1793345713,
     "DOS-USDT-SWAP:WATCH:1793373823": 1793373841,
     "DOT-USDT-SWAP:WATCH:1793390487": 1793390508,
     "EDEN-USDT-SWAP:WATCH:1793377004": 1793377025,
@@ -39,26 +38,15 @@
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
   "zones": {
-    "AEON-USDT-SWAP": {
+    "BEAT-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793497474,
-      "expires": 1793519074,
-      "high": 0.025844357142857145,
-      "low": 0.025575642857142856,
+      "created": 1793519291,
+      "expires": 1793540891,
+      "high": 0.10473353571428572,
+      "low": 0.10318646428571428,
       "source": "HISTORICAL_PIVOT",
       "spent": true,
-      "spent_at": 1793506750,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "AUCTION-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793497474,
-      "expires": 1793519074,
-      "high": 3.380468,
-      "low": 3.353532,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793497483,
+      "spent_at": 1793519298,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "BTW-USDT-SWAP": {
@@ -80,26 +68,16 @@
       "low": 0.15803,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "GLM-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793515920,
-      "created": 1793497474,
-      "expires": 1793519074,
-      "high": 0.11834148,
-      "low": 0.11739852,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793497440,
-      "watch_observed_at": 1793497485,
-      "watch_sent_at": 1793497486,
-      "watch_version": 8
-    },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793506749,
       "expires": 1793528349,
       "high": 0.18602396428571427,
       "low": 0.18113603571428571,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793519293,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PONS-USDT-SWAP": {
       "category": "EARLY",
@@ -125,7 +103,7 @@
     },
     "ZAMA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793515920,
+      "checked_through": 1793519280,
       "created": 1793509928,
       "expires": 1793531528,
       "high": 0.07597410714285714,
