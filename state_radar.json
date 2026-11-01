@@ -50,17 +50,6 @@
       "spent_at": 1793506750,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "APR-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793493312,
-      "expires": 1793514912,
-      "high": 0.056866178571428574,
-      "low": 0.05609382142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793497475,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "AUCTION-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793497474,
@@ -70,6 +59,17 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793497483,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "BTW-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793515948,
+      "expires": 1793537548,
+      "high": 1.1911878571428571,
+      "low": 1.1718121428571429,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793515956,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CT-USDT-SWAP": {
@@ -82,7 +82,7 @@
     },
     "GLM-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793512620,
+      "checked_through": 1793515920,
       "created": 1793497474,
       "expires": 1793519074,
       "high": 0.11834148,
@@ -125,7 +125,7 @@
     },
     "ZAMA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793512620,
+      "checked_through": 1793515920,
       "created": 1793509928,
       "expires": 1793531528,
       "high": 0.07597410714285714,
