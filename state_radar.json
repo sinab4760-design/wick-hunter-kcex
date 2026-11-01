@@ -88,7 +88,7 @@
       "break_late_skipped": true,
       "break_price": 0.002698,
       "category": "EARLY",
-      "checked_through": 1793565300,
+      "checked_through": 1793567640,
       "created": 1793558152,
       "expires": 1793579752,
       "high": 0.0027407499999999997,
@@ -99,17 +99,6 @@
       "watch_observed_at": 1793558161,
       "watch_sent_at": 1793558163,
       "watch_version": 8
-    },
-    "TRUMP-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793545000,
-      "expires": 1793566600,
-      "high": 1.7797321428571429,
-      "low": 1.7598535714285715,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793545009,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
