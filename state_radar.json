@@ -37,5 +37,14 @@
     "ZRO-USDT-SWAP:WATCH:1793373823": 1793373841,
     "ZRO-USDT-SWAP:WATCH:1793438415": 1793438430
   },
-  "zones": {}
+  "zones": {
+    "APR-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793493312,
+      "expires": 1793514912,
+      "high": 0.056866178571428574,
+      "low": 0.05609382142857143,
+      "source": "HISTORICAL_PIVOT"
+    }
+  }
 }
