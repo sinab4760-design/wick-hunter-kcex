@@ -45,7 +45,10 @@
       "expires": 1793519074,
       "high": 0.025844357142857145,
       "low": 0.025575642857142856,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793506750,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "APR-USDT-SWAP": {
       "category": "EARLY",
@@ -79,7 +82,7 @@
     },
     "GLM-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793503320,
+      "checked_through": 1793506740,
       "created": 1793497474,
       "expires": 1793519074,
       "high": 0.11834148,
@@ -89,6 +92,14 @@
       "watch_observed_at": 1793497485,
       "watch_sent_at": 1793497486,
       "watch_version": 8
+    },
+    "INIT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793506749,
+      "expires": 1793528349,
+      "high": 0.18602396428571427,
+      "low": 0.18113603571428571,
+      "source": "HISTORICAL_PIVOT"
     },
     "PONS-USDT-SWAP": {
       "category": "EARLY",
