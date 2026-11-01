@@ -7,6 +7,7 @@
     "AXIS-USDT-SWAP:WATCH:1793362967": 1793366985,
     "BAT-USDT-SWAP:WATCH:1793382362": 1793382377,
     "BIO-USDT-SWAP:WATCH:1793397522": 1793397540,
+    "CHIP-USDT-SWAP:WATCH:1793529898": 1793529909,
     "CT-USDT-SWAP:WATCH:1793447588": 1793447603,
     "DOS-USDT-SWAP:WATCH:1793373823": 1793373841,
     "DOT-USDT-SWAP:WATCH:1793390487": 1793390508,
@@ -30,7 +31,6 @@
     "QUANT-USDT-SWAP:WATCH:1793440911": 1793440927,
     "SIGN-USDT-SWAP:BREAK:1793443142:1793455800": 1793455828,
     "SIGN-USDT-SWAP:WATCH:1793443142": 1793443155,
-    "UB-USDT-SWAP:WATCH:1793355491": 1793355499,
     "UP-USDT-SWAP:WATCH:1793447588": 1793447602,
     "VVV-USDT-SWAP:WATCH:1793459906": 1793459926,
     "ZAMA-USDT-SWAP:WATCH:1793509928": 1793509940,
@@ -68,28 +68,41 @@
       "spent_at": 1793515956,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "CHIP-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793529900,
+      "created": 1793529898,
+      "expires": 1793551498,
+      "high": 0.043764359999999995,
+      "low": 0.04341564,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793529900,
+      "watch_observed_at": 1793529907,
+      "watch_sent_at": 1793529909,
+      "watch_version": 8
+    },
     "FLOCK-USDT-SWAP": {
       "category": "PUMP",
       "created": 1793527554,
       "expires": 1793549154,
       "high": 0.04122375,
       "low": 0.040217249999999996,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1793529901,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "INIT-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793506749,
-      "expires": 1793528349,
-      "high": 0.18602396428571427,
-      "low": 0.18113603571428571,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793519293,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "category": "EARLY",
+      "created": 1793529898,
+      "expires": 1793551498,
+      "high": 0.18485914285714286,
+      "low": 0.18230085714285713,
+      "source": "HISTORICAL_PIVOT"
     },
     "ZAMA-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793527500,
+      "checked_through": 1793529900,
       "created": 1793509928,
       "expires": 1793531528,
       "high": 0.07597410714285714,
