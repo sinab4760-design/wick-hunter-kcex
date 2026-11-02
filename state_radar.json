@@ -9,6 +9,7 @@
     "DOS-USDT-SWAP:WATCH:1793531913": 1793531924,
     "GLM-USDT-SWAP:WATCH:1793497474": 1793497486,
     "GRASS-USDT-SWAP:WATCH:1793569999": 1793570006,
+    "LAB-USDT-SWAP:WATCH:1793661858": 1793661863,
     "MUBARAK-USDT-SWAP:WATCH:1793531913": 1793531924,
     "NES-USDT-SWAP:WATCH:1793576337": 1793576345,
     "PEPE-USDT-SWAP:WATCH:1793582893": 1793586377,
@@ -36,6 +37,19 @@
       "spent": true,
       "spent_at": 1793659496,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "LAB-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793661840,
+      "created": 1793661858,
+      "expires": 1793683458,
+      "high": 0.045442142857142855,
+      "low": 0.045017857142857144,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793661840,
+      "watch_observed_at": 1793661861,
+      "watch_sent_at": 1793661863,
+      "watch_version": 8
     },
     "O-USDT-SWAP": {
       "category": "EARLY",
