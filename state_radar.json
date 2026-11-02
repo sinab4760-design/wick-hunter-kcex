@@ -61,23 +61,6 @@
       "spent": true,
       "spent_at": 1793651357,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "WET-USDT-SWAP": {
-      "break_at": 1793632980,
-      "break_late_skipped": true,
-      "break_price": 0.05542,
-      "category": "EARLY",
-      "checked_through": 1793651340,
-      "created": 1793631502,
-      "expires": 1793653102,
-      "high": 0.056433392857142856,
-      "low": 0.055926607142857146,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793631840,
-      "watch_at": 1793631480,
-      "watch_observed_at": 1793631507,
-      "watch_sent_at": 1793631508,
-      "watch_version": 8
     }
   }
 }
