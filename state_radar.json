@@ -18,38 +18,13 @@
     "ZAMA-USDT-SWAP:WATCH:1793509928": 1793509940
   },
   "zones": {
-    "ACT-USDT-SWAP": {
+    "HOME-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1793635070,
-      "expires": 1793656670,
-      "high": 0.008357564285714287,
-      "low": 0.008274435714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793635077,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "KGEN-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793635070,
-      "expires": 1793656670,
-      "high": 0.07500428571428572,
-      "low": 0.0743757142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793635076,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "LA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793635070,
-      "expires": 1793656670,
-      "high": 0.061727535714285714,
-      "low": 0.06119246428571429,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793635075,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1793656945,
+      "expires": 1793678545,
+      "high": 0.005295417857142858,
+      "low": 0.005244582142857143,
+      "source": "HISTORICAL_PIVOT"
     },
     "O-USDT-SWAP": {
       "category": "EARLY",
