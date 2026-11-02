@@ -35,7 +35,7 @@
       "break_late_skipped": true,
       "break_price": 0.188,
       "category": "EARLY",
-      "checked_through": 1793638740,
+      "checked_through": 1793642160,
       "created": 1793628120,
       "expires": 1793649720,
       "high": 0.19146280000000002,
@@ -80,14 +80,6 @@
       "spent_at": 1793635075,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "MEGA-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793617200,
-      "expires": 1793638800,
-      "high": 0.044608357142857144,
-      "low": 0.04337164285714286,
-      "source": "HISTORICAL_PIVOT"
-    },
     "SPX-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793628120,
@@ -104,7 +96,7 @@
       "break_late_skipped": true,
       "break_price": 0.05542,
       "category": "EARLY",
-      "checked_through": 1793638740,
+      "checked_through": 1793642160,
       "created": 1793631502,
       "expires": 1793653102,
       "high": 0.056433392857142856,
@@ -115,17 +107,6 @@
       "watch_observed_at": 1793631507,
       "watch_sent_at": 1793631508,
       "watch_version": 8
-    },
-    "ZAMA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793620484,
-      "expires": 1793642084,
-      "high": 0.07034024,
-      "low": 0.06977976,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793631505,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
