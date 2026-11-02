@@ -18,13 +18,24 @@
     "ZAMA-USDT-SWAP:WATCH:1793509928": 1793509940
   },
   "zones": {
+    "DNA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793659495,
+      "expires": 1793681095,
+      "high": 0.19000571428571428,
+      "low": 0.18799428571428572,
+      "source": "HISTORICAL_PIVOT"
+    },
     "HOME-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793656945,
       "expires": 1793678545,
       "high": 0.005295417857142858,
       "low": 0.005244582142857143,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793659496,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "O-USDT-SWAP": {
       "category": "EARLY",
