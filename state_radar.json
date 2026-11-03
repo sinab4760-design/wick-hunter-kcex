@@ -23,7 +23,7 @@
   "zones": {
     "ACU-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793733180,
+      "checked_through": 1793736360,
       "created": 1793733188,
       "expires": 1793754788,
       "high": 0.12756824,
@@ -47,7 +47,7 @@
     },
     "BLUR-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793733180,
+      "checked_through": 1793736360,
       "created": 1793722951,
       "expires": 1793744551,
       "high": 0.007909764285714285,
@@ -58,17 +58,6 @@
       "watch_observed_at": 1793722965,
       "watch_sent_at": 1793722969,
       "watch_version": 8
-    },
-    "BSB-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793713179,
-      "expires": 1793734779,
-      "high": 0.0906845,
-      "low": 0.08981549999999999,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793719393,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "MAGIC-USDT-SWAP": {
       "category": "EARLY",
