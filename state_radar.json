@@ -10,7 +10,6 @@
     "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
     "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
     "LAB-USDT-SWAP:WATCH:1793661858": 1793661863,
-    "NES-USDT-SWAP:WATCH:1793576337": 1793576345,
     "PEPE-USDT-SWAP:WATCH:1793582893": 1793586377,
     "PEPE-USDT-SWAP:WATCH:1793705474": 1793705492,
     "PUMP-USDT-SWAP:WATCH:1793582893": 1793586378,
@@ -22,7 +21,7 @@
   "zones": {
     "ACU-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793747400,
+      "checked_through": 1793749860,
       "created": 1793733188,
       "expires": 1793754788,
       "high": 0.12756824,
@@ -50,7 +49,10 @@
       "expires": 1793763250,
       "high": 0.13461607142857143,
       "low": 0.13198392857142857,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793749862,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
