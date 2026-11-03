@@ -37,7 +37,10 @@
       "expires": 1793734779,
       "high": 0.0906845,
       "low": 0.08981549999999999,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793719393,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "CC-USDT-SWAP": {
       "category": "EARLY",
@@ -63,7 +66,7 @@
     },
     "H-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793716440,
+      "checked_through": 1793719380,
       "created": 1793702234,
       "expires": 1793723834,
       "high": 0.05364728571428571,
@@ -75,29 +78,31 @@
       "watch_sent_at": 1793702245,
       "watch_version": 8
     },
-    "KMNO-USDT-SWAP": {
-      "break_at": 1793709360,
-      "break_late_skipped": true,
-      "break_price": 0.03177,
-      "category": "EARLY",
-      "checked_through": 1793716440,
-      "created": 1793698762,
-      "expires": 1793720362,
-      "high": 0.03208621428571428,
-      "low": 0.031713785714285715,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793704200,
-      "watch_at": 1793698740,
-      "watch_observed_at": 1793698765,
-      "watch_sent_at": 1793698770,
-      "watch_version": 8
-    },
     "MAGIC-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793716478,
       "expires": 1793738078,
       "high": 0.08155492,
       "low": 0.08090507999999999,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "OPN-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793719392,
+      "expires": 1793740992,
+      "high": 0.04319035714285714,
+      "low": 0.04278964285714286,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793719402,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "POL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793719392,
+      "expires": 1793740992,
+      "high": 0.09088225,
+      "low": 0.09011775,
       "source": "HISTORICAL_PIVOT"
     },
     "STX-USDT-SWAP": {
@@ -116,7 +121,7 @@
       "break_late_skipped": true,
       "break_price": 0.010281,
       "category": "EARLY",
-      "checked_through": 1793716440,
+      "checked_through": 1793719380,
       "created": 1793705474,
       "expires": 1793727074,
       "high": 0.010394411999999999,
