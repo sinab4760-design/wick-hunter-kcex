@@ -8,6 +8,8 @@
     "CORE-USDT-SWAP:WATCH:1793582893": 1793582901,
     "DOS-USDT-SWAP:WATCH:1793531913": 1793531924,
     "GRASS-USDT-SWAP:WATCH:1793569999": 1793570006,
+    "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
+    "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
     "LAB-USDT-SWAP:WATCH:1793661858": 1793661863,
     "MUBARAK-USDT-SWAP:WATCH:1793531913": 1793531924,
     "NES-USDT-SWAP:WATCH:1793576337": 1793576345,
@@ -18,17 +20,43 @@
     "WET-USDT-SWAP:WATCH:1793631502": 1793631508
   },
   "zones": {
-    "LAB-USDT-SWAP": {
+    "INJ-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1793683729,
-      "expires": 1793705329,
-      "high": 0.04541189285714286,
-      "low": 0.04504810714285714,
+      "checked_through": 1793698740,
+      "created": 1793698762,
+      "expires": 1793720362,
+      "high": 7.232816,
+      "low": 7.175184,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793698740,
+      "watch_observed_at": 1793698769,
+      "watch_sent_at": 1793698770,
+      "watch_version": 8
+    },
+    "KMNO-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793698740,
+      "created": 1793698762,
+      "expires": 1793720362,
+      "high": 0.03208621428571428,
+      "low": 0.031713785714285715,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793698740,
+      "watch_observed_at": 1793698765,
+      "watch_sent_at": 1793698770,
+      "watch_version": 8
+    },
+    "LIT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793698762,
+      "expires": 1793720362,
+      "high": 3.1558371428571426,
+      "low": 3.125162857142857,
       "source": "HISTORICAL_PIVOT"
     },
     "STABLE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793695380,
+      "checked_through": 1793698740,
       "created": 1793683729,
       "expires": 1793705329,
       "high": 0.02800156,
@@ -38,6 +66,22 @@
       "watch_observed_at": 1793683732,
       "watch_sent_at": 1793683734,
       "watch_version": 8
+    },
+    "STX-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793698762,
+      "expires": 1793720362,
+      "high": 0.3296132,
+      "low": 0.32698679999999997,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "ZKP-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793698762,
+      "expires": 1793720362,
+      "high": 0.04153548,
+      "low": 0.041204519999999994,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
