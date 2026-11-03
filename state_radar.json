@@ -8,6 +8,7 @@
     "CORE-USDT-SWAP:WATCH:1793582893": 1793582901,
     "DOS-USDT-SWAP:WATCH:1793531913": 1793531924,
     "GRASS-USDT-SWAP:WATCH:1793569999": 1793570006,
+    "H-USDT-SWAP:WATCH:1793702234": 1793702245,
     "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
     "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
     "LAB-USDT-SWAP:WATCH:1793661858": 1793661863,
@@ -20,14 +21,36 @@
     "WET-USDT-SWAP:WATCH:1793631502": 1793631508
   },
   "zones": {
+    "BILL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793702234,
+      "expires": 1793723834,
+      "high": 0.005264842857142857,
+      "low": 0.005221157142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "H-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793702220,
+      "created": 1793702234,
+      "expires": 1793723834,
+      "high": 0.05364728571428571,
+      "low": 0.05317271428571429,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793702220,
+      "watch_observed_at": 1793702241,
+      "watch_sent_at": 1793702245,
+      "watch_version": 8
+    },
     "INJ-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793698740,
+      "checked_through": 1793702220,
       "created": 1793698762,
       "expires": 1793720362,
       "high": 7.232816,
       "low": 7.175184,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793698860,
       "watch_at": 1793698740,
       "watch_observed_at": 1793698769,
       "watch_sent_at": 1793698770,
@@ -35,7 +58,7 @@
     },
     "KMNO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793698740,
+      "checked_through": 1793702220,
       "created": 1793698762,
       "expires": 1793720362,
       "high": 0.03208621428571428,
@@ -56,7 +79,7 @@
     },
     "STABLE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793698740,
+      "checked_through": 1793702220,
       "created": 1793683729,
       "expires": 1793705329,
       "high": 0.02800156,
@@ -81,7 +104,10 @@
       "expires": 1793720362,
       "high": 0.04153548,
       "low": 0.041204519999999994,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793702238,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
