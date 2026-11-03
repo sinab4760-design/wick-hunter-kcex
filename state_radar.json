@@ -42,8 +42,11 @@
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "LAB-USDT-SWAP": {
+      "break_at": 1793664780,
+      "break_late_skipped": true,
+      "break_price": 0.04477,
       "category": "EARLY",
-      "checked_through": 1793664000,
+      "checked_through": 1793667480,
       "created": 1793661858,
       "expires": 1793683458,
       "high": 0.045442142857142855,
@@ -65,6 +68,14 @@
       "spent": true,
       "spent_at": 1793651357,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "PIEVERSE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793667518,
+      "expires": 1793689118,
+      "high": 1.0970708,
+      "low": 1.0883292,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
