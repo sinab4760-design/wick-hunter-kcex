@@ -32,25 +32,15 @@
       "spent_at": 1793722964,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ARB-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793705474,
-      "expires": 1793727074,
-      "high": 0.16036892,
-      "low": 0.15909108000000002,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793705485,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "BLUR-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793726520,
+      "checked_through": 1793729520,
       "created": 1793722951,
       "expires": 1793744551,
       "high": 0.007909764285714285,
       "low": 0.007844235714285715,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793727060,
       "watch_at": 1793722920,
       "watch_observed_at": 1793722965,
       "watch_sent_at": 1793722969,
@@ -65,28 +55,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793719393,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "CC-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793705474,
-      "expires": 1793727074,
-      "high": 0.09833176,
-      "low": 0.09754824,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793705484,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "FLOCK-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793705474,
-      "expires": 1793727074,
-      "high": 0.03910932142857143,
-      "low": 0.038770678571428574,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793716481,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "MAGIC-USDT-SWAP": {
@@ -110,31 +78,6 @@
       "spent": true,
       "spent_at": 1793719402,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "POL-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793719392,
-      "expires": 1793740992,
-      "high": 0.09088225,
-      "low": 0.09011775,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "ZK-USDT-SWAP": {
-      "break_at": 1793706780,
-      "break_late_skipped": true,
-      "break_price": 0.010281,
-      "category": "EARLY",
-      "checked_through": 1793726520,
-      "created": 1793705474,
-      "expires": 1793727074,
-      "high": 0.010394411999999999,
-      "low": 0.010311588,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1793706000,
-      "watch_at": 1793705460,
-      "watch_observed_at": 1793705489,
-      "watch_sent_at": 1793705492,
-      "watch_version": 8
     }
   }
 }
