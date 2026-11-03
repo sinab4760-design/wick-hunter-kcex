@@ -18,17 +18,6 @@
     "WET-USDT-SWAP:WATCH:1793631502": 1793631508
   },
   "zones": {
-    "AXIS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793680300,
-      "expires": 1793701900,
-      "high": 0.1282782142857143,
-      "low": 0.1263217857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793680303,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793683729,
@@ -39,7 +28,7 @@
     },
     "STABLE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793683680,
+      "checked_through": 1793687220,
       "created": 1793683729,
       "expires": 1793705329,
       "high": 0.02800156,
