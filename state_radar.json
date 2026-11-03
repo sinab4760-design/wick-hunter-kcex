@@ -23,7 +23,7 @@
   "zones": {
     "ACU-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793739180,
+      "checked_through": 1793741640,
       "created": 1793733188,
       "expires": 1793754788,
       "high": 0.12756824,
@@ -45,9 +45,17 @@
       "spent_at": 1793722964,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "AERO-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793741650,
+      "expires": 1793763250,
+      "high": 0.6310989285714286,
+      "low": 0.6257010714285713,
+      "source": "HISTORICAL_PIVOT"
+    },
     "BLUR-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793739180,
+      "checked_through": 1793741640,
       "created": 1793722951,
       "expires": 1793744551,
       "high": 0.007909764285714285,
@@ -59,16 +67,13 @@
       "watch_sent_at": 1793722969,
       "watch_version": 8
     },
-    "OPN-USDT-SWAP": {
+    "NES-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1793719392,
-      "expires": 1793740992,
-      "high": 0.04319035714285714,
-      "low": 0.04278964285714286,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793719402,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1793741650,
+      "expires": 1793763250,
+      "high": 0.13461607142857143,
+      "low": 0.13198392857142857,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
