@@ -25,7 +25,10 @@
       "expires": 1793681095,
       "high": 0.19000571428571428,
       "low": 0.18799428571428572,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793664030,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "HOME-USDT-SWAP": {
       "category": "EARLY",
@@ -40,12 +43,13 @@
     },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793661840,
+      "checked_through": 1793664000,
       "created": 1793661858,
       "expires": 1793683458,
       "high": 0.045442142857142855,
       "low": 0.045017857142857144,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793663760,
       "watch_at": 1793661840,
       "watch_observed_at": 1793661861,
       "watch_sent_at": 1793661863,
