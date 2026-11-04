@@ -5,7 +5,6 @@
     "BLUR-USDT-SWAP:WATCH:1793722951": 1793722969,
     "BSB-USDT-SWAP:WATCH:1793589701": 1793589712,
     "CASHCAT-USDT-SWAP:WATCH:1793589701": 1793589712,
-    "CORE-USDT-SWAP:WATCH:1793582893": 1793582901,
     "H-USDT-SWAP:WATCH:1793702234": 1793702245,
     "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
     "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
@@ -19,19 +18,6 @@
     "ZK-USDT-SWAP:WATCH:1793705474": 1793705492
   },
   "zones": {
-    "ACU-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1793752320,
-      "created": 1793733188,
-      "expires": 1793754788,
-      "high": 0.12756824,
-      "low": 0.12655176,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1793733180,
-      "watch_observed_at": 1793733201,
-      "watch_sent_at": 1793733204,
-      "watch_version": 8
-    },
     "AERO-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793741650,
