@@ -20,7 +20,7 @@
   "zones": {
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793781900,
+      "checked_through": 1793785320,
       "created": 1793770043,
       "expires": 1793791643,
       "high": 0.12022821428571427,
@@ -83,7 +83,7 @@
       "break_late_skipped": true,
       "break_price": 24.162,
       "category": "PUMP",
-      "checked_through": 1793781900,
+      "checked_through": 1793785320,
       "created": 1793773799,
       "expires": 1793795399,
       "high": 24.250053571428573,
