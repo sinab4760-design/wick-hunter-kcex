@@ -19,22 +19,13 @@
     "ZK-USDT-SWAP:WATCH:1793705474": 1793705492
   },
   "zones": {
-    "ARX-USDT-SWAP": {
-      "break_at": 1793790000,
-      "break_late_skipped": true,
-      "break_price": 0.2313,
+    "CAP-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793792760,
-      "created": 1793789502,
-      "expires": 1793811102,
-      "high": 0.23569285714285712,
-      "low": 0.23346142857142857,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1793789580,
-      "watch_at": 1793789460,
-      "watch_observed_at": 1793789506,
-      "watch_sent_at": 1793789518,
-      "watch_version": 8
+      "created": 1793795793,
+      "expires": 1793817393,
+      "high": 0.09314339285714286,
+      "low": 0.09114532142857144,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "DNA-USDT-SWAP": {
       "category": "EARLY",
@@ -57,50 +48,6 @@
       "spent": true,
       "spent_at": 1793789511,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "MET-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793773799,
-      "expires": 1793795399,
-      "high": 0.28083214285714286,
-      "low": 0.2777678571428571,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "TRUTH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793773799,
-      "expires": 1793795399,
-      "high": 0.020219710714285712,
-      "low": 0.019950289285714285,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "USELESS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1793773799,
-      "expires": 1793795399,
-      "high": 0.14902589285714285,
-      "low": 0.14587282142857144,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1793778675,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "VVV-USDT-SWAP": {
-      "break_at": 1793778120,
-      "break_late_skipped": true,
-      "break_price": 24.162,
-      "category": "PUMP",
-      "checked_through": 1793792760,
-      "created": 1793773799,
-      "expires": 1793795399,
-      "high": 24.250053571428573,
-      "low": 23.938989285714285,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1793777400,
-      "watch_at": 1793773800,
-      "watch_observed_at": 1793773807,
-      "watch_sent_at": 1793773818,
-      "watch_version": 8
     },
     "WLFI-USDT-SWAP": {
       "category": "EARLY",
