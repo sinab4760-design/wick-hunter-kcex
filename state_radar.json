@@ -9,9 +9,7 @@
     "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
     "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
     "LAB-USDT-SWAP:WATCH:1793661858": 1793661863,
-    "PEPE-USDT-SWAP:WATCH:1793582893": 1793586377,
     "PEPE-USDT-SWAP:WATCH:1793705474": 1793705492,
-    "PUMP-USDT-SWAP:WATCH:1793582893": 1793586378,
     "STABLE-USDT-SWAP:WATCH:1793683729": 1793683734,
     "STRK-USDT-SWAP:WATCH:1793705474": 1793705492,
     "WET-USDT-SWAP:WATCH:1793631502": 1793631508,
@@ -29,6 +27,25 @@
       "spent_at": 1793744486,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "AXIS-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793759372,
+      "expires": 1793780972,
+      "high": 0.15507678571428574,
+      "low": 0.1506846428571429,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "BTW-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793759372,
+      "expires": 1793780972,
+      "high": 1.0459846428571429,
+      "low": 1.028015357142857,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793759375,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "NES-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793741650,
@@ -38,6 +55,28 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793749862,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "PARTI-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793759372,
+      "expires": 1793780972,
+      "high": 0.045623392857142855,
+      "low": 0.04489660714285715,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793759377,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SOPH-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793759372,
+      "expires": 1793780972,
+      "high": 0.0015012892857142856,
+      "low": 0.0014847107142857143,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793759378,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
