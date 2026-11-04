@@ -12,6 +12,7 @@
     "POL-USDT-SWAP:WATCH:1793766311": 1793766319,
     "STABLE-USDT-SWAP:WATCH:1793683729": 1793683734,
     "STRK-USDT-SWAP:WATCH:1793705474": 1793705492,
+    "VVV-USDT-SWAP:WATCH:1793773799": 1793773818,
     "WET-USDT-SWAP:WATCH:1793631502": 1793631508,
     "ZK-USDT-SWAP:WATCH:1793705474": 1793705492
   },
@@ -45,12 +46,13 @@
     },
     "CASHCAT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793770020,
+      "checked_through": 1793773800,
       "created": 1793770043,
       "expires": 1793791643,
       "high": 0.12022821428571427,
       "low": 0.11755835714285713,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1793770740,
       "watch_at": 1793770020,
       "watch_observed_at": 1793770049,
       "watch_sent_at": 1793770061,
@@ -66,6 +68,17 @@
       "spent": true,
       "spent_at": 1793766318,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "GRASS-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1793773799,
+      "expires": 1793795399,
+      "high": 0.5917003571428571,
+      "low": 0.5824996428571428,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793773812,
+      "spent_reason": "ZONE_ALREADY_TOUCHED_THIS_CANDLE"
     },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
@@ -86,6 +99,14 @@
       "spent_at": 1793766317,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "MET-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793773799,
+      "expires": 1793795399,
+      "high": 0.28083214285714286,
+      "low": 0.2777678571428571,
+      "source": "HISTORICAL_PIVOT"
+    },
     "PARTI-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793759372,
@@ -99,7 +120,7 @@
     },
     "POL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793770020,
+      "checked_through": 1793773800,
       "created": 1793766311,
       "expires": 1793787911,
       "high": 0.09283639285714285,
@@ -110,14 +131,6 @@
       "watch_observed_at": 1793766318,
       "watch_sent_at": 1793766319,
       "watch_version": 8
-    },
-    "PONS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793770043,
-      "expires": 1793791643,
-      "high": 0.20583857142857143,
-      "low": 0.20216142857142855,
-      "source": "HISTORICAL_PIVOT"
     },
     "SOPH-USDT-SWAP": {
       "category": "EARLY",
@@ -138,35 +151,34 @@
       "low": 0.3282325,
       "source": "HISTORICAL_PIVOT"
     },
+    "TRUTH-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793773799,
+      "expires": 1793795399,
+      "high": 0.020219710714285712,
+      "low": 0.019950289285714285,
+      "source": "HISTORICAL_PIVOT"
+    },
     "USELESS-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793766311,
-      "expires": 1793787911,
-      "high": 0.13127492857142858,
-      "low": 0.1288250714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793766316,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1793773799,
+      "expires": 1793795399,
+      "high": 0.14902589285714285,
+      "low": 0.14587282142857144,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "VVV-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793770043,
-      "expires": 1793791643,
-      "high": 22.562360714285713,
-      "low": 22.289639285714284,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793770054,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ZAMA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793770043,
-      "expires": 1793791643,
-      "high": 0.06818185714285714,
-      "low": 0.06741814285714286,
-      "source": "HISTORICAL_PIVOT"
+      "category": "PUMP",
+      "checked_through": 1793773800,
+      "created": 1793773799,
+      "expires": 1793795399,
+      "high": 24.250053571428573,
+      "low": 23.938989285714285,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1793773800,
+      "watch_observed_at": 1793773807,
+      "watch_sent_at": 1793773818,
+      "watch_version": 8
     }
   }
 }
