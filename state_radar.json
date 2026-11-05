@@ -52,7 +52,7 @@
     },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793879820,
+      "checked_through": 1793883780,
       "created": 1793879862,
       "expires": 1793901462,
       "high": 0.1821089285714286,
@@ -90,7 +90,7 @@
       "break_late_skipped": true,
       "break_price": 0.0289,
       "category": "EARLY",
-      "checked_through": 1793879820,
+      "checked_through": 1793883780,
       "created": 1793865588,
       "expires": 1793887188,
       "high": 0.02922825,
