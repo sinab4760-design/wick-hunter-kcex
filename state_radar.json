@@ -28,31 +28,9 @@
     "ZEN-USDT-SWAP:WATCH:1793833111": 1793833129
   },
   "zones": {
-    "AR-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793869128,
-      "expires": 1793890728,
-      "high": 3.355368,
-      "low": 3.3286320000000003,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793872776,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "BOME-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793869128,
-      "expires": 1793890728,
-      "high": 0.00065762,
-      "low": 0.0006523799999999999,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793876529,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793888640,
+      "checked_through": 1793892240,
       "created": 1793879862,
       "expires": 1793901462,
       "high": 0.1821089285714286,
@@ -74,17 +52,6 @@
       "spent_at": 1793888648,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "JELLYJELLY-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793869128,
-      "expires": 1793890728,
-      "high": 0.04343304,
-      "low": 0.04308696,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793872777,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793888638,
@@ -102,17 +69,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793879869,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "USELESS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793869128,
-      "expires": 1793890728,
-      "high": 0.14659660714285713,
-      "low": 0.14490339285714285,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793876531,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "XTZ-USDT-SWAP": {
