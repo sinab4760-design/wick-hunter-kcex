@@ -13,7 +13,6 @@
     "ENA-USDT-SWAP:WATCH:1793806810": 1793806832,
     "FARTCOIN-USDT-SWAP:WATCH:1793806810": 1793806831,
     "FOGO-USDT-SWAP:WATCH:1793853390": 1793853401,
-    "H-USDT-SWAP:WATCH:1793702234": 1793702245,
     "KMNO-USDT-SWAP:WATCH:1793816924": 1793816940,
     "LIT-USDT-SWAP:WATCH:1793816924": 1793820788,
     "MET-USDT-SWAP:WATCH:1793806810": 1793806831,
@@ -48,24 +47,18 @@
       "expires": 1793890728,
       "high": 0.00065762,
       "low": 0.0006523799999999999,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793876529,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "FOGO-USDT-SWAP": {
-      "break_at": 1793857680,
-      "break_late_skipped": true,
-      "break_price": 0.002589,
-      "category": "PUMP",
-      "checked_through": 1793872740,
-      "created": 1793853390,
-      "expires": 1793874990,
-      "high": 0.002681660714285714,
-      "low": 0.0026350678571428567,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "touch_at": 1793857200,
-      "watch_at": 1793853360,
-      "watch_observed_at": 1793853394,
-      "watch_sent_at": 1793853401,
-      "watch_version": 8
+    "CNPY-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793876527,
+      "expires": 1793898127,
+      "high": 0.16954107142857144,
+      "low": 0.16745892857142858,
+      "source": "HISTORICAL_PIVOT"
     },
     "JELLYJELLY-USDT-SWAP": {
       "category": "EARLY",
@@ -83,7 +76,7 @@
       "break_late_skipped": true,
       "break_price": 0.0289,
       "category": "EARLY",
-      "checked_through": 1793872740,
+      "checked_through": 1793876520,
       "created": 1793865588,
       "expires": 1793887188,
       "high": 0.02922825,
@@ -112,7 +105,10 @@
       "expires": 1793890728,
       "high": 0.14659660714285713,
       "low": 0.14490339285714285,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793876531,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
