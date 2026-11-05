@@ -33,7 +33,10 @@
       "expires": 1793917942,
       "high": 0.002831257142857143,
       "low": 0.0027187428571428572,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793900156,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "APR-USDT-SWAP": {
       "category": "EARLY",
@@ -56,7 +59,7 @@
     },
     "CNPY-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793896320,
+      "checked_through": 1793900100,
       "created": 1793879862,
       "expires": 1793901462,
       "high": 0.1821089285714286,
