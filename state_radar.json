@@ -14,8 +14,6 @@
     "FARTCOIN-USDT-SWAP:WATCH:1793806810": 1793806831,
     "FOGO-USDT-SWAP:WATCH:1793853390": 1793853401,
     "H-USDT-SWAP:WATCH:1793702234": 1793702245,
-    "INJ-USDT-SWAP:WATCH:1793698762": 1793698770,
-    "KMNO-USDT-SWAP:WATCH:1793698762": 1793698770,
     "KMNO-USDT-SWAP:WATCH:1793816924": 1793816940,
     "LIT-USDT-SWAP:WATCH:1793816924": 1793820788,
     "MET-USDT-SWAP:WATCH:1793806810": 1793806831,
@@ -39,7 +37,10 @@
       "expires": 1793890728,
       "high": 3.355368,
       "low": 3.3286320000000003,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793872776,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "BOME-USDT-SWAP": {
       "category": "EARLY",
@@ -54,7 +55,7 @@
       "break_late_skipped": true,
       "break_price": 0.002589,
       "category": "PUMP",
-      "checked_through": 1793869080,
+      "checked_through": 1793872740,
       "created": 1793853390,
       "expires": 1793874990,
       "high": 0.002681660714285714,
@@ -72,17 +73,9 @@
       "expires": 1793890728,
       "high": 0.04343304,
       "low": 0.04308696,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "LIGHT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793849680,
-      "expires": 1793871280,
-      "high": 0.24888464285714285,
-      "low": 0.24631535714285713,
       "source": "HISTORICAL_PIVOT",
       "spent": true,
-      "spent_at": 1793849688,
+      "spent_at": 1793872777,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "STABLE-USDT-SWAP": {
@@ -90,7 +83,7 @@
       "break_late_skipped": true,
       "break_price": 0.0289,
       "category": "EARLY",
-      "checked_through": 1793869080,
+      "checked_through": 1793872740,
       "created": 1793865588,
       "expires": 1793887188,
       "high": 0.02922825,
@@ -120,19 +113,6 @@
       "high": 0.14659660714285713,
       "low": 0.14490339285714285,
       "source": "HISTORICAL_PIVOT"
-    },
-    "XTZ-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1793869080,
-      "created": 1793849680,
-      "expires": 1793871280,
-      "high": 0.2909714285714285,
-      "low": 0.28688571428571424,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1793849640,
-      "watch_observed_at": 1793849684,
-      "watch_sent_at": 1793849692,
-      "watch_version": 8
     }
   }
 }
