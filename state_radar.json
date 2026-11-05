@@ -32,7 +32,7 @@
   "zones": {
     "ADA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793835660,
+      "checked_through": 1793838360,
       "created": 1793833111,
       "expires": 1793854711,
       "high": 0.20240640000000001,
@@ -45,7 +45,7 @@
     },
     "BAT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793835660,
+      "checked_through": 1793838360,
       "created": 1793833111,
       "expires": 1793854711,
       "high": 0.15403410714285717,
@@ -58,7 +58,7 @@
     },
     "KMNO-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793835660,
+      "checked_through": 1793838360,
       "created": 1793816924,
       "expires": 1793838524,
       "high": 0.03874196428571428,
@@ -82,7 +82,7 @@
     },
     "LIT-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793835660,
+      "checked_through": 1793838360,
       "created": 1793816924,
       "expires": 1793838524,
       "high": 3.573102142857143,
@@ -128,7 +128,7 @@
     },
     "ZEN-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793835660,
+      "checked_through": 1793838360,
       "created": 1793833111,
       "expires": 1793854711,
       "high": 5.546096,
