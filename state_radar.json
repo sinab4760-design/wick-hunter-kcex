@@ -1,6 +1,5 @@
 {
   "seen": {
-    "ACU-USDT-SWAP:WATCH:1793733188": 1793733204,
     "ADA-USDT-SWAP:WATCH:1793833111": 1793833128,
     "AERO-USDT-SWAP:WATCH:1793846398": 1793846413,
     "ARX-USDT-SWAP:WATCH:1793789502": 1793789518,
@@ -15,6 +14,7 @@
     "FOGO-USDT-SWAP:WATCH:1793853390": 1793853401,
     "KMNO-USDT-SWAP:WATCH:1793816924": 1793816940,
     "LIT-USDT-SWAP:WATCH:1793816924": 1793820788,
+    "MERL-USDT-SWAP:WATCH:1793906654": 1793906662,
     "MET-USDT-SWAP:WATCH:1793806810": 1793806831,
     "NEAR-USDT-SWAP:WATCH:1793806810": 1793806833,
     "ORDER-USDT-SWAP:WATCH:1793800189": 1793800201,
@@ -60,6 +60,14 @@
       "spent_at": 1793888648,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "HOME-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793906654,
+      "expires": 1793928254,
+      "high": 0.0054760214285714285,
+      "low": 0.005385978571428572,
+      "source": "HISTORICAL_PIVOT"
+    },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
       "created": 1793888638,
@@ -67,6 +75,19 @@
       "high": 0.04651339285714286,
       "low": 0.04600660714285715,
       "source": "HISTORICAL_PIVOT"
+    },
+    "MERL-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1793906640,
+      "created": 1793906654,
+      "expires": 1793928254,
+      "high": 0.03223446428571428,
+      "low": 0.031539107142857147,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1793906640,
+      "watch_observed_at": 1793906659,
+      "watch_sent_at": 1793906662,
+      "watch_version": 8
     },
     "NES-USDT-SWAP": {
       "category": "EARLY",
