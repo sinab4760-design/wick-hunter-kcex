@@ -42,7 +42,7 @@
       "break_late_skipped": true,
       "break_price": 1.433,
       "category": "EARLY",
-      "checked_through": 1794002820,
+      "checked_through": 1794005340,
       "created": 1793985686,
       "expires": 1794007286,
       "high": 1.4520107142857142,
@@ -63,6 +63,17 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1794002891,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "STX-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794005393,
+      "expires": 1794026993,
+      "high": 0.3493364285714286,
+      "low": 0.34586357142857144,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794005401,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
