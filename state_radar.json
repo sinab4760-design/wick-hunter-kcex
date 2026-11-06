@@ -15,6 +15,7 @@
     "INJ-USDT-SWAP:WATCH:1793935466": 1793935476,
     "KMNO-USDT-SWAP:WATCH:1793816924": 1793816940,
     "LIT-USDT-SWAP:WATCH:1793816924": 1793820788,
+    "MAGIC-USDT-SWAP:WATCH:1793946705": 1793946714,
     "MERL-USDT-SWAP:WATCH:1793906654": 1793906662,
     "MET-USDT-SWAP:WATCH:1793806810": 1793806831,
     "NEAR-USDT-SWAP:WATCH:1793806810": 1793806833,
@@ -22,7 +23,6 @@
     "RAY-USDT-SWAP:WATCH:1793806810": 1793806831,
     "S-USDT-SWAP:WATCH:1793806810": 1793806832,
     "STABLE-USDT-SWAP:WATCH:1793865588": 1793865599,
-    "VVV-USDT-SWAP:WATCH:1793773799": 1793773818,
     "XTZ-USDT-SWAP:WATCH:1793849680": 1793849692,
     "ZEN-USDT-SWAP:WATCH:1793833111": 1793833129
   },
@@ -33,7 +33,10 @@
       "expires": 1793964486,
       "high": 0.005433732142857144,
       "low": 0.005053053571428572,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "spent": true,
+      "spent_at": 1793946706,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "BEAT-USDT-SWAP": {
       "category": "EARLY",
@@ -48,7 +51,7 @@
     },
     "DOOD-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793942880,
+      "checked_through": 1793946660,
       "created": 1793935466,
       "expires": 1793957066,
       "high": 0.0017987857142857141,
@@ -62,7 +65,7 @@
     },
     "INJ-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793942880,
+      "checked_through": 1793946660,
       "created": 1793935466,
       "expires": 1793957066,
       "high": 8.643642857142856,
@@ -84,13 +87,26 @@
       "spent_at": 1793935475,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "OL-USDT-SWAP": {
+    "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1793932217,
-      "expires": 1793953817,
-      "high": 0.005809560714285714,
-      "low": 0.005752439285714285,
+      "created": 1793946705,
+      "expires": 1793968305,
+      "high": 0.04687364285714286,
+      "low": 0.046086357142857144,
       "source": "HISTORICAL_PIVOT"
+    },
+    "MAGIC-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1793946660,
+      "created": 1793946705,
+      "expires": 1793968305,
+      "high": 0.08958467857142857,
+      "low": 0.08873532142857143,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1793946660,
+      "watch_observed_at": 1793946711,
+      "watch_sent_at": 1793946714,
+      "watch_version": 8
     },
     "WLFI-USDT-SWAP": {
       "category": "EARLY",
