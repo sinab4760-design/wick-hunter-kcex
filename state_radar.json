@@ -20,7 +20,6 @@
     "MET-USDT-SWAP:WATCH:1793806810": 1793806831,
     "NEAR-USDT-SWAP:WATCH:1793806810": 1793806833,
     "ORDER-USDT-SWAP:WATCH:1793800189": 1793800201,
-    "POL-USDT-SWAP:WATCH:1793766311": 1793766319,
     "RAY-USDT-SWAP:WATCH:1793806810": 1793806831,
     "S-USDT-SWAP:WATCH:1793806810": 1793806832,
     "STABLE-USDT-SWAP:WATCH:1793865588": 1793865599,
@@ -31,10 +30,10 @@
   "zones": {
     "AKE-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1793935466,
-      "expires": 1793957066,
-      "high": 0.00285475,
-      "low": 0.00269525,
+      "created": 1793939158,
+      "expires": 1793960758,
+      "high": 0.003406792857142857,
+      "low": 0.0031332071428571426,
       "source": "HISTORICAL_PIVOT"
     },
     "BEAT-USDT-SWAP": {
@@ -43,16 +42,20 @@
       "expires": 1793953817,
       "high": 0.10383664285714286,
       "low": 0.10254335714285714,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793939159,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "DOOD-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793935440,
+      "checked_through": 1793939100,
       "created": 1793935466,
       "expires": 1793957066,
       "high": 0.0017987857142857141,
       "low": 0.0017752142857142858,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1793936400,
       "watch_at": 1793935440,
       "watch_observed_at": 1793935472,
       "watch_sent_at": 1793935476,
@@ -60,7 +63,7 @@
     },
     "INJ-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1793935440,
+      "checked_through": 1793939160,
       "created": 1793935466,
       "expires": 1793957066,
       "high": 8.643642857142856,
@@ -80,17 +83,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1793935475,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "NES-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1793923914,
-      "expires": 1793945514,
-      "high": 0.1393552,
-      "low": 0.1382448,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1793923918,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "OL-USDT-SWAP": {
