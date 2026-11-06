@@ -40,7 +40,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1793921280,
+      "checked_through": 1793923860,
       "created": 1793906654,
       "expires": 1793928254,
       "high": 0.03223446428571428,
@@ -50,6 +50,17 @@
       "watch_observed_at": 1793906659,
       "watch_sent_at": 1793906662,
       "watch_version": 8
+    },
+    "NES-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1793923914,
+      "expires": 1793945514,
+      "high": 0.1393552,
+      "low": 0.1382448,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1793923918,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
