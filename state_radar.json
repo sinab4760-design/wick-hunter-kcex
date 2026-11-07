@@ -28,20 +28,9 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
-    "AT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794048003,
-      "expires": 1794069603,
-      "high": 0.1008016,
-      "low": 0.0999984,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794048008,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "BLEND-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794068760,
+      "checked_through": 1794071400,
       "created": 1794050262,
       "expires": 1794071862,
       "high": 0.05988553571428571,
@@ -73,21 +62,18 @@
     },
     "ONE-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1794058690,
-      "expires": 1794080290,
-      "high": 0.002124844285714286,
-      "low": 0.002031155714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794061507,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1794071405,
+      "expires": 1794093005,
+      "high": 0.002584330357142857,
+      "low": 0.0024668739285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "PARTI-USDT-SWAP": {
       "break_at": 1794056460,
       "break_late_skipped": true,
       "break_price": 0.0496,
       "category": "EARLY",
-      "checked_through": 1794068760,
+      "checked_through": 1794071400,
       "created": 1794055568,
       "expires": 1794077168,
       "high": 0.05040778571428572,
@@ -110,9 +96,17 @@
       "spent_at": 1794061510,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "SIGN-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794071405,
+      "expires": 1794093005,
+      "high": 0.010559285714285714,
+      "low": 0.010309742857142855,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794068760,
+      "checked_through": 1794071400,
       "created": 1794064274,
       "expires": 1794085874,
       "high": 0.002619436,
