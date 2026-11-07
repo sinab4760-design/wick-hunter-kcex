@@ -28,12 +28,13 @@
   "zones": {
     "CT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794042600,
+      "checked_through": 1794045420,
       "created": 1794042616,
       "expires": 1794064216,
       "high": 0.1441660714285714,
       "low": 0.1422787857142857,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1794043020,
       "watch_at": 1794042600,
       "watch_observed_at": 1794042618,
       "watch_sent_at": 1794042621,
