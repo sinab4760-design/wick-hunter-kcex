@@ -26,9 +26,20 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
+    "AT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794048003,
+      "expires": 1794069603,
+      "high": 0.1008016,
+      "low": 0.0999984,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794048008,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "CT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794045420,
+      "checked_through": 1794048000,
       "created": 1794042616,
       "expires": 1794064216,
       "high": 0.1441660714285714,
