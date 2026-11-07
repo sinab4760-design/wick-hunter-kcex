@@ -1,6 +1,5 @@
 {
   "seen": {
-    "AERO-USDT-SWAP:WATCH:1793846398": 1793846413,
     "APT-USDT-SWAP:WATCH:1793978985": 1793979008,
     "AR-USDT-SWAP:WATCH:1793978985": 1793979009,
     "ATOM-USDT-SWAP:WATCH:1793985686": 1793985702,
@@ -23,6 +22,7 @@
     "STRK-USDT-SWAP:WATCH:1793978985": 1793985702,
     "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
     "WOO-USDT-SWAP:WATCH:1793942886": 1793951464,
+    "XPL-USDT-SWAP:WATCH:1794019606": 1794019619,
     "XTZ-USDT-SWAP:WATCH:1793849680": 1793849692,
     "ZAMA-USDT-SWAP:WATCH:1793958304": 1793958318,
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
@@ -84,20 +84,34 @@
     },
     "UP-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794016560,
+      "checked_through": 1794019560,
       "created": 1794013196,
       "expires": 1794034796,
       "high": 0.11766785714285712,
       "low": 0.11598642857142856,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1794019200,
       "watch_at": 1794013140,
       "watch_observed_at": 1794013199,
       "watch_sent_at": 1794013207,
       "watch_version": 8
     },
+    "XPL-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794019560,
+      "created": 1794019606,
+      "expires": 1794041206,
+      "high": 0.06047092,
+      "low": 0.05998908,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794019560,
+      "watch_observed_at": 1794019615,
+      "watch_sent_at": 1794019619,
+      "watch_version": 8
+    },
     "ZETA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794016560,
+      "checked_through": 1794019560,
       "created": 1794013196,
       "expires": 1794034796,
       "high": 0.03721828,
