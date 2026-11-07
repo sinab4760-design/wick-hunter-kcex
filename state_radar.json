@@ -39,7 +39,7 @@
     },
     "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794075540,
+      "checked_through": 1794078720,
       "created": 1794073572,
       "expires": 1794095172,
       "high": 0.7649476000000001,
@@ -68,7 +68,10 @@
       "expires": 1794095172,
       "high": 0.051253,
       "low": 0.050526999999999996,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794078775,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ONE-USDT-SWAP": {
       "category": "PUMP",
@@ -77,23 +80,6 @@
       "high": 0.002584330357142857,
       "low": 0.0024668739285714286,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "PARTI-USDT-SWAP": {
-      "break_at": 1794056460,
-      "break_late_skipped": true,
-      "break_price": 0.0496,
-      "category": "EARLY",
-      "checked_through": 1794075540,
-      "created": 1794055568,
-      "expires": 1794077168,
-      "high": 0.05040778571428572,
-      "low": 0.049812214285714286,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794056040,
-      "watch_at": 1794055560,
-      "watch_observed_at": 1794055572,
-      "watch_sent_at": 1794055573,
-      "watch_version": 8
     },
     "RSR-USDT-SWAP": {
       "category": "EARLY",
@@ -119,7 +105,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794075540,
+      "checked_through": 1794078720,
       "created": 1794064274,
       "expires": 1794085874,
       "high": 0.002619436,
@@ -140,14 +126,6 @@
       "spent": true,
       "spent_at": 1794064279,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "USELESS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794073572,
-      "expires": 1794095172,
-      "high": 0.13395907142857144,
-      "low": 0.13280092857142856,
-      "source": "HISTORICAL_PIVOT"
     }
   }
 }
