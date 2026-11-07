@@ -3,6 +3,7 @@
     "APT-USDT-SWAP:WATCH:1793978985": 1793979008,
     "AR-USDT-SWAP:WATCH:1793978985": 1793979009,
     "ATOM-USDT-SWAP:WATCH:1793985686": 1793985702,
+    "BLEND-USDT-SWAP:WATCH:1794050262": 1794050268,
     "CNPY-USDT-SWAP:WATCH:1793879862": 1793879873,
     "CT-USDT-SWAP:WATCH:1793958304": 1793958318,
     "CT-USDT-SWAP:WATCH:1794042616": 1794042621,
@@ -37,9 +38,22 @@
       "spent_at": 1794048008,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "BLEND-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1794050220,
+      "created": 1794050262,
+      "expires": 1794071862,
+      "high": 0.05988553571428571,
+      "low": 0.05877689285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1794050220,
+      "watch_observed_at": 1794050266,
+      "watch_sent_at": 1794050268,
+      "watch_version": 8
+    },
     "CT-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794048000,
+      "checked_through": 1794050220,
       "created": 1794042616,
       "expires": 1794064216,
       "high": 0.1441660714285714,
