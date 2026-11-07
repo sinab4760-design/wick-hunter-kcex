@@ -23,19 +23,10 @@
     "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
     "WOO-USDT-SWAP:WATCH:1793942886": 1793951464,
     "XPL-USDT-SWAP:WATCH:1794019606": 1794019619,
-    "XTZ-USDT-SWAP:WATCH:1793849680": 1793849692,
     "ZAMA-USDT-SWAP:WATCH:1793958304": 1793958318,
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
-    "AERO-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794002877,
-      "expires": 1794024477,
-      "high": 0.6713747999999999,
-      "low": 0.6660252,
-      "source": "HISTORICAL_PIVOT"
-    },
     "AKE-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794016614,
@@ -44,24 +35,16 @@
       "low": 0.0052175,
       "source": "HISTORICAL_PIVOT"
     },
-    "CHIP-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794002877,
-      "expires": 1794024477,
-      "high": 0.039081535714285714,
-      "low": 0.03867846428571428,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794002891,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "LIT-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794016614,
       "expires": 1794038214,
       "high": 3.4846882142857143,
       "low": 3.456111785714286,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794025689,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ONE-USDT-SWAP": {
       "category": "PUMP",
@@ -87,7 +70,7 @@
       "break_late_skipped": true,
       "break_price": 0.1151,
       "category": "PUMP",
-      "checked_through": 1794022320,
+      "checked_through": 1794025680,
       "created": 1794013196,
       "expires": 1794034796,
       "high": 0.11766785714285712,
@@ -101,7 +84,7 @@
     },
     "XPL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794022320,
+      "checked_through": 1794025680,
       "created": 1794019606,
       "expires": 1794041206,
       "high": 0.06047092,
@@ -114,7 +97,7 @@
     },
     "ZETA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794022320,
+      "checked_through": 1794025680,
       "created": 1794013196,
       "expires": 1794034796,
       "high": 0.03721828,
