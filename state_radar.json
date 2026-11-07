@@ -17,7 +17,6 @@
     "ONE-USDT-SWAP:WATCH:1793958304": 1793961995,
     "PYTH-USDT-SWAP:WATCH:1793961976": 1793961995,
     "RVN-USDT-SWAP:WATCH:1793961976": 1793961995,
-    "STABLE-USDT-SWAP:WATCH:1793865588": 1793865599,
     "STRK-USDT-SWAP:WATCH:1793978985": 1793985702,
     "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
     "WOO-USDT-SWAP:WATCH:1793942886": 1793951464,
@@ -26,14 +25,6 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
-    "AKE-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794016614,
-      "expires": 1794038214,
-      "high": 0.005558500000000001,
-      "low": 0.0052175,
-      "source": "HISTORICAL_PIVOT"
-    },
     "PIEVERSE-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794031916,
@@ -45,9 +36,17 @@
       "spent_at": 1794031920,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "STABLE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794039451,
+      "expires": 1794061051,
+      "high": 0.02614416,
+      "low": 0.02593584,
+      "source": "HISTORICAL_PIVOT"
+    },
     "XPL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794035940,
+      "checked_through": 1794039420,
       "created": 1794019606,
       "expires": 1794041206,
       "high": 0.06047092,
