@@ -2,6 +2,7 @@
   "seen": {
     "APT-USDT-SWAP:WATCH:1793978985": 1793979008,
     "AR-USDT-SWAP:WATCH:1793978985": 1793979009,
+    "AT-USDT-SWAP:WATCH:1794090466": 1794090474,
     "ATOM-USDT-SWAP:WATCH:1793985686": 1793985702,
     "BLEND-USDT-SWAP:WATCH:1794050262": 1794050268,
     "CT-USDT-SWAP:WATCH:1793958304": 1793958318,
@@ -28,9 +29,22 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
+    "AT-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794090420,
+      "created": 1794090466,
+      "expires": 1794112066,
+      "high": 0.10030857142857143,
+      "low": 0.09949142857142858,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794090420,
+      "watch_observed_at": 1794090473,
+      "watch_sent_at": 1794090474,
+      "watch_version": 8
+    },
     "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794088380,
+      "checked_through": 1794090420,
       "created": 1794073572,
       "expires": 1794095172,
       "high": 0.7649476000000001,
@@ -41,6 +55,14 @@
       "watch_observed_at": 1794073580,
       "watch_sent_at": 1794073581,
       "watch_version": 8
+    },
+    "EDGE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794090466,
+      "expires": 1794112066,
+      "high": 0.3253964,
+      "low": 0.3228036,
+      "source": "HISTORICAL_PIVOT"
     },
     "MEGA-USDT-SWAP": {
       "category": "EARLY",
