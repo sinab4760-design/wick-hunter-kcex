@@ -30,7 +30,7 @@
   "zones": {
     "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794081300,
+      "checked_through": 1794083460,
       "created": 1794073572,
       "expires": 1794095172,
       "high": 0.7649476000000001,
@@ -41,17 +41,6 @@
       "watch_observed_at": 1794073580,
       "watch_sent_at": 1794073581,
       "watch_version": 8
-    },
-    "KAT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794061503,
-      "expires": 1794083103,
-      "high": 0.0038736178571428573,
-      "low": 0.0038183821428571427,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794061510,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "MEGA-USDT-SWAP": {
       "category": "EARLY",
@@ -80,17 +69,6 @@
       "low": 0.002008932,
       "source": "HISTORICAL_PIVOT"
     },
-    "RSR-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794061503,
-      "expires": 1794083103,
-      "high": 0.0015775214285714285,
-      "low": 0.0015644785714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794061510,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "SIGN-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794071405,
@@ -104,7 +82,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794081300,
+      "checked_through": 1794083460,
       "created": 1794064274,
       "expires": 1794085874,
       "high": 0.002619436,
