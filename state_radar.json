@@ -19,20 +19,17 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
-    "DASH-USDT-SWAP": {
+    "DOS-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1794154850,
-      "expires": 1794176450,
-      "high": 48.021319999999996,
-      "low": 47.63868,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794154859,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "created": 1794178590,
+      "expires": 1794200190,
+      "high": 0.20162964285714285,
+      "low": 0.19917035714285714,
+      "source": "HISTORICAL_PIVOT"
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794176280,
+      "checked_through": 1794178560,
       "created": 1794169399,
       "expires": 1794190999,
       "high": 0.034172321428571434,
