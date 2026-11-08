@@ -17,6 +17,7 @@
     "KGEN-USDT-SWAP:WATCH:1793978985": 1793979007,
     "O-USDT-SWAP:WATCH:1794115242": 1794115246,
     "PARTI-USDT-SWAP:WATCH:1794055568": 1794055573,
+    "PUMP-USDT-SWAP:WATCH:1794150386": 1794150393,
     "STRK-USDT-SWAP:WATCH:1793978985": 1793985702,
     "TRIA-USDT-SWAP:WATCH:1794064274": 1794064280,
     "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
@@ -52,7 +53,7 @@
       "break_late_skipped": true,
       "break_price": 0.07359,
       "category": "EARLY",
-      "checked_through": 1794147780,
+      "checked_through": 1794150360,
       "created": 1794139221,
       "expires": 1794160821,
       "high": 0.07448676,
@@ -107,6 +108,27 @@
       "spent": true,
       "spent_at": 1794142190,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "PARTI-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794150386,
+      "expires": 1794171986,
+      "high": 0.051035535714285714,
+      "low": 0.05054446428571429,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "PUMP-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794150360,
+      "created": 1794150386,
+      "expires": 1794171986,
+      "high": 0.00380516,
+      "low": 0.00377484,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794150360,
+      "watch_observed_at": 1794150392,
+      "watch_sent_at": 1794150393,
+      "watch_version": 8
     },
     "SOPH-USDT-SWAP": {
       "category": "EARLY",
