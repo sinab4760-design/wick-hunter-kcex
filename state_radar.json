@@ -10,6 +10,7 @@
     "HMSTR-USDT-SWAP:WATCH:1794118329": 1794118334,
     "MERL-USDT-SWAP:WATCH:1794169399": 1794169406,
     "O-USDT-SWAP:WATCH:1794115242": 1794115246,
+    "OKB-USDT-SWAP:WATCH:1794180844": 1794180851,
     "PARTI-USDT-SWAP:WATCH:1794055568": 1794055573,
     "PUMP-USDT-SWAP:WATCH:1794150386": 1794150393,
     "TRIA-USDT-SWAP:WATCH:1794064274": 1794064280,
@@ -19,6 +20,17 @@
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
   },
   "zones": {
+    "AEON-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794180844,
+      "expires": 1794202444,
+      "high": 0.02648985714285714,
+      "low": 0.025990142857142857,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794180848,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794178590,
@@ -29,7 +41,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794178560,
+      "checked_through": 1794180840,
       "created": 1794169399,
       "expires": 1794190999,
       "high": 0.034172321428571434,
@@ -51,12 +63,55 @@
       "spent_at": 1794164791,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "OKB-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794180840,
+      "created": 1794180844,
+      "expires": 1794202444,
+      "high": 102.15696428571428,
+      "low": 101.16303571428571,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794180840,
+      "watch_observed_at": 1794180851,
+      "watch_sent_at": 1794180851,
+      "watch_version": 8
+    },
+    "PEPE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794180844,
+      "expires": 1794202444,
+      "high": 5.122081428571428e-06,
+      "low": 5.052718571428571e-06,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794180849,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "RENDER-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794180844,
+      "expires": 1794202444,
+      "high": 1.5694678571428573,
+      "low": 1.5505321428571428,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794180850,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "STABLE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794159479,
       "expires": 1794181079,
       "high": 0.02646544,
       "low": 0.026254560000000003,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "ZIL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794180844,
+      "expires": 1794202444,
+      "high": 0.0016640178571428572,
+      "low": 0.001643982142857143,
       "source": "HISTORICAL_PIVOT"
     }
   }
