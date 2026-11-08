@@ -9,7 +9,6 @@
     "BREV-USDT-SWAP:WATCH:1794139221": 1794139231,
     "CT-USDT-SWAP:WATCH:1794042616": 1794042621,
     "DGAI-USDT-SWAP:WATCH:1794073572": 1794073581,
-    "DOS-USDT-SWAP:WATCH:1793973019": 1793973039,
     "DYDX-USDT-SWAP:WATCH:1793978985": 1793985701,
     "FIL-USDT-SWAP:WATCH:1793978985": 1793979009,
     "GRASS-USDT-SWAP:WATCH:1794092906": 1794101777,
@@ -53,7 +52,7 @@
       "break_late_skipped": true,
       "break_price": 0.07359,
       "category": "EARLY",
-      "checked_through": 1794145080,
+      "checked_through": 1794147780,
       "created": 1794139221,
       "expires": 1794160821,
       "high": 0.07448676,
@@ -97,14 +96,6 @@
       "spent": true,
       "spent_at": 1794139227,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ONE-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794125895,
-      "expires": 1794147495,
-      "high": 0.002203818214285714,
-      "low": 0.0021239817857142858,
-      "source": "HISTORICAL_PIVOT"
     },
     "OPG-USDT-SWAP": {
       "category": "EARLY",
