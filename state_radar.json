@@ -14,6 +14,7 @@
     "FIL-USDT-SWAP:WATCH:1793978985": 1793979009,
     "GRASS-USDT-SWAP:WATCH:1794092906": 1794101777,
     "HMSTR-USDT-SWAP:WATCH:1793978985": 1793979008,
+    "HMSTR-USDT-SWAP:WATCH:1794118329": 1794118334,
     "KGEN-USDT-SWAP:WATCH:1793978985": 1793979007,
     "MAGIC-USDT-SWAP:WATCH:1793946705": 1793946714,
     "O-USDT-SWAP:WATCH:1794115242": 1794115246,
@@ -41,7 +42,7 @@
     },
     "ARB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794115200,
+      "checked_through": 1794118320,
       "created": 1794108341,
       "expires": 1794129941,
       "high": 0.17268799999999998,
@@ -52,34 +53,31 @@
       "watch_sent_at": 1794108347,
       "watch_version": 8
     },
+    "HMSTR-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1794118320,
+      "created": 1794118329,
+      "expires": 1794139929,
+      "high": 0.00015099642857142857,
+      "low": 0.00014840357142857145,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794118320,
+      "watch_observed_at": 1794118331,
+      "watch_sent_at": 1794118334,
+      "watch_version": 8
+    },
     "O-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794115200,
+      "checked_through": 1794118320,
       "created": 1794115242,
       "expires": 1794136842,
       "high": 0.44199107142857147,
       "low": 0.43766178571428577,
       "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "touch_at": 1794117600,
       "watch_at": 1794115200,
       "watch_observed_at": 1794115245,
       "watch_sent_at": 1794115246,
-      "watch_version": 8
-    },
-    "USELESS-USDT-SWAP": {
-      "break_at": 1794096240,
-      "break_late_skipped": true,
-      "break_price": 0.13668,
-      "category": "EARLY",
-      "checked_through": 1794115200,
-      "created": 1794095022,
-      "expires": 1794116622,
-      "high": 0.13794625000000002,
-      "low": 0.13665375,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794095040,
-      "watch_at": 1794094980,
-      "watch_observed_at": 1794095028,
-      "watch_sent_at": 1794095032,
       "watch_version": 8
     }
   }
