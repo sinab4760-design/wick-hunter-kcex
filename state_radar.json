@@ -25,7 +25,6 @@
     "TRIA-USDT-SWAP:WATCH:1794064274": 1794064280,
     "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
     "USELESS-USDT-SWAP:WATCH:1794095022": 1794095032,
-    "WOO-USDT-SWAP:WATCH:1793942886": 1793951464,
     "XPL-USDT-SWAP:WATCH:1794019606": 1794019619,
     "ZAMA-USDT-SWAP:WATCH:1793958304": 1793958318,
     "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
@@ -33,7 +32,7 @@
   "zones": {
     "ARB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794122520,
+      "checked_through": 1794125880,
       "created": 1794108341,
       "expires": 1794129941,
       "high": 0.17268799999999998,
@@ -46,7 +45,7 @@
     },
     "HMSTR-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794122520,
+      "checked_through": 1794125880,
       "created": 1794118329,
       "expires": 1794139929,
       "high": 0.00015099642857142857,
@@ -62,7 +61,7 @@
       "break_late_skipped": true,
       "break_price": 0.4331,
       "category": "PUMP",
-      "checked_through": 1794122520,
+      "checked_through": 1794125880,
       "created": 1794115242,
       "expires": 1794136842,
       "high": 0.44199107142857147,
@@ -73,6 +72,14 @@
       "watch_observed_at": 1794115245,
       "watch_sent_at": 1794115246,
       "watch_version": 8
+    },
+    "ONE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794125895,
+      "expires": 1794147495,
+      "high": 0.002203818214285714,
+      "low": 0.0021239817857142858,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
