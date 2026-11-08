@@ -8,6 +8,7 @@
     "DGAI-USDT-SWAP:WATCH:1794073572": 1794073581,
     "GRASS-USDT-SWAP:WATCH:1794092906": 1794101777,
     "HMSTR-USDT-SWAP:WATCH:1794118329": 1794118334,
+    "MERL-USDT-SWAP:WATCH:1794169399": 1794169406,
     "O-USDT-SWAP:WATCH:1794115242": 1794115246,
     "PARTI-USDT-SWAP:WATCH:1794055568": 1794055573,
     "PUMP-USDT-SWAP:WATCH:1794150386": 1794150393,
@@ -62,6 +63,19 @@
       "spent_at": 1794154859,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "MERL-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1794169380,
+      "created": 1794169399,
+      "expires": 1794190999,
+      "high": 0.034172321428571434,
+      "low": 0.033599535714285714,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1794169380,
+      "watch_observed_at": 1794169405,
+      "watch_sent_at": 1794169406,
+      "watch_version": 8
+    },
     "O-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794164785,
@@ -86,7 +100,7 @@
       "break_late_skipped": true,
       "break_price": 0.003731,
       "category": "EARLY",
-      "checked_through": 1794167400,
+      "checked_through": 1794169380,
       "created": 1794150386,
       "expires": 1794171986,
       "high": 0.00380516,
