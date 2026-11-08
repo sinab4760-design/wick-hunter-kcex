@@ -40,23 +40,6 @@
       "spent_at": 1794154852,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "BREV-USDT-SWAP": {
-      "break_at": 1794139800,
-      "break_late_skipped": true,
-      "break_price": 0.07359,
-      "category": "EARLY",
-      "checked_through": 1794159420,
-      "created": 1794139221,
-      "expires": 1794160821,
-      "high": 0.07448676,
-      "low": 0.07389324000000001,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794139620,
-      "watch_at": 1794139200,
-      "watch_observed_at": 1794139228,
-      "watch_sent_at": 1794139231,
-      "watch_version": 8
-    },
     "CAP-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794152566,
@@ -79,39 +62,6 @@
       "spent_at": 1794154859,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "DOS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794139221,
-      "expires": 1794160821,
-      "high": 0.2046152,
-      "low": 0.20298480000000002,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794139229,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "O-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794139221,
-      "expires": 1794160821,
-      "high": 0.44228571428571434,
-      "low": 0.4363142857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794139227,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "OPG-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794139221,
-      "expires": 1794160821,
-      "high": 0.12230728,
-      "low": 0.12133271999999999,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794142190,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "PARTI-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794150386,
@@ -125,7 +75,7 @@
       "break_late_skipped": true,
       "break_price": 0.003731,
       "category": "EARLY",
-      "checked_through": 1794159480,
+      "checked_through": 1794161640,
       "created": 1794150386,
       "expires": 1794171986,
       "high": 0.00380516,
