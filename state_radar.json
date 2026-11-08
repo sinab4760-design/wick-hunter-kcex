@@ -65,7 +65,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794171780,
+      "checked_through": 1794174000,
       "created": 1794169399,
       "expires": 1794190999,
       "high": 0.034172321428571434,
@@ -86,31 +86,6 @@
       "spent": true,
       "spent_at": 1794164791,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "PARTI-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794150386,
-      "expires": 1794171986,
-      "high": 0.051035535714285714,
-      "low": 0.05054446428571429,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "PUMP-USDT-SWAP": {
-      "break_at": 1794151980,
-      "break_late_skipped": true,
-      "break_price": 0.003731,
-      "category": "EARLY",
-      "checked_through": 1794171780,
-      "created": 1794150386,
-      "expires": 1794171986,
-      "high": 0.00380516,
-      "low": 0.00377484,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794150600,
-      "watch_at": 1794150360,
-      "watch_observed_at": 1794150392,
-      "watch_sent_at": 1794150393,
-      "watch_version": 8
     },
     "SPX-USDT-SWAP": {
       "category": "EARLY",
