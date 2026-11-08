@@ -65,7 +65,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794169380,
+      "checked_through": 1794171780,
       "created": 1794169399,
       "expires": 1794190999,
       "high": 0.034172321428571434,
@@ -100,7 +100,7 @@
       "break_late_skipped": true,
       "break_price": 0.003731,
       "category": "EARLY",
-      "checked_through": 1794169380,
+      "checked_through": 1794171780,
       "created": 1794150386,
       "expires": 1794171986,
       "high": 0.00380516,
