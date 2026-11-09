@@ -8,6 +8,7 @@
     "DGAI-USDT-SWAP:WATCH:1794073572": 1794073581,
     "GRASS-USDT-SWAP:WATCH:1794092906": 1794101777,
     "HMSTR-USDT-SWAP:WATCH:1794118329": 1794118334,
+    "KITE-USDT-SWAP:WATCH:1794198823": 1794198842,
     "MERL-USDT-SWAP:WATCH:1794169399": 1794169406,
     "O-USDT-SWAP:WATCH:1794115242": 1794115246,
     "OKB-USDT-SWAP:WATCH:1794180844": 1794180851,
@@ -47,6 +48,19 @@
       "spent_at": 1794194719,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "KITE-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794198780,
+      "created": 1794198823,
+      "expires": 1794220423,
+      "high": 0.11254321428571427,
+      "low": 0.11135678571428571,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794198780,
+      "watch_observed_at": 1794198834,
+      "watch_sent_at": 1794198842,
+      "watch_version": 8
+    },
     "OFC-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794183170,
@@ -60,7 +74,7 @@
     },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794194700,
+      "checked_through": 1794198780,
       "created": 1794180844,
       "expires": 1794202444,
       "high": 102.15696428571428,
