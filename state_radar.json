@@ -14,10 +14,8 @@
     "PARTI-USDT-SWAP:WATCH:1794055568": 1794055573,
     "PUMP-USDT-SWAP:WATCH:1794150386": 1794150393,
     "TRIA-USDT-SWAP:WATCH:1794064274": 1794064280,
-    "UP-USDT-SWAP:WATCH:1794013196": 1794013207,
     "USELESS-USDT-SWAP:WATCH:1794095022": 1794095032,
-    "XPL-USDT-SWAP:WATCH:1794019606": 1794019619,
-    "ZETA-USDT-SWAP:WATCH:1794013196": 1794013208
+    "XPL-USDT-SWAP:WATCH:1794019606": 1794019619
   },
   "zones": {
     "AEON-USDT-SWAP": {
@@ -41,7 +39,7 @@
     },
     "MERL-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794183120,
+      "checked_through": 1794187800,
       "created": 1794169399,
       "expires": 1794190999,
       "high": 0.034172321428571434,
@@ -51,17 +49,6 @@
       "watch_observed_at": 1794169405,
       "watch_sent_at": 1794169406,
       "watch_version": 8
-    },
-    "O-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794164785,
-      "expires": 1794186385,
-      "high": 0.44284357142857145,
-      "low": 0.4357564285714286,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794164791,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "OFC-USDT-SWAP": {
       "category": "EARLY",
@@ -76,7 +63,7 @@
     },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794183120,
+      "checked_through": 1794187800,
       "created": 1794180844,
       "expires": 1794202444,
       "high": 102.15696428571428,
