@@ -42,7 +42,7 @@
       "break_late_skipped": true,
       "break_price": 0.11134,
       "category": "EARLY",
-      "checked_through": 1794202680,
+      "checked_through": 1794206640,
       "created": 1794198823,
       "expires": 1794220423,
       "high": 0.11254321428571427,
@@ -53,17 +53,6 @@
       "watch_observed_at": 1794198834,
       "watch_sent_at": 1794198842,
       "watch_version": 8
-    },
-    "OFC-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794183170,
-      "expires": 1794204770,
-      "high": 0.005311053571428572,
-      "low": 0.005250946428571429,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794183175,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "PARTI-USDT-SWAP": {
       "category": "EARLY",
