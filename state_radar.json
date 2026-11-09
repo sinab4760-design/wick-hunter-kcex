@@ -25,12 +25,20 @@
     "ZAMA-USDT-SWAP:WATCH:1794226776": 1794226801
   },
   "zones": {
+    "ACU-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794253097,
+      "expires": 1794274697,
+      "high": 0.12146392,
+      "low": 0.12049608,
+      "source": "HISTORICAL_PIVOT"
+    },
     "AVAX-USDT-SWAP": {
       "break_at": 1794240180,
       "break_late_skipped": true,
       "break_price": 8.948,
       "category": "PUMP",
-      "checked_through": 1794249300,
+      "checked_through": 1794253080,
       "created": 1794231635,
       "expires": 1794253235,
       "high": 9.137625,
@@ -41,6 +49,14 @@
       "watch_observed_at": 1794231654,
       "watch_sent_at": 1794231659,
       "watch_version": 8
+    },
+    "BERA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794253097,
+      "expires": 1794274697,
+      "high": 0.10907964285714286,
+      "low": 0.10772035714285713,
+      "source": "HISTORICAL_PIVOT"
     },
     "EDEN-USDT-SWAP": {
       "category": "EARLY",
@@ -58,7 +74,7 @@
       "break_late_skipped": true,
       "break_price": 0.4294,
       "category": "PUMP",
-      "checked_through": 1794249300,
+      "checked_through": 1794253080,
       "created": 1794238761,
       "expires": 1794260361,
       "high": 0.4507607142857143,
@@ -69,6 +85,22 @@
       "watch_observed_at": 1794242808,
       "watch_sent_at": 1794242825,
       "watch_version": 8
+    },
+    "GRASS-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794253097,
+      "expires": 1794274697,
+      "high": 0.5074489285714285,
+      "low": 0.5009510714285714,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "INIT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794253097,
+      "expires": 1794274697,
+      "high": 0.1684217857142857,
+      "low": 0.16396364285714285,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "LIT-USDT-SWAP": {
       "category": "EARLY",
@@ -101,6 +133,17 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1794238768,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SPX-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794253097,
+      "expires": 1794274697,
+      "high": 0.3653664285714286,
+      "low": 0.36123357142857143,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794253110,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ZK-USDT-SWAP": {
