@@ -29,6 +29,14 @@
       "spent_at": 1794180848,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "DNA-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794191474,
+      "expires": 1794213074,
+      "high": 0.16106071428571428,
+      "low": 0.15893928571428573,
+      "source": "HISTORICAL_PIVOT"
+    },
     "DOS-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794178590,
@@ -36,19 +44,6 @@
       "high": 0.20162964285714285,
       "low": 0.19917035714285714,
       "source": "HISTORICAL_PIVOT"
-    },
-    "MERL-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1794187800,
-      "created": 1794169399,
-      "expires": 1794190999,
-      "high": 0.034172321428571434,
-      "low": 0.033599535714285714,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1794169380,
-      "watch_observed_at": 1794169405,
-      "watch_sent_at": 1794169406,
-      "watch_version": 8
     },
     "OFC-USDT-SWAP": {
       "category": "EARLY",
@@ -63,7 +58,7 @@
     },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794187800,
+      "checked_through": 1794191460,
       "created": 1794180844,
       "expires": 1794202444,
       "high": 102.15696428571428,
