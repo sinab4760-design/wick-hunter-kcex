@@ -18,7 +18,6 @@
     "RENDER-USDT-SWAP:WATCH:1794216023": 1794216042,
     "SPACE-USDT-SWAP:WATCH:1794231635": 1794231660,
     "THETA-USDT-SWAP:WATCH:1794226776": 1794226803,
-    "USELESS-USDT-SWAP:WATCH:1794095022": 1794095032,
     "W-USDT-SWAP:WATCH:1794226776": 1794226802,
     "YGG-USDT-SWAP:WATCH:1794226776": 1794226803,
     "ZAMA-USDT-SWAP:WATCH:1794226776": 1794226801
@@ -63,17 +62,6 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE",
       "spent": true,
       "spent_at": 1794262673,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "LIT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794246199,
-      "expires": 1794267799,
-      "high": 3.3319789285714285,
-      "low": 3.2808210714285715,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794246211,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "SPX-USDT-SWAP": {
