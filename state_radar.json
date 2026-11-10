@@ -2,7 +2,6 @@
   "seen": {
     "ARX-USDT-SWAP:WATCH:1794287999": 1794291503,
     "AVAX-USDT-SWAP:WATCH:1794231635": 1794231659,
-    "BREV-USDT-SWAP:WATCH:1794139221": 1794139231,
     "CELO-USDT-SWAP:WATCH:1794226776": 1794226802,
     "EDGE-USDT-SWAP:WATCH:1794238761": 1794242825,
     "INIT-USDT-SWAP:WATCH:1794284392": 1794284402,
@@ -45,7 +44,7 @@
     },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794309960,
+      "checked_through": 1794313320,
       "created": 1794303260,
       "expires": 1794324860,
       "high": 0.04242904,
@@ -63,17 +62,6 @@
       "high": 0.001889945357142857,
       "low": 0.0017994546428571428,
       "source": "HISTORICAL_PIVOT"
-    },
-    "XDP-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794291487,
-      "expires": 1794313087,
-      "high": 0.016170424,
-      "low": 0.016041576,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794303264,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
