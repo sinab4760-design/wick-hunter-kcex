@@ -4,6 +4,7 @@
     "AVAX-USDT-SWAP:WATCH:1794231635": 1794231659,
     "CELO-USDT-SWAP:WATCH:1794226776": 1794226802,
     "EDGE-USDT-SWAP:WATCH:1794238761": 1794242825,
+    "FOGO-USDT-SWAP:WATCH:1794321018": 1794321028,
     "INIT-USDT-SWAP:WATCH:1794284392": 1794284402,
     "KITE-USDT-SWAP:WATCH:1794198823": 1794198842,
     "LAB-USDT-SWAP:WATCH:1794303260": 1794306798,
@@ -34,6 +35,35 @@
       "spent_at": 1794303271,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "BTW-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794321018,
+      "expires": 1794342618,
+      "high": 1.1147232142857144,
+      "low": 1.0820767857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "CAP-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794321018,
+      "expires": 1794342618,
+      "high": 0.12112160714285715,
+      "low": 0.11790567857142857,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "FOGO-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1794321000,
+      "created": 1794321018,
+      "expires": 1794342618,
+      "high": 0.002152446428571429,
+      "low": 0.002118110714285714,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1794321000,
+      "watch_observed_at": 1794321025,
+      "watch_sent_at": 1794321028,
+      "watch_version": 8
+    },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794317647,
@@ -47,7 +77,7 @@
     },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794317640,
+      "checked_through": 1794321000,
       "created": 1794303260,
       "expires": 1794324860,
       "high": 0.04242904,
