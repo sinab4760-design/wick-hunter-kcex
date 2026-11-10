@@ -35,26 +35,17 @@
       "spent_at": 1794303271,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ARX-USDT-SWAP": {
-      "break_at": 1794299340,
-      "break_late_skipped": true,
-      "break_price": 0.215,
+    "CAP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794306780,
-      "created": 1794287999,
-      "expires": 1794309599,
-      "high": 0.2201682142857143,
-      "low": 0.21623178571428572,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794299220,
-      "watch_at": 1794291480,
-      "watch_observed_at": 1794291488,
-      "watch_sent_at": 1794291503,
-      "watch_version": 8
+      "created": 1794310022,
+      "expires": 1794331622,
+      "high": 0.1025025357142857,
+      "low": 0.10163746428571428,
+      "source": "HISTORICAL_PIVOT"
     },
     "LAB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794306780,
+      "checked_through": 1794309960,
       "created": 1794303260,
       "expires": 1794324860,
       "high": 0.04242904,
@@ -72,34 +63,6 @@
       "high": 0.001889945357142857,
       "low": 0.0017994546428571428,
       "source": "HISTORICAL_PIVOT"
-    },
-    "PI-USDT-SWAP": {
-      "break_at": 1794289980,
-      "break_late_skipped": true,
-      "break_price": 0.06941,
-      "category": "EARLY",
-      "checked_through": 1794306780,
-      "created": 1794287999,
-      "expires": 1794309599,
-      "high": 0.07033707142857143,
-      "low": 0.06966292857142858,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794289020,
-      "watch_at": 1794288000,
-      "watch_observed_at": 1794288008,
-      "watch_sent_at": 1794288016,
-      "watch_version": 8
-    },
-    "SAND-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794287999,
-      "expires": 1794309599,
-      "high": 0.04359368,
-      "low": 0.04324632,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794288009,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "XDP-USDT-SWAP": {
       "category": "EARLY",
