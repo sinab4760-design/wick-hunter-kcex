@@ -5,7 +5,6 @@
     "BREV-USDT-SWAP:WATCH:1794139221": 1794139231,
     "CELO-USDT-SWAP:WATCH:1794226776": 1794226802,
     "EDGE-USDT-SWAP:WATCH:1794238761": 1794242825,
-    "GRASS-USDT-SWAP:WATCH:1794092906": 1794101777,
     "HMSTR-USDT-SWAP:WATCH:1794118329": 1794118334,
     "KITE-USDT-SWAP:WATCH:1794198823": 1794198842,
     "MERL-USDT-SWAP:WATCH:1794169399": 1794169406,
@@ -23,36 +22,6 @@
     "ZAMA-USDT-SWAP:WATCH:1794226776": 1794226801
   },
   "zones": {
-    "ACU-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794253097,
-      "expires": 1794274697,
-      "high": 0.12146392,
-      "low": 0.12049608,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "BERA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794253097,
-      "expires": 1794274697,
-      "high": 0.10907964285714286,
-      "low": 0.10772035714285713,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794256328,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "GRASS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794253097,
-      "expires": 1794274697,
-      "high": 0.5074489285714285,
-      "low": 0.5009510714285714,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794256329,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "INIT-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794256326,
@@ -62,17 +31,6 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE",
       "spent": true,
       "spent_at": 1794262673,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "SPX-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794253097,
-      "expires": 1794274697,
-      "high": 0.3653664285714286,
-      "low": 0.36123357142857143,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794253110,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
