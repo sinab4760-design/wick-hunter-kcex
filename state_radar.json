@@ -22,16 +22,21 @@
     "ZAMA-USDT-SWAP:WATCH:1794226776": 1794226801
   },
   "zones": {
-    "INIT-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794256326,
-      "expires": 1794277926,
-      "high": 0.20815125,
-      "low": 0.20099575000000003,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "spent": true,
-      "spent_at": 1794262673,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    "CP-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794280914,
+      "expires": 1794302514,
+      "high": 0.007420142857142858,
+      "low": 0.007325857142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "SOPH-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794280914,
+      "expires": 1794302514,
+      "high": 0.0012410892857142857,
+      "low": 0.0012289107142857143,
+      "source": "HISTORICAL_PIVOT"
     }
   }
 }
