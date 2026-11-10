@@ -53,7 +53,10 @@
       "expires": 1794369631,
       "high": 98.72332,
       "low": 97.93668,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794350628,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "RENDER-USDT-SWAP": {
       "category": "EARLY",
