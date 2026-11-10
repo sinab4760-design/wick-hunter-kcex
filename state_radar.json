@@ -42,7 +42,7 @@
     },
     "BILL-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794323918,
       "expires": 1794345518,
       "high": 0.004402457142857143,
@@ -70,7 +70,7 @@
       "break_late_skipped": true,
       "break_price": 0.11789,
       "category": "PUMP",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794321018,
       "expires": 1794342618,
       "high": 0.12112160714285715,
@@ -98,7 +98,7 @@
       "break_late_skipped": true,
       "break_price": 0.01234,
       "category": "EARLY",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794323918,
       "expires": 1794345518,
       "high": 0.012376,
@@ -123,7 +123,7 @@
     },
     "ENJ-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794323918,
       "expires": 1794345518,
       "high": 0.024528428571428573,
@@ -147,7 +147,7 @@
     },
     "FOGO-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794321018,
       "expires": 1794342618,
       "high": 0.002152446428571429,
@@ -163,7 +163,7 @@
       "break_late_skipped": true,
       "break_price": 0.005439,
       "category": "EARLY",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794323918,
       "expires": 1794345518,
       "high": 0.005506910714285714,
@@ -218,6 +218,14 @@
       "spent": true,
       "spent_at": 1794323926,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "MERL-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794339586,
+      "expires": 1794361186,
+      "high": 0.036777535714285714,
+      "low": 0.03602246428571429,
+      "source": "HISTORICAL_PIVOT"
     },
     "MINA-USDT-SWAP": {
       "category": "EARLY",
@@ -287,7 +295,7 @@
     },
     "ZRO-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794336600,
+      "checked_through": 1794339540,
       "created": 1794323918,
       "expires": 1794345518,
       "high": 1.5942485714285715,
