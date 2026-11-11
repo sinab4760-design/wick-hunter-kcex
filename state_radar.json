@@ -27,6 +27,28 @@
     "ZRO-USDT-SWAP:WATCH:1794323918": 1794323942
   },
   "zones": {
+    "ALLO-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794362320,
+      "expires": 1794383920,
+      "high": 0.14979389285714287,
+      "low": 0.14850610714285714,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794362333,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "BASED-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794362320,
+      "expires": 1794383920,
+      "high": 0.041746319999999996,
+      "low": 0.04141368,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794362329,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "CNPY-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794345467,
@@ -49,13 +71,16 @@
       "spent_at": 1794358645,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "MERL-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794339586,
-      "expires": 1794361186,
-      "high": 0.036777535714285714,
-      "low": 0.03602246428571429,
-      "source": "HISTORICAL_PIVOT"
+    "IRYS-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794362320,
+      "expires": 1794383920,
+      "high": 0.01770057142857143,
+      "low": 0.017499428571428572,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794362331,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "OKB-USDT-SWAP": {
       "category": "EARLY",
@@ -77,17 +102,6 @@
       "source": "HISTORICAL_PIVOT",
       "spent": true,
       "spent_at": 1794358644,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "PYTH-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794358638,
-      "expires": 1794380238,
-      "high": 0.06689652,
-      "low": 0.06636347999999999,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794358646,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
