@@ -28,7 +28,7 @@
       "break_late_skipped": true,
       "break_price": 0.5579,
       "category": "EARLY",
-      "checked_through": 1794418620,
+      "checked_through": 1794421800,
       "created": 1794415095,
       "expires": 1794436695,
       "high": 0.5674892857142857,
@@ -57,7 +57,10 @@
       "expires": 1794433234,
       "high": 0.0019720535714285716,
       "low": 0.0019559464285714284,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794421835,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "KGEN-USDT-SWAP": {
       "category": "PUMP",
