@@ -29,7 +29,7 @@
       "break_late_skipped": true,
       "break_price": 0.5579,
       "category": "EARLY",
-      "checked_through": 1794425760,
+      "checked_through": 1794431100,
       "created": 1794415095,
       "expires": 1794436695,
       "high": 0.5674892857142857,
@@ -76,7 +76,7 @@
     },
     "TRIA-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794425760,
+      "checked_through": 1794431100,
       "created": 1794411634,
       "expires": 1794433234,
       "high": 0.002556184,
