@@ -36,7 +36,7 @@
     },
     "BSB-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794409140,
+      "checked_through": 1794411600,
       "created": 1794394283,
       "expires": 1794415883,
       "high": 0.08798657142857143,
@@ -47,13 +47,21 @@
       "watch_sent_at": 1794394299,
       "watch_version": 8
     },
-    "CC-USDT-SWAP": {
+    "FOGO-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1794394283,
-      "expires": 1794415883,
-      "high": 0.09207684,
-      "low": 0.09134316,
+      "created": 1794411634,
+      "expires": 1794433234,
+      "high": 0.0019720535714285716,
+      "low": 0.0019559464285714284,
       "source": "HISTORICAL_PIVOT"
+    },
+    "KGEN-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794411634,
+      "expires": 1794433234,
+      "high": 0.07776928571428571,
+      "low": 0.07622614285714285,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "NEAR-USDT-SWAP": {
       "category": "EARLY",
@@ -87,7 +95,7 @@
     },
     "RIVER-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794409140,
+      "checked_through": 1794411600,
       "created": 1794394283,
       "expires": 1794415883,
       "high": 0.7859703571428572,
@@ -121,9 +129,17 @@
       "spent_at": 1794394292,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "TRIA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794411634,
+      "expires": 1794433234,
+      "high": 0.002556184,
+      "low": 0.002535816,
+      "source": "HISTORICAL_PIVOT"
+    },
     "USELESS-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794409140,
+      "checked_through": 1794411600,
       "created": 1794394283,
       "expires": 1794415883,
       "high": 0.15099946428571429,
@@ -150,7 +166,7 @@
       "break_late_skipped": true,
       "break_price": 0.05376,
       "category": "EARLY",
-      "checked_through": 1794409140,
+      "checked_through": 1794411600,
       "created": 1794394283,
       "expires": 1794415883,
       "high": 0.05441257142857143,
