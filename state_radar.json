@@ -48,7 +48,7 @@
     },
     "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794452280,
+      "checked_through": 1794455640,
       "created": 1794444814,
       "expires": 1794466414,
       "high": 0.7425584000000001,
@@ -80,13 +80,17 @@
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "O-USDT-SWAP": {
+      "break_at": 1794453360,
+      "break_late_skipped": true,
+      "break_price": 0.4938,
       "category": "EARLY",
-      "checked_through": 1794452280,
+      "checked_through": 1794455640,
       "created": 1794452333,
       "expires": 1794473933,
       "high": 0.5025653571428571,
       "low": 0.49743464285714284,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1794452340,
       "watch_at": 1794452280,
       "watch_observed_at": 1794452338,
       "watch_sent_at": 1794452340,
@@ -94,7 +98,7 @@
     },
     "SOPH-USDT-SWAP": {
       "category": "PUMP",
-      "checked_through": 1794452280,
+      "checked_through": 1794455640,
       "created": 1794452333,
       "expires": 1794473933,
       "high": 0.0013425035714285714,
