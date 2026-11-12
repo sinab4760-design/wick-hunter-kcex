@@ -35,12 +35,13 @@
     },
     "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794444780,
+      "checked_through": 1794449280,
       "created": 1794444814,
       "expires": 1794466414,
       "high": 0.7425584000000001,
       "low": 0.7366416,
       "source": "HISTORICAL_PIVOT",
+      "touch_at": 1794444960,
       "watch_at": 1794444780,
       "watch_observed_at": 1794444818,
       "watch_sent_at": 1794444820,
@@ -52,7 +53,10 @@
       "expires": 1794466414,
       "high": 0.1615842857142857,
       "low": 0.1594157142857143,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794449298,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "KGEN-USDT-SWAP": {
       "category": "PUMP",
