@@ -7,6 +7,7 @@
     "BTW-USDT-SWAP:WATCH:1794368421": 1794368439,
     "CAP-USDT-SWAP:WATCH:1794321018": 1794323941,
     "CORE-USDT-SWAP:WATCH:1794323918": 1794323942,
+    "DGAI-USDT-SWAP:WATCH:1794444814": 1794444820,
     "ENJ-USDT-SWAP:WATCH:1794323918": 1794323942,
     "ENSO-USDT-SWAP:WATCH:1794368421": 1794368440,
     "FOGO-USDT-SWAP:WATCH:1794321018": 1794321028,
@@ -32,12 +33,25 @@
       "low": 0.21493679999999998,
       "source": "HISTORICAL_PIVOT"
     },
-    "CRO-USDT-SWAP": {
+    "DGAI-USDT-SWAP": {
       "category": "EARLY",
-      "created": 1794441159,
-      "expires": 1794462759,
-      "high": 0.048583560000000005,
-      "low": 0.04819644,
+      "checked_through": 1794444780,
+      "created": 1794444814,
+      "expires": 1794466414,
+      "high": 0.7425584000000001,
+      "low": 0.7366416,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794444780,
+      "watch_observed_at": 1794444818,
+      "watch_sent_at": 1794444820,
+      "watch_version": 8
+    },
+    "DNA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794444814,
+      "expires": 1794466414,
+      "high": 0.1615842857142857,
+      "low": 0.1594157142857143,
       "source": "HISTORICAL_PIVOT"
     },
     "KGEN-USDT-SWAP": {
