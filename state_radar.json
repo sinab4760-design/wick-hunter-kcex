@@ -5,11 +5,8 @@
     "AT-USDT-SWAP:WATCH:1794508245": 1794508255,
     "BARD-USDT-SWAP:WATCH:1794505061": 1794508255,
     "BSB-USDT-SWAP:WATCH:1794394283": 1794394299,
-    "BTW-USDT-SWAP:WATCH:1794368421": 1794368439,
     "CAP-USDT-SWAP:WATCH:1794518358": 1794518372,
     "DGAI-USDT-SWAP:WATCH:1794444814": 1794444820,
-    "ENSO-USDT-SWAP:WATCH:1794368421": 1794368440,
-    "LIGHT-USDT-SWAP:WATCH:1794368421": 1794368440,
     "O-USDT-SWAP:WATCH:1794452333": 1794452340,
     "PEPE-USDT-SWAP:WATCH:1794537020": 1794537038,
     "PIEVERSE-USDT-SWAP:WATCH:1794491251": 1794491258,
@@ -23,17 +20,6 @@
     "XPL-USDT-SWAP:WATCH:1794394283": 1794394299
   },
   "zones": {
-    "CT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794521398,
-      "expires": 1794542998,
-      "high": 0.10799024,
-      "low": 0.10712976,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794524258,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "DNA-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794529640,
@@ -45,20 +31,9 @@
       "spent_at": 1794534258,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
-    "ETHFI-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794521398,
-      "expires": 1794542998,
-      "high": 0.6408128571428572,
-      "low": 0.6351871428571428,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794526896,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
     "PEPE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794540300,
+      "checked_through": 1794544080,
       "created": 1794537020,
       "expires": 1794558620,
       "high": 4.775256785714286e-06,
@@ -82,7 +57,7 @@
     },
     "RE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794540300,
+      "checked_through": 1794544080,
       "created": 1794534255,
       "expires": 1794555855,
       "high": 0.27849796428571433,
