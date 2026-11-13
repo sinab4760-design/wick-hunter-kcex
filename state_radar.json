@@ -1,6 +1,5 @@
 {
   "seen": {
-    "AERO-USDT-SWAP:WATCH:1794415095": 1794415110,
     "AKE-USDT-SWAP:WATCH:1794497983": 1794497988,
     "AT-USDT-SWAP:WATCH:1794508245": 1794508255,
     "BARD-USDT-SWAP:WATCH:1794505061": 1794508255,
@@ -23,164 +22,24 @@
     "RE-USDT-SWAP:WATCH:1794534255": 1794534273,
     "SOPH-USDT-SWAP:WATCH:1794452333": 1794452340,
     "SSV-USDT-SWAP:WATCH:1794479104": 1794479112,
-    "TRIA-USDT-SWAP:WATCH:1794411634": 1794425793,
     "WLFI-USDT-SWAP:WATCH:1794551570": 1794551589
   },
   "zones": {
-    "AKE-USDT-SWAP": {
+    "SHELL-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1794563212,
-      "expires": 1794584812,
-      "high": 0.007559017857142857,
-      "low": 0.0069947964285714285,
+      "created": 1794600298,
+      "expires": 1794621898,
+      "high": 0.04962017857142857,
+      "low": 0.04635396428571428,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
-    "AXIS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794573649,
-      "expires": 1794595249,
-      "high": 0.0990242857142857,
-      "low": 0.09817571428571428,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "BARD-USDT-SWAP": {
+    "UP-USDT-SWAP": {
       "category": "PUMP",
-      "created": 1794573649,
-      "expires": 1794595249,
-      "high": 0.19711785714285712,
-      "low": 0.18861642857142857,
+      "created": 1794600298,
+      "expires": 1794621898,
+      "high": 0.2044946428571429,
+      "low": 0.19820107142857143,
       "source": "ATR_GUESS_LOW_CONFIDENCE"
-    },
-    "BERA-USDT-SWAP": {
-      "break_at": 1794558000,
-      "break_late_skipped": true,
-      "break_price": 0.1034,
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794556415,
-      "expires": 1794578015,
-      "high": 0.10582464285714285,
-      "low": 0.10457535714285715,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794557760,
-      "watch_at": 1794556380,
-      "watch_observed_at": 1794556429,
-      "watch_sent_at": 1794556435,
-      "watch_version": 8
-    },
-    "BILL-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794556415,
-      "expires": 1794578015,
-      "high": 0.004592425,
-      "low": 0.004533575000000001,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1794556380,
-      "watch_observed_at": 1794556426,
-      "watch_sent_at": 1794556435,
-      "watch_version": 8
-    },
-    "BOME-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794573649,
-      "expires": 1794595249,
-      "high": 0.0005937689285714286,
-      "low": 0.0005890310714285713,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1794573600,
-      "watch_observed_at": 1794573658,
-      "watch_sent_at": 1794573662,
-      "watch_version": 8
-    },
-    "GRASS-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794556415,
-      "expires": 1794578015,
-      "high": 0.45879428571428577,
-      "low": 0.4520057142857143,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1794559800,
-      "watch_observed_at": 1794559807,
-      "watch_sent_at": 1794559823,
-      "watch_version": 8
-    },
-    "INJ-USDT-SWAP": {
-      "break_at": 1794572460,
-      "break_late_skipped": true,
-      "break_price": 7.825,
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794570022,
-      "expires": 1794591622,
-      "high": 7.930832142857143,
-      "low": 7.855167857142857,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794571980,
-      "watch_at": 1794570000,
-      "watch_observed_at": 1794570036,
-      "watch_sent_at": 1794570042,
-      "watch_version": 8
-    },
-    "KAT-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1794573600,
-      "created": 1794563212,
-      "expires": 1794584812,
-      "high": 0.003367064285714286,
-      "low": 0.0033389357142857142,
-      "source": "HISTORICAL_PIVOT",
-      "touch_at": 1794572880,
-      "watch_at": 1794563160,
-      "watch_observed_at": 1794563224,
-      "watch_sent_at": 1794563232,
-      "watch_version": 8
-    },
-    "OPN-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794573649,
-      "expires": 1794595249,
-      "high": 0.03456772,
-      "low": 0.03429228,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794573660,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "ROBO-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794556415,
-      "expires": 1794578015,
-      "high": 0.004411610714285715,
-      "low": 0.004364389285714286,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794559810,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "S-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794566658,
-      "expires": 1794588258,
-      "high": 0.037826821428571425,
-      "low": 0.03743317857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794566672,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "USELESS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794556415,
-      "expires": 1794578015,
-      "high": 0.1402557142857143,
-      "low": 0.1373642857142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794556424,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
