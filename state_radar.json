@@ -20,20 +20,25 @@
     "XPL-USDT-SWAP:WATCH:1794394283": 1794394299
   },
   "zones": {
+    "AKE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794547826,
+      "expires": 1794569426,
+      "high": 0.003124417857142857,
+      "low": 0.003051582142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
     "DNA-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794529640,
-      "expires": 1794551240,
-      "high": 0.1603388,
-      "low": 0.1590612,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794534258,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+      "category": "PUMP",
+      "created": 1794547826,
+      "expires": 1794569426,
+      "high": 0.21410357142857145,
+      "low": 0.20157928571428574,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     },
     "PEPE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794544080,
+      "checked_through": 1794547800,
       "created": 1794537020,
       "expires": 1794558620,
       "high": 4.775256785714286e-06,
@@ -57,7 +62,7 @@
     },
     "RE-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794544080,
+      "checked_through": 1794547800,
       "created": 1794534255,
       "expires": 1794555855,
       "high": 0.27849796428571433,
