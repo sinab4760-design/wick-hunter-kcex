@@ -46,7 +46,7 @@
     },
     "CAP-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794526860,
+      "checked_through": 1794529620,
       "created": 1794518358,
       "expires": 1794539958,
       "high": 0.10807246428571428,
@@ -68,13 +68,24 @@
       "spent_at": 1794524258,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "DNA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794529640,
+      "expires": 1794551240,
+      "high": 0.1603388,
+      "low": 0.1590612,
+      "source": "HISTORICAL_PIVOT"
+    },
     "DYDX-USDT-SWAP": {
       "category": "EARLY",
       "created": 1794518358,
       "expires": 1794539958,
       "high": 0.09243828,
       "low": 0.09170172,
-      "source": "HISTORICAL_PIVOT"
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794529644,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
     "ETHFI-USDT-SWAP": {
       "category": "EARLY",
@@ -89,7 +100,7 @@
     },
     "PYTH-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1794526860,
+      "checked_through": 1794529620,
       "created": 1794508245,
       "expires": 1794529845,
       "high": 0.06746160714285715,
