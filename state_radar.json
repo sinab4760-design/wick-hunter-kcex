@@ -25,6 +25,14 @@
     "WLFI-USDT-SWAP:WATCH:1794551570": 1794551589
   },
   "zones": {
+    "BERA-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794617515,
+      "expires": 1794639115,
+      "high": 0.13288928571428574,
+      "low": 0.12910214285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "SHELL-USDT-SWAP": {
       "category": "PUMP",
       "created": 1794600298,
