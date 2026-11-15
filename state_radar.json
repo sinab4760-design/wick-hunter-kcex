@@ -9,10 +9,89 @@
     "GRASS-USDT-SWAP:WATCH:1794556415": 1794559823,
     "INJ-USDT-SWAP:WATCH:1794570022": 1794570042,
     "KAT-USDT-SWAP:WATCH:1794563212": 1794563232,
-    "PEPE-USDT-SWAP:WATCH:1794537020": 1794537038,
     "PIEVERSE-USDT-SWAP:WATCH:1794551570": 1794556435,
-    "RE-USDT-SWAP:WATCH:1794534255": 1794534273,
     "WLFI-USDT-SWAP:WATCH:1794551570": 1794551589
   },
-  "zones": {}
+  "zones": {
+    "CT-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.10853792857142856,
+      "low": 0.10690207142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "GPS-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.008138878571428572,
+      "low": 0.008033121428571427,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "JUP-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.26376357142857143,
+      "low": 0.25843642857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "MERL-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.03233017857142857,
+      "low": 0.03190982142857143,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "NES-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.1782892857142857,
+      "low": 0.17142214285714286,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "OPG-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.14093882142857142,
+      "low": 0.13896117857142856,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "PIEVERSE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 1.8953707142857144,
+      "low": 1.8578292857142857,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "RESOLV-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.013113535714285713,
+      "low": 0.012886464285714286,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "UB-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 0.10636810714285715,
+      "low": 0.10475189285714286,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "ZEC-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794710640,
+      "expires": 1794732240,
+      "high": 915.042,
+      "low": 896.958,
+      "source": "HISTORICAL_PIVOT"
+    }
+  }
 }
