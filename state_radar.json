@@ -7,25 +7,5 @@
     "MET-USDT-SWAP:WATCH:1794736674": 1794736688,
     "SOON-USDT-SWAP:WATCH:1794736674": 1794736688
   },
-  "zones": {
-    "NIGHT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794761836,
-      "expires": 1794783436,
-      "high": 0.05055354642857143,
-      "low": 0.04991845357142857,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794778769,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "SENT-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794761836,
-      "expires": 1794783436,
-      "high": 0.016896035714285714,
-      "low": 0.016723964285714283,
-      "source": "HISTORICAL_PIVOT"
-    }
-  }
+  "zones": {}
 }
