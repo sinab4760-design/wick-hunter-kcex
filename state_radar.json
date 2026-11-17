@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0G-USDT-SWAP:WATCH:1794881492": 1794881502,
     "ESP-USDT-SWAP:WATCH:1794736674": 1794736689,
     "F-USDT-SWAP:WATCH:1794736674": 1794736689,
     "HYPE-USDT-SWAP:WATCH:1794736674": 1794736688,
@@ -8,13 +9,29 @@
     "SOON-USDT-SWAP:WATCH:1794736674": 1794736688
   },
   "zones": {
-    "SPACE-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1794854989,
-      "expires": 1794876589,
-      "high": 0.004771732142857143,
-      "low": 0.0045758535714285715,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    "0G-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1794881460,
+      "created": 1794881492,
+      "expires": 1794903092,
+      "high": 0.12971680000000002,
+      "low": 0.1286832,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1794881460,
+      "watch_observed_at": 1794881498,
+      "watch_sent_at": 1794881502,
+      "watch_version": 8
+    },
+    "BLEND-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1794881492,
+      "expires": 1794903092,
+      "high": 0.04659153571428572,
+      "low": 0.046188464285714284,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1794881496,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
