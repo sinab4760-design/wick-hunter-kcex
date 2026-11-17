@@ -2,17 +2,5 @@
   "seen": {
     "0G-USDT-SWAP:WATCH:1794881492": 1794881502
   },
-  "zones": {
-    "PROS-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1794912456,
-      "expires": 1794934056,
-      "high": 0.45941535714285714,
-      "low": 0.4553846428571428,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1794912463,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    }
-  }
+  "zones": {}
 }
