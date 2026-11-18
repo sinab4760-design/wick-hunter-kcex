@@ -2,5 +2,22 @@
   "seen": {
     "0G-USDT-SWAP:WATCH:1794881492": 1794881502
   },
-  "zones": {}
+  "zones": {
+    "BREV-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794966596,
+      "expires": 1794988196,
+      "high": 0.14595089285714286,
+      "low": 0.13916782142857143,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
+    "BTW-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1794966596,
+      "expires": 1794988196,
+      "high": 0.4887,
+      "low": 0.47109999999999996,
+      "source": "HISTORICAL_PIVOT"
+    }
+  }
 }
