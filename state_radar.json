@@ -1,16 +1,22 @@
 {
   "seen": {
     "0G-USDT-SWAP:WATCH:1794881492": 1794881502,
+    "KMNO-USDT-SWAP:WATCH:1795048623": 1795048638,
     "LAB-USDT-SWAP:WATCH:1794994038": 1794994053
   },
   "zones": {
-    "AKE-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1795026033,
-      "expires": 1795047633,
-      "high": 0.011280185714285716,
-      "low": 0.010961814285714286,
-      "source": "HISTORICAL_PIVOT"
+    "KMNO-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1795048620,
+      "created": 1795048623,
+      "expires": 1795070223,
+      "high": 0.027623821428571428,
+      "low": 0.02729617857142857,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1795048620,
+      "watch_observed_at": 1795048630,
+      "watch_sent_at": 1795048638,
+      "watch_version": 8
     }
   }
 }
