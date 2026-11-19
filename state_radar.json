@@ -4,19 +4,5 @@
     "KMNO-USDT-SWAP:WATCH:1795048623": 1795048638,
     "LAB-USDT-SWAP:WATCH:1794994038": 1794994053
   },
-  "zones": {
-    "BTW-USDT-SWAP": {
-      "category": "PUMP",
-      "checked_through": 1795074960,
-      "created": 1795074996,
-      "expires": 1795096596,
-      "high": 0.7135500000000001,
-      "low": 0.68869,
-      "source": "ATR_GUESS_LOW_CONFIDENCE",
-      "watch_at": 1795074960,
-      "watch_observed_at": 1795074997,
-      "watch_sent_at": 1795075006,
-      "watch_version": 8
-    }
-  }
+  "zones": {}
 }
