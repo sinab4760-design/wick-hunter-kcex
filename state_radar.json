@@ -5,5 +5,25 @@
     "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331,
     "KMNO-USDT-SWAP:WATCH:1795048623": 1795048638
   },
-  "zones": {}
+  "zones": {
+    "CORE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795209561,
+      "expires": 1795231161,
+      "high": 0.010660864285714286,
+      "low": 0.010439135714285714,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1795209563,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "PIEVERSE-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795209561,
+      "expires": 1795231161,
+      "high": 3.0275767857142855,
+      "low": 2.9656232142857144,
+      "source": "HISTORICAL_PIVOT"
+    }
+  }
 }
