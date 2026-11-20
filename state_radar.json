@@ -2,13 +2,14 @@
   "seen": {
     "2Z-USDT-SWAP:WATCH:1795131485": 1795131491,
     "BTW-USDT-SWAP:WATCH:1795074996": 1795075006,
+    "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331,
     "KMNO-USDT-SWAP:WATCH:1795048623": 1795048638,
     "LAB-USDT-SWAP:WATCH:1794994038": 1794994053
   },
   "zones": {
     "2Z-USDT-SWAP": {
       "category": "EARLY",
-      "checked_through": 1795131480,
+      "checked_through": 1795148280,
       "created": 1795131485,
       "expires": 1795153085,
       "high": 0.017277428571428572,
@@ -19,13 +20,26 @@
       "watch_sent_at": 1795131491,
       "watch_version": 8
     },
+    "BARD-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795148327,
+      "expires": 1795169927,
+      "high": 0.11289017857142859,
+      "low": 0.10940396428571429,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    },
     "HUMA-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1795148280,
       "created": 1795131485,
       "expires": 1795153085,
       "high": 0.010050964285714286,
       "low": 0.009877007142857145,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1795148280,
+      "watch_observed_at": 1795148328,
+      "watch_sent_at": 1795148331,
+      "watch_version": 8
     }
   }
 }
