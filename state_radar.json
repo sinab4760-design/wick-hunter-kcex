@@ -5,24 +5,13 @@
     "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331
   },
   "zones": {
-    "LAB-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1795255982,
-      "expires": 1795277582,
-      "high": 0.03444685714285714,
-      "low": 0.033793142857142855,
-      "source": "HISTORICAL_PIVOT",
-      "spent": true,
-      "spent_at": 1795255984,
-      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
-    },
-    "LQTY-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1795255982,
-      "expires": 1795277582,
-      "high": 0.1309892857142857,
-      "low": 0.12981071428571428,
-      "source": "HISTORICAL_PIVOT"
+    "PIEVERSE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795282633,
+      "expires": 1795304233,
+      "high": 3.6429767857142856,
+      "low": 3.5567446428571428,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     }
   }
 }
