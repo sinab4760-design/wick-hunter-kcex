@@ -2,10 +2,18 @@
   "seen": {
     "2Z-USDT-SWAP:WATCH:1795131485": 1795131491,
     "BTW-USDT-SWAP:WATCH:1795074996": 1795075006,
-    "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331,
-    "KMNO-USDT-SWAP:WATCH:1795048623": 1795048638
+    "ENSO-USDT-SWAP:WATCH:1795228585": 1795228594,
+    "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331
   },
   "zones": {
+    "BREV-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795228585,
+      "expires": 1795250185,
+      "high": 0.07551289285714285,
+      "low": 0.07424710714285715,
+      "source": "HISTORICAL_PIVOT"
+    },
     "CORE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1795209561,
@@ -17,13 +25,56 @@
       "spent_at": 1795209563,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     },
+    "ENSO-USDT-SWAP": {
+      "category": "PUMP",
+      "checked_through": 1795228560,
+      "created": 1795228585,
+      "expires": 1795250185,
+      "high": 0.5411482142857142,
+      "low": 0.5282703571428571,
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1795228560,
+      "watch_observed_at": 1795228588,
+      "watch_sent_at": 1795228594,
+      "watch_version": 8
+    },
+    "PARTI-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795228585,
+      "expires": 1795250185,
+      "high": 0.03526596428571429,
+      "low": 0.03473403571428572,
+      "source": "HISTORICAL_PIVOT"
+    },
     "PIEVERSE-USDT-SWAP": {
       "category": "EARLY",
       "created": 1795209561,
       "expires": 1795231161,
       "high": 3.0275767857142855,
       "low": 2.9656232142857144,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1795228587,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SAPIEN-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795228585,
+      "expires": 1795250185,
+      "high": 0.04565435714285714,
+      "low": 0.045165642857142856,
       "source": "HISTORICAL_PIVOT"
+    },
+    "YGG-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795228585,
+      "expires": 1795250185,
+      "high": 0.018788178571428574,
+      "low": 0.018631821428571428,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1795228593,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
     }
   }
 }
