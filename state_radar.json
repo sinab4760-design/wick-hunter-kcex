@@ -2,16 +2,47 @@
   "seen": {
     "2Z-USDT-SWAP:WATCH:1795131485": 1795131491,
     "ENSO-USDT-SWAP:WATCH:1795228585": 1795228594,
-    "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331
+    "HUMA-USDT-SWAP:WATCH:1795131485": 1795148331,
+    "PIEVERSE-USDT-SWAP:WATCH:1795282633": 1795299876,
+    "SPACE-USDT-SWAP:WATCH:1795299866": 1795299877
   },
   "zones": {
+    "INIT-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795299866,
+      "expires": 1795321466,
+      "high": 0.09693121428571429,
+      "low": 0.09512878571428572,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1795299871,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
     "PIEVERSE-USDT-SWAP": {
       "category": "PUMP",
+      "checked_through": 1795299840,
       "created": 1795282633,
       "expires": 1795304233,
       "high": 3.6429767857142856,
       "low": 3.5567446428571428,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
+      "source": "ATR_GUESS_LOW_CONFIDENCE",
+      "watch_at": 1795299840,
+      "watch_observed_at": 1795299867,
+      "watch_sent_at": 1795299876,
+      "watch_version": 8
+    },
+    "SPACE-USDT-SWAP": {
+      "category": "EARLY",
+      "checked_through": 1795299840,
+      "created": 1795299866,
+      "expires": 1795321466,
+      "high": 0.003280068,
+      "low": 0.0032539319999999997,
+      "source": "HISTORICAL_PIVOT",
+      "watch_at": 1795299840,
+      "watch_observed_at": 1795299873,
+      "watch_sent_at": 1795299877,
+      "watch_version": 8
     }
   }
 }
