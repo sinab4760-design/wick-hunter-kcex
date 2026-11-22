@@ -18,6 +18,14 @@
       "spent": true,
       "spent_at": 1795369999,
       "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "OL-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795389344,
+      "expires": 1795410944,
+      "high": 0.003859428571428572,
+      "low": 0.0037689142857142864,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
     }
   }
 }
