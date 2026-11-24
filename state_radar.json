@@ -6,14 +6,5 @@
     "NES-USDT-SWAP:WATCH:1795483001": 1795483010,
     "SAHARA-USDT-SWAP:WATCH:1795483001": 1795483010
   },
-  "zones": {
-    "PROS-USDT-SWAP": {
-      "category": "PUMP",
-      "created": 1795518487,
-      "expires": 1795540087,
-      "high": 0.6542857142857142,
-      "low": 0.6454228571428572,
-      "source": "ATR_GUESS_LOW_CONFIDENCE"
-    }
-  }
+  "zones": {}
 }
