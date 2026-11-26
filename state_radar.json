@@ -1,8 +1,13 @@
 {
-  "seen": {
-    "ARX-USDT-SWAP:WATCH:1795483001": 1795483011,
-    "NES-USDT-SWAP:WATCH:1795483001": 1795483010,
-    "SAHARA-USDT-SWAP:WATCH:1795483001": 1795483010
-  },
-  "zones": {}
+  "seen": {},
+  "zones": {
+    "BTW-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795670010,
+      "expires": 1795691610,
+      "high": 1.0913285714285716,
+      "low": 1.0597742857142858,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    }
+  }
 }
