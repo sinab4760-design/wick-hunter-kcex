@@ -2,5 +2,33 @@
   "seen": {
     "ANIME-USDT-SWAP:WATCH:1795803027": 1795803041
   },
-  "zones": {}
+  "zones": {
+    "GALA-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795857756,
+      "expires": 1795879356,
+      "high": 0.0014308749999999999,
+      "low": 0.001417125,
+      "source": "HISTORICAL_PIVOT"
+    },
+    "GLM-USDT-SWAP": {
+      "category": "EARLY",
+      "created": 1795857756,
+      "expires": 1795879356,
+      "high": 0.09833176,
+      "low": 0.09754824,
+      "source": "HISTORICAL_PIVOT",
+      "spent": true,
+      "spent_at": 1795857760,
+      "spent_reason": "PRIOR_ZONE_WICK_IN_LOOKBACK"
+    },
+    "SPACE-USDT-SWAP": {
+      "category": "PUMP",
+      "created": 1795857756,
+      "expires": 1795879356,
+      "high": 0.004995696428571428,
+      "low": 0.0048722607142857146,
+      "source": "ATR_GUESS_LOW_CONFIDENCE"
+    }
+  }
 }
