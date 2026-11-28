@@ -2,35 +2,5 @@
   "seen": {
     "ANIME-USDT-SWAP:WATCH:1795803027": 1795803041
   },
-  "zones": {
-    "ANIME-USDT-SWAP": {
-      "category": "EARLY",
-      "checked_through": 1795803000,
-      "created": 1795803027,
-      "expires": 1795824627,
-      "high": 0.0022889607142857144,
-      "low": 0.0022670392857142858,
-      "source": "HISTORICAL_PIVOT",
-      "watch_at": 1795803000,
-      "watch_observed_at": 1795803038,
-      "watch_sent_at": 1795803041,
-      "watch_version": 8
-    },
-    "CFX-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1795803027,
-      "expires": 1795824627,
-      "high": 0.03523564285714286,
-      "low": 0.03484435714285714,
-      "source": "HISTORICAL_PIVOT"
-    },
-    "MERL-USDT-SWAP": {
-      "category": "EARLY",
-      "created": 1795803027,
-      "expires": 1795824627,
-      "high": 0.02739475,
-      "low": 0.02712525,
-      "source": "HISTORICAL_PIVOT"
-    }
-  }
+  "zones": {}
 }
